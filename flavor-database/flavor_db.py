@@ -410,6 +410,11 @@ class FlavorDB:
 
     @contextmanager
     def _restricted_sql(self):
+        # Python 3.10 cannot reliably remove an authorizer with
+        # set_authorizer(None). Isolate arbitrary SQL on a short-lived read-only
+        # connection, leaving the regular API connection untouched on success,
+        # denial and timeout. Closing also disposes of the progress callback.
+        connection = sqlite3.connect(self.path.as_uri() + "?mode=ro", uri=True, timeout=3)
         deadline = time.monotonic() + self.sql_timeout
         allowed = {sqlite3.SQLITE_SELECT, sqlite3.SQLITE_READ, sqlite3.SQLITE_FUNCTION, sqlite3.SQLITE_RECURSIVE}
         unsafe_functions = {"load_extension", "readfile", "writefile", "edit", "shell", "eval", "fts3_tokenizer"}
@@ -421,13 +426,18 @@ class FlavorDB:
                 return sqlite3.SQLITE_DENY
             return sqlite3.SQLITE_OK
 
-        self.connection.set_authorizer(authorizer)
-        self.connection.set_progress_handler(lambda: int(time.monotonic() > deadline), 1000)
         try:
-            yield
+            connection.row_factory = sqlite3.Row
+            connection.execute("PRAGMA query_only=ON")
+            try:
+                connection.enable_load_extension(False)
+            except (AttributeError, sqlite3.NotSupportedError):
+                pass
+            connection.set_authorizer(authorizer)
+            connection.set_progress_handler(lambda: int(time.monotonic() > deadline), 1000)
+            yield connection
         finally:
-            self.connection.set_progress_handler(None, 0)
-            self.connection.set_authorizer(None)
+            connection.close()
 
     def sql(self, query: str, *, params: list | dict | tuple | None = None, limit: int = 100) -> dict:
         limit, _ = _pagination(limit, 0, MAX_SQL_LIMIT)
@@ -440,8 +450,14 @@ class FlavorDB:
             params = []
         if not isinstance(params, (list, tuple, dict)):
             raise FlavorDBError("params must be a JSON array or object")
-        with self._restricted_sql():
-            cursor = self.connection.execute(query, params)
+        with self._restricted_sql() as connection:
+            try:
+                cursor = connection.execute(query, params)
+            except sqlite3.Warning as exc:
+                # sqlite3.Warning is not a subclass of sqlite3.Error. Python
+                # 3.10 uses it for multiple statements; newer Python versions
+                # raise ProgrammingError. Normalize this API/CLI boundary.
+                raise sqlite3.ProgrammingError(str(exc)) from exc
             if cursor.description is None:
                 raise FlavorDBError("Query must return rows")
             columns = [col[0] for col in cursor.description]

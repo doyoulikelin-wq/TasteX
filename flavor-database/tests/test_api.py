@@ -10,10 +10,12 @@ import sys
 import tempfile
 import time
 import unittest
+from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from flavor_db import FlavorDB, FlavorDBError
+import flavor_db
 
 
 class APITests(unittest.TestCase):
@@ -52,6 +54,66 @@ class APITests(unittest.TestCase):
             self.assertLess(time.monotonic() - start, 2)
             self.assertEqual(db.sql('SELECT 7 AS answer')['items'], [{'answer': 7}])
             self.assertEqual(db.stats()['counts']['ingredients'], 1474)
+
+    def test_python310_authorizer_and_warning_compatibility(self):
+        real_connect = sqlite3.connect
+        connections = []
+
+        class Python310Connection:
+            """Delegate real SQLite security behavior; simulate only old APIs."""
+            def __init__(self, connection):
+                self.connection = connection
+                self.closed = False
+                self.authorizers = []
+
+            @property
+            def row_factory(self):
+                return self.connection.row_factory
+
+            @row_factory.setter
+            def row_factory(self, value):
+                self.connection.row_factory = value
+
+            def __getattr__(self, name):
+                return getattr(self.connection, name)
+
+            def set_authorizer(self, callback):
+                if callback is None:
+                    raise AssertionError('Python 3.10 cannot disable the authorizer with None')
+                self.authorizers.append(callback)
+                return self.connection.set_authorizer(callback)
+
+            def execute(self, query, params=()):
+                if query == 'SELECT 1; SELECT 2':
+                    raise sqlite3.Warning('You can only execute one statement at a time.')
+                return self.connection.execute(query, params)
+
+            def close(self):
+                self.closed = True
+                self.connection.close()
+
+        def connect(*args, **kwargs):
+            connection = Python310Connection(real_connect(*args, **kwargs))
+            connections.append(connection)
+            return connection
+
+        with patch.object(flavor_db.sqlite3, 'connect', side_effect=connect):
+            self.assertEqual(self.db.sql('SELECT 7 AS answer')['items'], [{'answer': 7}])
+            with self.assertRaises(sqlite3.ProgrammingError):
+                self.db.sql('SELECT 1; SELECT 2')
+            with self.assertRaises(sqlite3.DatabaseError):
+                self.db.sql('WITH c AS (SELECT 1) DELETE FROM ingredients')
+        self.assertEqual(len(connections), 3)
+        self.assertTrue(all(c.closed and len(c.authorizers) == 1 for c in connections))
+        # The ordinary connection still accepts its own read-only PRAGMA and
+        # normal queries after all three paths, without resetting an authorizer.
+        self.assertEqual(self.db.connection.execute('PRAGMA query_only').fetchone()[0], 1)
+        self.assertEqual(self.db.stats()['counts']['ingredients'], 1474)
+
+    def test_multiple_statements_have_a_single_error_contract(self):
+        with self.assertRaises(sqlite3.ProgrammingError):
+            self.db.sql('SELECT 1; SELECT 2')
+        self.assertEqual(self.db.sql('SELECT 9 AS answer')['items'], [{'answer': 9}])
 
     def test_sql_bound_parameters_and_output_cap(self):
         result = self.db.sql('SELECT id FROM ingredients ORDER BY id', limit=3)
@@ -111,7 +173,8 @@ class APITests(unittest.TestCase):
         self.assertEqual(ok.returncode, 0, ok.stderr)
         self.assertEqual(json.loads(ok.stdout)['returned'], 1)
         self.assertEqual(ok.stderr, '')
-        for args in (['ingredient', 'missing'], ['search', 'x', '--limit', '0'], ['sql', '--query', 'DELETE FROM ingredients'], ['unknown-command']):
+        for args in (['ingredient', 'missing'], ['search', 'x', '--limit', '0'], ['sql', '--query', 'DELETE FROM ingredients'],
+                     ['sql', '--query', 'SELECT 1; SELECT 2'], ['unknown-command']):
             with self.subTest(args=args):
                 bad = subprocess.run(command + list(args), capture_output=True, text=True)
                 self.assertNotEqual(bad.returncode, 0)
