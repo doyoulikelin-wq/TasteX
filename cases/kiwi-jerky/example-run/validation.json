@@ -1,0 +1,112 @@
+{
+  "errors": [],
+  "meaning": "Input consistency only. Valid input does not validate flavor, safety or shelf-life.",
+  "unresolved": [
+    {
+      "impact": "No storage or shelf-life claim can be made.",
+      "path": "product.storage_requirement"
+    },
+    {
+      "impact": "Preference needs user calibration; do not invent a pass threshold.",
+      "path": "targets[0].reference"
+    },
+    {
+      "impact": "Preference needs user calibration; do not invent a pass threshold.",
+      "path": "targets[0].acceptance"
+    },
+    {
+      "impact": "Preference needs user calibration; do not invent a pass threshold.",
+      "path": "targets[1].reference"
+    },
+    {
+      "impact": "Preference needs user calibration; do not invent a pass threshold.",
+      "path": "targets[1].acceptance"
+    },
+    {
+      "impact": "Preference needs user calibration; do not invent a pass threshold.",
+      "path": "targets[2].reference"
+    },
+    {
+      "impact": "Preference needs user calibration; do not invent a pass threshold.",
+      "path": "targets[2].acceptance"
+    },
+    {
+      "impact": "Preference needs user calibration; do not invent a pass threshold.",
+      "path": "targets[3].reference"
+    },
+    {
+      "impact": "Preference needs user calibration; do not invent a pass threshold.",
+      "path": "targets[3].acceptance"
+    },
+    {
+      "impact": "Preference needs user calibration; do not invent a pass threshold.",
+      "path": "targets[4].reference"
+    },
+    {
+      "impact": "Preference needs user calibration; do not invent a pass threshold.",
+      "path": "targets[4].acceptance"
+    },
+    {
+      "impact": "Requested material is not asserted to equal the source ingredient state.",
+      "path": "ingredients[0]"
+    },
+    {
+      "impact": "Requested material is not asserted to equal the source ingredient state.",
+      "path": "ingredients[1]"
+    },
+    {
+      "impact": "Requested material is not asserted to equal the source ingredient state.",
+      "path": "ingredients[2]"
+    },
+    {
+      "impact": "Requested material is not asserted to equal the source ingredient state.",
+      "path": "ingredients[3]"
+    },
+    {
+      "impact": "本轮不额外添加糖、甜味剂或油，保留基底和果粉天然糖/脂肪未知；不作低糖声称",
+      "path": "constraints[3]"
+    },
+    {
+      "impact": "本后加路线要求肉干和粉料均明确适合直接食用",
+      "path": "constraints[4]"
+    },
+    {
+      "impact": "是否需要常温保存、保存时长及包装未指定；本轮仅当餐小试",
+      "path": "constraints[5]"
+    },
+    {
+      "impact": "保留实际评分与用户选择，不宣称甜度降低百分比或达标。",
+      "path": "assumptions[0]"
+    },
+    {
+      "impact": "记录咀嚼硬度、粉感与自由描述，不能自动优化质地。",
+      "path": "assumptions[1]"
+    },
+    {
+      "impact": "制样前记录并试吃基底；基底存在苦或腻时不能把缺陷归因给果粉。",
+      "path": "assumptions[2]"
+    },
+    {
+      "impact": "鲜果证据不能等同果粉；所有结论只限实际批次与该处理。",
+      "path": "assumptions[3]"
+    },
+    {
+      "impact": "0.10 g/100 g 不保证微辣；记录实际称量，不从书中辣椒范围换算成品SHU。",
+      "path": "assumptions[4]"
+    },
+    {
+      "impact": "试吃前按参与者实际情况确认原料适用；不由数据库推断适合所有人。",
+      "path": "assumptions[5]"
+    },
+    {
+      "impact": "只是筛选观察窗口，不是酶作用、保香或保存的最佳时间。",
+      "path": "assumptions[6]"
+    },
+    {
+      "impact": "可初查制备重复性；换原料批次的迁移性尚未检验。",
+      "path": "assumptions[7]"
+    }
+  ],
+  "valid": true,
+  "warnings": []
+}

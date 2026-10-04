@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "case_id": "KJ-001",
+  "revision": "R1",
+  "created_at": "2026-10-05T00:55:08.531311+08:00",
+  "status": "candidate_not_made_or_tasted",
+  "requested_by_user": {
+    "flavor": "猕猴桃",
+    "meat": "瘦牛肉",
+    "meat_confirmed": true,
+    "sweetness": "没那么甜",
+    "pungency": "一点辣味",
+    "avoid": [
+      "苦",
+      "腻"
+    ],
+    "comparison_product": null
+  },
+  "database": {
+    "path": "../../../flavor-database/flavor.sqlite",
+    "schema_version": "1.0.0",
+    "sha256": "1db2c4700ce4e2fc4a05a51885f6efd0c5089be2a3655df9cdb685db296e9a6a",
+    "mutation_allowed_for_this_case": false
+  },
+  "formulation_basis": "per 100 g ready-to-eat finished plain lean beef jerky, not per 100 g raw beef",
+  "materials": [
+    {
+      "material_id": "M-BEEF",
+      "name": "已安全制备的原味瘦牛肉干",
+      "quantity_g": 100.0,
+      "exact_database_identity": null,
+      "reference_ingredient_ids": [
+        "ing-70099ea01925"
+      ],
+      "identity_scope": "finished lean beef jerky is not represented by the raw-beef evidence",
+      "specification": [
+        "明确可即食",
+        "整块瘦牛肉路线、修去可见脂肪",
+        "无额外糖浆、蜂蜜、甜味剂或油",
+        "先尝基底，记录标签和糖/脂肪数据"
+      ],
+      "supplier": null,
+      "lot": null,
+      "label_sugar_g_per_100g": null,
+      "label_fat_g_per_100g": null
+    },
+    {
+      "material_id": "M-KIWI",
+      "name": "可即食猕猴桃果肉冻干粉",
+      "quantity_g": 3.0,
+      "exact_database_identity": null,
+      "reference_ingredient_ids": [
+        "ing-f9bfb14ffe98"
+      ],
+      "identity_scope": "fresh fruit evidence is a design reference, not a measured dried powder profile",
+      "specification": [
+        "明确可即食",
+        "100%猕猴桃果肉",
+        "无糖浆、甜味剂、麦芽糊精或其他水果混入",
+        "按实际批次检查香气、糖和酸，不从果肉颜色推断"
+      ],
+      "supplier": null,
+      "lot": null,
+      "label_sugar_g_per_100g": null,
+      "residual_actinidin_activity": null
+    },
+    {
+      "material_id": "M-CHILI",
+      "name": "可即食低辣非烟熏红辣椒粉",
+      "quantity_g": 0.1,
+      "exact_database_identity": null,
+      "reference_ingredient_ids": [
+        "ing-e4fa8473e829"
+      ],
+      "identity_scope": "catalog red chili powder does not establish this purchased low-heat ready-to-eat specification",
+      "specification": [
+        "供应商明确适用于即食食品",
+        "低辣、非烟熏、同批次单一辣椒",
+        "无糖/油复合调料"
+      ],
+      "supplier": null,
+      "lot": null,
+      "shu": null,
+      "label_sugar_g_per_100g": null
+    },
+    {
+      "material_id": "M-WATER",
+      "name": "饮用水",
+      "quantity_g": 1.0,
+      "exact_database_identity": null,
+      "reference_ingredient_ids": [],
+      "specification": [
+        "只轻润附粉",
+        "各对照样等比例加入"
+      ]
+    }
+  ],
+  "theoretical_total_g": 104.1,
+  "added_sugar_or_sweetener_g": 0,
+  "added_oil_g": 0,
+  "total_sugar_g": null,
+  "total_fat_g": null,
+  "predicted_sensory_scores": null,
+  "quantities_are": "agent-designed screening hypotheses, not source measured ratios or database optimization outputs",
+  "premix": {
+    "kiwi_powder_g": 12.0,
+    "chili_powder_g": 0.4,
+    "total_g": 12.4,
+    "ratio": "30:1",
+    "homogeneity_verified": false
+  },
+  "trials": [
+    {
+      "code": "A",
+      "base_jerky_g": 50.0,
+      "kiwi_powder_g": 0,
+      "chili_powder_g": 0,
+      "water_g": 0.5,
+      "premix_30_to_1_g": 0,
+      "separate_kiwi_powder_g": 0,
+      "theoretical_total_g": 50.5,
+      "actual_weights_g": null,
+      "sensory_observations": null
+    },
+    {
+      "code": "B",
+      "base_jerky_g": 50.0,
+      "kiwi_powder_g": 1.5,
+      "chili_powder_g": 0,
+      "water_g": 0.5,
+      "premix_30_to_1_g": 0,
+      "separate_kiwi_powder_g": 1.5,
+      "theoretical_total_g": 52.0,
+      "actual_weights_g": null,
+      "sensory_observations": null
+    },
+    {
+      "code": "C",
+      "base_jerky_g": 50.0,
+      "kiwi_powder_g": 1.5,
+      "chili_powder_g": 0.05,
+      "water_g": 0.5,
+      "premix_30_to_1_g": 1.55,
+      "separate_kiwi_powder_g": 0,
+      "theoretical_total_g": 52.05,
+      "actual_weights_g": null,
+      "sensory_observations": null
+    },
+    {
+      "code": "D",
+      "base_jerky_g": 50.0,
+      "kiwi_powder_g": 2.5,
+      "chili_powder_g": 0.05,
+      "water_g": 0.5,
+      "premix_30_to_1_g": 1.55,
+      "separate_kiwi_powder_g": 1.0,
+      "theoretical_total_g": 53.05,
+      "actual_weights_g": null,
+      "sensory_observations": null
+    }
+  ],
+  "handling": {
+    "application": "食用前附粉",
+    "water_purpose": "统一轻润附着",
+    "wait_before_tasting_min": 10,
+    "time_basis": "screening standardization, not validated optimal processing condition",
+    "all_food_ingredients_must_be_ready_to_eat": true,
+    "additional_heat_after_powder": false,
+    "tasting_use": "当餐现拌现吃",
+    "shelf_life": null,
+    "water_activity": null,
+    "safety_validation_of_new_recipe": false
+  },
+  "source_evidence": [
+    {
+      "id": "E0001",
+      "pdf_page": 43,
+      "book_page": 40
+    },
+    {
+      "id": "E0002",
+      "pdf_page": 44,
+      "book_page": 41
+    },
+    {
+      "id": "E0003",
+      "pdf_page": 45,
+      "book_page": 42
+    },
+    {
+      "id": "E0004",
+      "pdf_page": 46,
+      "book_page": 43
+    },
+    {
+      "id": "p044_t01_r04",
+      "table_id": "p044_t01",
+      "pdf_page": 44,
+      "book_page": 41,
+      "kind": "direct kiwi-to-wagyu pairing, not direct lean-jerky/powder validation"
+    },
+    {
+      "id": "book_pages:43",
+      "kind": "visually cross-checked tenderization prose; no new structured evidence ID invented"
+    },
+    {
+      "id": "E0105",
+      "pdf_page": 185,
+      "book_page": 182
+    },
+    {
+      "id": "E0106",
+      "pdf_page": 186,
+      "book_page": 183
+    }
+  ],
+  "external_reference_ids": [
+    "EXT-02",
+    "EXT-03",
+    "EXT-04",
+    "EXT-05",
+    "SAFE-01",
+    "SAFE-03"
+  ],
+  "rejected_inferences": [
+    "kiwiberry pairing is kiwifruit pairing",
+    "shared categories quantify sweetness or pungency",
+    "fresh fruit identity equals dried powder state",
+    "increased fruit powder only changes aroma",
+    "freeze-drying removes sugar or proves sterility",
+    "kiwi enzyme necessarily makes beef jerky bitter"
+  ],
+  "unknowns": [
+    "实际供应商与批次",
+    "原料标签糖/脂肪",
+    "果粉香气及残余酶活",
+    "辣椒实际辣度",
+    "成品猕猴桃辨识度、甜/酸/辣/苦/涩/腻/粉感",
+    "实际附粉损耗与质地",
+    "成品水分活度、微生物与保存期限"
+  ],
+  "tasting_results": []
+}

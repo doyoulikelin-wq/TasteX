@@ -1,0 +1,37 @@
+{
+  "createdAt": "2026-10-04T03:36:31.621819+08:00",
+  "testedArtifact": "风味创作室.html",
+  "singleFileSha256": "982d7d464e3132339a363de0794713ad1cd323527faa7942e77e068b5442331e",
+  "assetCounts": {
+    "illustrated": 1446,
+    "family_illustration": 21,
+    "identity_unresolved": 7
+  },
+  "functionalChecks": {
+    "simplifiedAndTraditionalSearch": true,
+    "keyboardSearchSelection": true,
+    "targetRankingAndEmptySearch": true,
+    "sameFamilyAndCrossFamilyReplacement": true,
+    "beforeUnknownRemainsUnknown": true,
+    "changeMainIngredient": true,
+    "generateAndShuffleComposition": true,
+    "markerBarsAndDonut": true,
+    "editableTrialAmounts": true,
+    "saveAndRestoreAfterReload": true,
+    "exportJsonPreview": true,
+    "sourceDetails": true,
+    "embeddedScriptsAndImages": true,
+    "mobile390NoHorizontalOverflow": true,
+    "desktop1280NoHorizontalOverflow": true,
+    "visibleMobileImagesNoLoadFailures": true
+  },
+  "boundaries": [
+    "Single-file runtime was verified through the existing local HTTP preview. The in-app browser blocks file: URLs; a direct double-click launch was not browser-automated.",
+    "JSON export content was verified in the export dialog. The in-app browser download-event observer timed out, so file download completion is not claimed.",
+    "Charts describe source marker counts, not sensory intensities or validated mixture outcomes."
+  ],
+  "screenshots": [
+    "qa/风味创作室_桌面预览.jpg",
+    "qa/风味创作室_手机预览.jpg"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "identityCount": 1474,
+  "allSourceRecordsPreserved": 10439,
+  "exactCanonicalVectorsChecked": 1474,
+  "tableScopedEdgesChecked": 9480,
+  "teachingExampleExcludedFromEdges": true,
+  "unknownSourceValuesPreserved": true,
+  "noIngredientNamesMerged": true,
+  "recordScopedNamesCorrected": 121,
+  "recordScopedNamesConfirmedUnchanged": 6,
+  "recordScopedNamesUnresolved": 7,
+  "unreviewedRecordNamesUnchanged": true,
+  "specificFoodCategoryChecksPassed": 5,
+  "sourceSha256": "fae71fdb234e1d7201bf1ecf9fb26e7dd6d0518a401299ec96c3268a675ee7ff"
+}

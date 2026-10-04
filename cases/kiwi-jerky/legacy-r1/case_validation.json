@@ -1,0 +1,200 @@
+{
+  "case_id": "KJ-001",
+  "checked_at": "2026-10-05T00:55:59.871333+08:00",
+  "passed": true,
+  "check_count": 38,
+  "checks": [
+    {
+      "check": "source_database_unchanged",
+      "passed": true,
+      "details": "1db2c4700ce4e2fc4a05a51885f6efd0c5089be2a3655df9cdb685db296e9a6a"
+    },
+    {
+      "check": "R1_mass_balance",
+      "passed": true,
+      "details": 104.1
+    },
+    {
+      "check": "premix_30_to_1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "A_reconstructed_kiwi",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "A_reconstructed_chili",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "A_mass_balance",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "B_reconstructed_kiwi",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "B_reconstructed_chili",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "B_mass_balance",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "C_reconstructed_kiwi",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "C_reconstructed_chili",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "C_mass_balance",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "D_reconstructed_kiwi",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "D_reconstructed_chili",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "D_mass_balance",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "unknown_sensory_results_preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "unknown_sugar_and_shelf_life",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "finished_materials_not_claimed_exact_catalog_id",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "source_E0001",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "source_E0002",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "source_E0003",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "source_E0004",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "source_E0105",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "source_E0106",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "direct_kiwi_wagyu_only_green_shared",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "no_direct_kiwi_chili_in_this_database",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_kiwi_variants_retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "processing_gap_not_book_absence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "documented_query_python3 flavor-database/flavor_db.py stats",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "documented_query_python3 flavor-database/flavor_db.py search '奇异果' --kind ingredient",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "documented_query_python3 flavor-database/flavor_db.py profile ing-f9bfb14ffe98",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "documented_query_python3 flavor-database/flavor_db.py evidence E0001",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "documented_query_python3 flavor-database/flavor_db.py pairs ing-f9bfb14ffe98 --with-id ing-4ade1b2e370b --include-excluded --limit 1000",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "documented_query_python3 flavor-database/flavor_db.py pairs ing-f9bfb14ffe98 --with-id ing-e4fa8473e829 --include-excluded --limit 1000",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "documented_query_python3 flavor-database/flavor_db.py processing --query '奇异' --limit 1000",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "documented_query_python3 flavor-database/flavor_db.py page 43",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "documented_query_python3 flavor-database/flavor_db.py processing-record PB-E0048",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "local_markdown_links_resolve",
+      "passed": true,
+      "details": []
+    }
+  ],
+  "database_sha256": "1db2c4700ce4e2fc4a05a51885f6efd0c5089be2a3655df9cdb685db296e9a6a",
+  "validation_scope": "Evidence lookup, file links, unmodified database, declared unknowns, formula and premix arithmetic only; no cooking, tasting, shelf-life or microbiology validation."
+}

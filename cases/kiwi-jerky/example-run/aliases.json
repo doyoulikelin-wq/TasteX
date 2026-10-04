@@ -1,0 +1,94 @@
+{
+  "groups": [
+    {
+      "basis": "Source ingredient ing-f9bfb14ffe98 is 奇異果; PDF pages 43 and 44 distinguish 奇異莓, and ing-6605f67426a6 is a separate juice identity. Conventional Chinese/English name expansion reviewed for retrieval only.",
+      "do_not_equate": [
+        "奇異莓",
+        "奇异莓",
+        "kiwi berry",
+        "kiwiberry",
+        "奇異果汁",
+        "奇异果汁",
+        "猕猴桃果粉",
+        "猕猴桃冻干粉"
+      ],
+      "key": "kiwifruit",
+      "review_status": "reviewed",
+      "scope": "Kiwifruit name search; fresh fruit remains distinct from juice, powder and kiwi berry.",
+      "terms": [
+        "猕猴桃",
+        "獼猴桃",
+        "奇異果",
+        "奇异果",
+        "kiwi",
+        "kiwifruit"
+      ]
+    },
+    {
+      "basis": "The database contains separate raw, boiled, roasted, breed-specific and generic beef IDs; expansion is navigation only.",
+      "do_not_equate": [
+        "和牛",
+        "生牛肉",
+        "牛肉干",
+        "牛肉乾",
+        "瘦牛肉"
+      ],
+      "key": "beef",
+      "review_status": "reviewed",
+      "scope": "Beef name search. Breed, cut, fat content, raw/cooked/dried states remain distinct.",
+      "terms": [
+        "牛肉",
+        "beef"
+      ]
+    },
+    {
+      "basis": "Source ID ing-e4fa8473e829 retains its own state and evidence; no assumed equal pungency across batches.",
+      "do_not_equate": [
+        "辣椒酱",
+        "辣椒醬",
+        "甜椒粉",
+        "低辣红辣椒粉"
+      ],
+      "key": "red_chili_powder",
+      "review_status": "reviewed",
+      "scope": "Red chili powder name search; the batch's heat and ready-to-eat processing are not established by the source name.",
+      "terms": [
+        "红辣椒粉",
+        "紅辣椒粉",
+        "red chili powder",
+        "red chilli powder"
+      ]
+    },
+    {
+      "basis": "Literal source names include these Chinese terms; broad retrieval cannot transfer a variety's dose, heat or pairing.",
+      "do_not_equate": [
+        "辣椒酱",
+        "辣椒醬",
+        "辣椒粉",
+        "辣椒油"
+      ],
+      "key": "chili",
+      "review_status": "reviewed",
+      "scope": "Broad chili name search. This returns different varieties and processed states as separate candidates.",
+      "terms": [
+        "辣椒",
+        "chili",
+        "chilli"
+      ]
+    },
+    {
+      "basis": "Language-only navigation. Missing ingredient evidence is retained as a gap.",
+      "do_not_equate": [],
+      "key": "water",
+      "review_status": "reviewed",
+      "scope": "Drinking-water name search. No automatic selection of another water-containing food.",
+      "terms": [
+        "饮用水",
+        "飲用水",
+        "water"
+      ]
+    }
+  ],
+  "policy": "Reviewed retrieval expansions only. These terms do not merge source ingredient identities, processing states, varieties or measurements. An expansion is recall assistance, never evidence of equivalence.",
+  "schema_version": "1.0"
+}

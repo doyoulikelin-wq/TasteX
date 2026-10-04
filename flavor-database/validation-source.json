@@ -1,0 +1,25 @@
+{
+  "suite": "independent source-to-database fidelity",
+  "tests_run": 13,
+  "failures": 0,
+  "errors": 0,
+  "database_sha256": "1db2c4700ce4e2fc4a05a51885f6efd0c5089be2a3655df9cdb685db296e9a6a",
+  "database_unchanged": true,
+  "success": true,
+  "checks": [
+    "test_01_integrity_and_references",
+    "test_02_source_snapshots_exact_bytes",
+    "test_03_all_ingredient_identities_and_original_fields",
+    "test_04_all_source_tables_and_coordinates",
+    "test_05_all_dot_records_and_every_cell",
+    "test_06_pairings_keep_every_source_and_teaching_rows",
+    "test_07_attribute_evidence_links_and_descriptors",
+    "test_08_numbers_keep_units_bounds_denominators",
+    "test_09_processing_records_conditions_sources_and_audit",
+    "test_10_processing_all_associations_effects_and_values",
+    "test_11_profile_every_category_unknown_and_conflict",
+    "test_12_all_assets_exact_bytes_and_metadata",
+    "test_13_all_book_pages_and_external_pdf_hash"
+  ],
+  "scope": "All source records/cells/assets, source snapshots, conditions, link kinds, profiles and references. Fidelity is not scientific validation."
+}

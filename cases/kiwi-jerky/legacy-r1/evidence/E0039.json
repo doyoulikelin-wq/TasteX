@@ -1,0 +1,121 @@
+{
+  "id": "E0039",
+  "original": {
+    "ingredient": "祕魯黃辣椒",
+    "state": "品种指定；新鲜或晒干作米拉索",
+    "pdf_page": 94,
+    "book_page": 91,
+    "attribute_type": "aroma_and_pungency",
+    "attributes": [
+      "苹果",
+      "凤梨",
+      "辛辣",
+      "木质",
+      "乳酪"
+    ],
+    "relation_or_value": {
+      "pungency_min": 40000,
+      "pungency_max": 50000,
+      "unit": "SHU",
+      "claim": "正文给出四万至五万SHU。"
+    },
+    "evidence_mode": "text",
+    "note": "数字已视图核实；辣度与嗅觉辛辣调应存于两个字段。",
+    "evidence_id": "E0039",
+    "source": "食物風味搭配科學，2021 年繁體中文版",
+    "verification": "书中证据提取；代表页已目视核对；未独立验证科学结论"
+  },
+  "ingredientName": "祕魯黃辣椒",
+  "state": "品种指定；新鲜或晒干作米拉索",
+  "displayIngredient": "秘鲁黄辣椒",
+  "displayState": "品种指定；新鲜或晒干作米拉索",
+  "searchText": "{\n  \"ingredient\": \"祕魯黃辣椒\",\n  \"state\": \"品种指定；新鲜或晒干作米拉索\",\n  \"pdf_page\": 94,\n  \"book_page\": 91,\n  \"attribute_type\": \"aroma_and_pungency\",\n  \"attributes\": [\n    \"苹果\",\n    \"凤梨\",\n    \"辛辣\",\n    \"木质\",\n    \"乳酪\"\n  ],\n  \"relation_or_value\": {\n    \"pungency_min\": 40000,\n    \"pungency_max\": 50000,\n    \"unit\": \"SHU\",\n    \"claim\": \"正文给出四万至五万SHU。\"\n  },\n  \"evidence_mode\": \"text\",\n  \"note\": \"数字已视图核实；辣度与嗅觉辛辣调应存于两个字段。\",\n  \"evidence_id\": \"E0039\",\n  \"source\": \"食物風味搭配科學，2021 年繁體中文版\",\n  \"verification\": \"书中证据提取；代表页已目视核对；未独立验证科学结论\"\n}\n{\n  \"ingredient\": \"秘鲁黄辣椒\",\n  \"state\": \"品种指定；新鲜或晒干作米拉索\",\n  \"pdf_page\": 94,\n  \"book_page\": 91,\n  \"attribute_type\": \"aroma_and_pungency\",\n  \"attributes\": [\n    \"苹果\",\n    \"凤梨\",\n    \"辛辣\",\n    \"木质\",\n    \"乳酪\"\n  ],\n  \"relation_or_value\": {\n    \"pungency_min\": 40000,\n    \"pungency_max\": 50000,\n    \"unit\": \"SHU\",\n    \"claim\": \"正文给出四万至五万SHU。\"\n  },\n  \"evidence_mode\": \"text\",\n  \"note\": \"数字已视图核实；辣度与嗅觉辛辣调应存于两个字段。\",\n  \"evidence_id\": \"E0039\",\n  \"source\": \"食物风味搭配科学，2021 年繁体中文版\",\n  \"verification\": \"书中证据提取；代表页已目视核对；未独立验证科学结论\"\n}",
+  "links": [
+    {
+      "ingredientId": "ing-57a7eba5482c",
+      "kind": "related_context",
+      "reason": "原始食材名称完全一致；证据比较多个处理/成熟状态",
+      "nameMatchBasis": "exact_name",
+      "matchedAliases": [
+        "祕魯黃辣椒",
+        "秘鲁黄辣椒"
+      ],
+      "contextScope": {
+        "status": "requires_context_review",
+        "reasons": [
+          "证据比较多个处理/成熟状态"
+        ],
+        "sourceState": "品种指定；新鲜或晒干作米拉索",
+        "sourceIngredient": "祕魯黃辣椒",
+        "targetDisplayName": "秘鲁黄辣椒",
+        "quantitativeTransferAllowed": false,
+        "note": "即使名称相同，也必须保留原文的品种、部位、加工、分母和测定语境；此索引不授权转移数值。"
+      },
+      "quantitativeTransferAllowed": false
+    }
+  ],
+  "domains": [
+    "aroma",
+    "chemesthesis",
+    "numeric"
+  ],
+  "domainBasis": {
+    "basis": "attribute_type_and_text_mentions_for_navigation_only",
+    "sourceAttributeType": "aroma_and_pungency",
+    "note": "主题标签只说明原文涉及该领域，不将否定、比较、例子或条件叙述转换为属性存在事实。"
+  },
+  "descriptorMentions": [
+    {
+      "descriptorId": "fruity_01",
+      "descriptor": "蘋果",
+      "category": "水果",
+      "fieldPaths": [
+        "attributes[0]"
+      ],
+      "interpretation": "text_mention_only"
+    },
+    {
+      "descriptorId": "fruity_08",
+      "descriptor": "鳳梨",
+      "category": "水果",
+      "fieldPaths": [
+        "attributes[1]"
+      ],
+      "interpretation": "text_mention_only"
+    },
+    {
+      "descriptorId": "woody_05",
+      "descriptor": "木質",
+      "category": "木質",
+      "fieldPaths": [
+        "attributes[3]"
+      ],
+      "interpretation": "text_mention_only"
+    },
+    {
+      "descriptorId": "spicy_aroma_07",
+      "descriptor": "辛辣",
+      "category": "辛辣",
+      "fieldPaths": [
+        "attributes[2]",
+        "note"
+      ],
+      "interpretation": "text_mention_only"
+    },
+    {
+      "descriptorId": "cheesy_03",
+      "descriptor": "乳酪",
+      "category": "乳酪",
+      "fieldPaths": [
+        "attributes[4]"
+      ],
+      "interpretation": "text_mention_only"
+    }
+  ],
+  "mentionPolicy": "检索命中只表示提及，包含否定、对比、例子和条件，不表示该属性存在。",
+  "sourceRef": {
+    "pdfPage": 94,
+    "bookPage": 91,
+    "evidenceId": "E0039"
+  }
+}

@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+/build/
+/dist/
+/runs/
+/local/
+/tmp/
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+.env
+.env.*

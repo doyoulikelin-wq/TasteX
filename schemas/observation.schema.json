@@ -1,0 +1,202 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/doyoulikelin-wq/TasteX/schemas/observation.schema.json",
+  "title": "TasteX observation v1",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "observation_id": {
+      "$ref": "#/$defs/actualText"
+    },
+    "case_id": {
+      "$ref": "#/$defs/actualText"
+    },
+    "revision": {
+      "$ref": "#/$defs/actualText"
+    },
+    "run_id": {
+      "$ref": "#/$defs/actualText"
+    },
+    "batch_id": {
+      "$ref": "#/$defs/actualText"
+    },
+    "cell_id": {
+      "$ref": "#/$defs/actualText"
+    },
+    "participant_id": {
+      "$ref": "#/$defs/actualText"
+    },
+    "observed_at": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/actualText"
+        },
+        {
+          "format": "date-time"
+        }
+      ]
+    },
+    "scope": {
+      "type": "object",
+      "properties": {
+        "matrix": {
+          "$ref": "#/$defs/actualText"
+        },
+        "ingredient_state": {
+          "$ref": "#/$defs/actualText"
+        },
+        "process": {
+          "$ref": "#/$defs/actualText"
+        },
+        "serving_context": {
+          "$ref": "#/$defs/actualText"
+        }
+      },
+      "required": [
+        "matrix",
+        "ingredient_state",
+        "process",
+        "serving_context"
+      ],
+      "additionalProperties": false
+    },
+    "material_lots": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "#/$defs/actualText"
+      },
+      "additionalProperties": {
+        "anyOf": [
+          {
+            "$ref": "#/$defs/actualText"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "description": "Null or absent lot is allowed only for an ingredient with actual mass zero; runtime validates this conditional relation."
+    },
+    "actual_masses_g": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "#/$defs/actualText"
+      },
+      "additionalProperties": {
+        "type": "number",
+        "minimum": 0
+      }
+    },
+    "ratings": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "#/$defs/actualText"
+      },
+      "additionalProperties": {
+        "anyOf": [
+          {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 10
+          },
+          {
+            "type": "null"
+          }
+        ]
+      }
+    },
+    "scale": {
+      "type": "object",
+      "properties": {
+        "min": {
+          "type": "number",
+          "const": 0
+        },
+        "max": {
+          "type": "number",
+          "const": 10
+        }
+      },
+      "required": [
+        "min",
+        "max"
+      ],
+      "additionalProperties": false
+    },
+    "free_description": {
+      "type": "string",
+      "pattern": "^[^\\u0000]*$"
+    },
+    "notes": {
+      "type": "string",
+      "pattern": "^[^\\u0000]*$"
+    },
+    "disposition": {
+      "enum": [
+        "acceptable",
+        "reject",
+        "mixed",
+        "not_evaluated"
+      ]
+    },
+    "origin": {
+      "enum": [
+        "human_observed",
+        "synthetic_test"
+      ]
+    },
+    "supersedes": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/actualText"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    }
+  },
+  "required": [
+    "schema_version",
+    "observation_id",
+    "case_id",
+    "revision",
+    "run_id",
+    "batch_id",
+    "cell_id",
+    "participant_id",
+    "observed_at",
+    "scope",
+    "material_lots",
+    "actual_masses_g",
+    "ratings",
+    "scale",
+    "free_description",
+    "disposition",
+    "notes",
+    "origin",
+    "supersedes"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "actualText": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?!\\s)(?![\\s\\S]*\\u0000)(?![\\s\\S]*待填)(?!(?:[Uu][Nn][Kk][Nn][Oo][Ww][Nn]|[Nn][Uu][Ll][Ll]|[Nn][Oo][Nn][Ee]|[Nn]/[Aa]|[Nn][Aa]|[Tt][Bb][Dd]|[Tt][Oo][Dd][Oo]|未填写|未提供|未知|请输入)$)[\\s\\S]*\\S$"
+    }
+  },
+  "description": "A completed observation, not the intentionally incomplete observation template. Zero is distinct from a missing null rating. Runtime additionally validates hashed run artifacts, dynamic dimensions/ingredients, material lots, finite numbers and corrections. Hashes are consistency checks, not authenticity signatures.",
+  "x-runtime-validation": [
+    "Every declared run artifact hash must match; brief, design and template are mandatory.",
+    "run_id,case_id,revision,scope must match the persisted run; batch/cell must exist.",
+    "actual_masses_g keys match planned_sample_masses_g exactly; actual base mass >0.",
+    "Each actual nonzero ingredient requires a non-placeholder material lot; no unknown ingredient keys.",
+    "ratings keys exactly match all design dimensions; explicit null means missing, not zero.",
+    "Normal stores accept only human_observed; synthetic_test needs isolated temporary test mode.",
+    "supersedes must reference the current observation of the same run/sample/participant/scope/origin.",
+    "One current observation per run/batch/cell/participant/origin; repeated sampling requires a new planned batch/run.",
+    "JSON numbers must be finite; actualText rejects surrounding whitespace, null bytes and placeholder values."
+  ]
+}

@@ -1,0 +1,369 @@
+{
+  "status": "passed",
+  "check_count": 63,
+  "scope": "README/QUERY_EXAMPLES real CLI commands (excluding path placeholders, rebuild and independently tested core test commands); all 12 parameterized SQL files; all Python and inline SQL code blocks",
+  "checks": [
+    {
+      "source": "README.md",
+      "command": "python3 flavor_db.py stats",
+      "passed": true,
+      "total": null
+    },
+    {
+      "source": "README.md",
+      "command": "python3 flavor_db.py search '大蒜' --kind ingredient",
+      "passed": true,
+      "total": 2
+    },
+    {
+      "source": "README.md",
+      "command": "python3 flavor_db.py profile ing-2053d8521c93",
+      "passed": true,
+      "total": null
+    },
+    {
+      "source": "README.md",
+      "command": "python3 flavor_db.py processing --ingredient-id ing-2053d8521c93 --link-kind exact_name --link-kind alias_name",
+      "passed": true,
+      "total": 7
+    },
+    {
+      "source": "README.md",
+      "command": "python3 flavor_db.py indexes --by method --limit 1000",
+      "passed": true,
+      "total": 55
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py search '大蒜' --kind ingredient --limit 50 --offset 0",
+      "passed": true,
+      "total": 2
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py ingredient ing-2053d8521c93",
+      "passed": true,
+      "total": null
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py sql --file queries/04_same_display_name.sql --limit 1000",
+      "passed": true,
+      "total": null
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py profile ing-18f21fe85570",
+      "passed": true,
+      "total": null
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py profile ing-18f21fe85570 --include-examples",
+      "passed": true,
+      "total": null
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py sql --file queries/02_all_source_variants.sql --params '{\"ingredient_id\":\"ing-27422575ad23\",\"include_examples\":0}' --limit 1000",
+      "passed": true,
+      "total": null
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py evidence E0054",
+      "passed": true,
+      "total": null
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py processing-record PB-E0054",
+      "passed": true,
+      "total": null
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py page 115",
+      "passed": true,
+      "total": null
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py search '蒜素' --kind page",
+      "passed": true,
+      "total": 1
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py indexes --by effect --limit 1000",
+      "passed": true,
+      "total": 293
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py indexes --by ingredient --limit 1000",
+      "passed": true,
+      "total": 154
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py processing --method '温热熟成' --limit 1000",
+      "passed": true,
+      "total": 2
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py processing --method '冷藏' --limit 1000",
+      "passed": true,
+      "total": 4
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py indexes --by effect --method '冷藏' --limit 1000",
+      "passed": true,
+      "total": 6
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py indexes --by ingredient --method '冷藏' --limit 1000",
+      "passed": true,
+      "total": 2
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py processing --ingredient-name '大蒜' --limit 1000",
+      "passed": true,
+      "total": 7
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py sql --file queries/11_processing_ingredient_index.sql --params '{\"ingredient_name\":\"大蒜\"}' --limit 1000",
+      "passed": true,
+      "total": null
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py sql --file queries/10_three_indexes.sql --limit 1000",
+      "passed": true,
+      "total": null
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py processing --effect '挥发物' --domain chemical --direction decrease --source research --limit 1000",
+      "passed": true,
+      "total": 6
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py processing --effect '挥发物' --domain chemical --direction no_significant_change --source research --limit 1000",
+      "passed": true,
+      "total": 1
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py sql --file queries/07_volatile_effect_directions.sql --limit 1000",
+      "passed": true,
+      "total": null
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py processing --ingredient-id ing-2053d8521c93 --link-kind exact_name --link-kind alias_name --limit 1000",
+      "passed": true,
+      "total": 7
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py processing --ingredient-id ing-2053d8521c93 --link-kind related_context --limit 1000",
+      "passed": true,
+      "total": 1
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py sql --file queries/08_ingredient_processing_links.sql --params '{\"ingredient_id\":\"ing-2053d8521c93\"}' --limit 1000",
+      "passed": true,
+      "total": null
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py pairs ing-c76f6a79f6db --with-id ing-6354a61df090 --limit 1000",
+      "passed": true,
+      "total": 1
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py pairs ing-c76f6a79f6db --with-id ing-6354a61df090 --include-excluded --limit 1000",
+      "passed": true,
+      "total": 1
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py sql --file queries/09_pairings.sql --params '{\"a\":\"ing-c76f6a79f6db\",\"b\":\"ing-6354a61df090\",\"include_excluded\":0}' --limit 1000",
+      "passed": true,
+      "total": null
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py asset ing-27422575ad23",
+      "passed": true,
+      "total": null
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py asset ing-27422575ad23 --out exported/black-garlic.svg",
+      "passed": true,
+      "total": null
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py asset hero-strawberry --out exported/strawberry-editorial.png",
+      "passed": true,
+      "total": null
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py source-snapshot",
+      "passed": true,
+      "total": 19
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py source-snapshot processing > processing-source.json",
+      "passed": true,
+      "total": null
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py evidence E0054 > E0054-evidence.json",
+      "passed": true,
+      "total": null
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py processing --method '冷藏' --limit 1000 > cold-storage-records.json",
+      "passed": true,
+      "total": 4
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 examples/query_database.py",
+      "passed": true,
+      "total": null
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py --compact search '大蒜' --kind ingredient",
+      "passed": true,
+      "total": 2
+    },
+    {
+      "source": "QUERY_EXAMPLES.md",
+      "command": "python3 flavor_db.py --sql-timeout 30 sql --file queries/10_three_indexes.sql --limit 1000",
+      "passed": true,
+      "total": null
+    },
+    {
+      "query": "01_search_ingredients.sql",
+      "passed": true,
+      "returned": 2
+    },
+    {
+      "query": "02_all_source_variants.sql",
+      "passed": true,
+      "returned": 26
+    },
+    {
+      "query": "03_profile.sql",
+      "passed": true,
+      "returned": 14
+    },
+    {
+      "query": "04_same_display_name.sql",
+      "passed": true,
+      "returned": 59
+    },
+    {
+      "query": "05_evidence.sql",
+      "passed": true,
+      "returned": 1
+    },
+    {
+      "query": "06_processing_method.sql",
+      "passed": true,
+      "returned": 2
+    },
+    {
+      "query": "07_volatile_effect_directions.sql",
+      "passed": true,
+      "returned": 7
+    },
+    {
+      "query": "08_ingredient_processing_links.sql",
+      "passed": true,
+      "returned": 8
+    },
+    {
+      "query": "09_pairings.sql",
+      "passed": true,
+      "returned": 1
+    },
+    {
+      "query": "10_three_indexes.sql",
+      "passed": true,
+      "returned": 502
+    },
+    {
+      "query": "11_processing_ingredient_index.sql",
+      "passed": true,
+      "returned": 7
+    },
+    {
+      "query": "12_source_snapshots.sql",
+      "passed": true,
+      "returned": 19
+    },
+    {
+      "python_block": 1,
+      "passed": true
+    },
+    {
+      "python_block": 2,
+      "passed": true
+    },
+    {
+      "sql_block": 1,
+      "statement": 1,
+      "passed": true,
+      "returned": 59
+    },
+    {
+      "sql_block": 2,
+      "statement": 1,
+      "passed": true,
+      "returned": 14
+    },
+    {
+      "sql_block": 3,
+      "statement": 1,
+      "passed": true,
+      "returned": 55
+    },
+    {
+      "sql_block": 3,
+      "statement": 2,
+      "passed": true,
+      "returned": 293
+    },
+    {
+      "sql_block": 3,
+      "statement": 3,
+      "passed": true,
+      "returned": 154
+    },
+    {
+      "sql_block": 4,
+      "statement": 1,
+      "passed": true,
+      "returned": 7
+    }
+  ]
+}

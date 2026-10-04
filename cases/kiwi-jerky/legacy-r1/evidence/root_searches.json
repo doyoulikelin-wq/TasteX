@@ -1,0 +1,3186 @@
+{
+  "猕猴桃": {
+    "total": 0,
+    "limit": 1000,
+    "offset": 0,
+    "returned": 0,
+    "has_more": false,
+    "truncated": false,
+    "items": [],
+    "query": "猕猴桃",
+    "kind": "all",
+    "matching": "Literal substring over imported bilingual search text; a mention is not proof of attribute presence."
+  },
+  "奇异果": {
+    "total": 6,
+    "limit": 1000,
+    "offset": 0,
+    "returned": 6,
+    "has_more": false,
+    "truncated": false,
+    "items": [
+      {
+        "kind": "evidence",
+        "id": "E0001",
+        "title": "奇异果"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0002",
+        "title": "奇异果"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0003",
+        "title": "奇异果"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0004",
+        "title": "奇异果"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-6605f67426a6",
+        "title": "奇异果汁"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-f9bfb14ffe98",
+        "title": "奇异果"
+      }
+    ],
+    "query": "奇异果",
+    "kind": "all",
+    "matching": "Literal substring over imported bilingual search text; a mention is not proof of attribute presence."
+  },
+  "奇異果": {
+    "total": 35,
+    "limit": 1000,
+    "offset": 0,
+    "returned": 35,
+    "has_more": false,
+    "truncated": false,
+    "items": [
+      {
+        "kind": "page",
+        "id": "8",
+        "title": "PDF 第 8 页"
+      },
+      {
+        "kind": "page",
+        "id": "11",
+        "title": "PDF 第 11 页"
+      },
+      {
+        "kind": "page",
+        "id": "12",
+        "title": "PDF 第 12 页"
+      },
+      {
+        "kind": "page",
+        "id": "38",
+        "title": "PDF 第 38 页"
+      },
+      {
+        "kind": "page",
+        "id": "42",
+        "title": "PDF 第 42 页"
+      },
+      {
+        "kind": "page",
+        "id": "43",
+        "title": "PDF 第 43 页"
+      },
+      {
+        "kind": "page",
+        "id": "44",
+        "title": "PDF 第 44 页"
+      },
+      {
+        "kind": "page",
+        "id": "45",
+        "title": "PDF 第 45 页"
+      },
+      {
+        "kind": "page",
+        "id": "46",
+        "title": "PDF 第 46 页"
+      },
+      {
+        "kind": "page",
+        "id": "54",
+        "title": "PDF 第 54 页"
+      },
+      {
+        "kind": "page",
+        "id": "77",
+        "title": "PDF 第 77 页"
+      },
+      {
+        "kind": "page",
+        "id": "118",
+        "title": "PDF 第 118 页"
+      },
+      {
+        "kind": "page",
+        "id": "168",
+        "title": "PDF 第 168 页"
+      },
+      {
+        "kind": "page",
+        "id": "207",
+        "title": "PDF 第 207 页"
+      },
+      {
+        "kind": "page",
+        "id": "217",
+        "title": "PDF 第 217 页"
+      },
+      {
+        "kind": "page",
+        "id": "239",
+        "title": "PDF 第 239 页"
+      },
+      {
+        "kind": "page",
+        "id": "243",
+        "title": "PDF 第 243 页"
+      },
+      {
+        "kind": "page",
+        "id": "258",
+        "title": "PDF 第 258 页"
+      },
+      {
+        "kind": "page",
+        "id": "260",
+        "title": "PDF 第 260 页"
+      },
+      {
+        "kind": "page",
+        "id": "267",
+        "title": "PDF 第 267 页"
+      },
+      {
+        "kind": "page",
+        "id": "300",
+        "title": "PDF 第 300 页"
+      },
+      {
+        "kind": "page",
+        "id": "319",
+        "title": "PDF 第 319 页"
+      },
+      {
+        "kind": "page",
+        "id": "335",
+        "title": "PDF 第 335 页"
+      },
+      {
+        "kind": "page",
+        "id": "354",
+        "title": "PDF 第 354 页"
+      },
+      {
+        "kind": "page",
+        "id": "362",
+        "title": "PDF 第 362 页"
+      },
+      {
+        "kind": "page",
+        "id": "368",
+        "title": "PDF 第 368 页"
+      },
+      {
+        "kind": "page",
+        "id": "369",
+        "title": "PDF 第 369 页"
+      },
+      {
+        "kind": "page",
+        "id": "372",
+        "title": "PDF 第 372 页"
+      },
+      {
+        "kind": "page",
+        "id": "382",
+        "title": "PDF 第 382 页"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0001",
+        "title": "奇异果"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0002",
+        "title": "奇异果"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0003",
+        "title": "奇异果"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0004",
+        "title": "奇异果"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-6605f67426a6",
+        "title": "奇异果汁"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-f9bfb14ffe98",
+        "title": "奇异果"
+      }
+    ],
+    "query": "奇異果",
+    "kind": "all",
+    "matching": "Literal substring over imported bilingual search text; a mention is not proof of attribute presence."
+  },
+  "牛肉": {
+    "total": 138,
+    "limit": 1000,
+    "offset": 0,
+    "returned": 138,
+    "has_more": false,
+    "truncated": false,
+    "items": [
+      {
+        "kind": "page",
+        "id": "43",
+        "title": "PDF 第 43 页"
+      },
+      {
+        "kind": "page",
+        "id": "49",
+        "title": "PDF 第 49 页"
+      },
+      {
+        "kind": "page",
+        "id": "51",
+        "title": "PDF 第 51 页"
+      },
+      {
+        "kind": "page",
+        "id": "55",
+        "title": "PDF 第 55 页"
+      },
+      {
+        "kind": "page",
+        "id": "65",
+        "title": "PDF 第 65 页"
+      },
+      {
+        "kind": "page",
+        "id": "66",
+        "title": "PDF 第 66 页"
+      },
+      {
+        "kind": "page",
+        "id": "78",
+        "title": "PDF 第 78 页"
+      },
+      {
+        "kind": "page",
+        "id": "81",
+        "title": "PDF 第 81 页"
+      },
+      {
+        "kind": "page",
+        "id": "82",
+        "title": "PDF 第 82 页"
+      },
+      {
+        "kind": "page",
+        "id": "85",
+        "title": "PDF 第 85 页"
+      },
+      {
+        "kind": "page",
+        "id": "86",
+        "title": "PDF 第 86 页"
+      },
+      {
+        "kind": "page",
+        "id": "88",
+        "title": "PDF 第 88 页"
+      },
+      {
+        "kind": "page",
+        "id": "91",
+        "title": "PDF 第 91 页"
+      },
+      {
+        "kind": "page",
+        "id": "92",
+        "title": "PDF 第 92 页"
+      },
+      {
+        "kind": "page",
+        "id": "97",
+        "title": "PDF 第 97 页"
+      },
+      {
+        "kind": "page",
+        "id": "102",
+        "title": "PDF 第 102 页"
+      },
+      {
+        "kind": "page",
+        "id": "107",
+        "title": "PDF 第 107 页"
+      },
+      {
+        "kind": "page",
+        "id": "108",
+        "title": "PDF 第 108 页"
+      },
+      {
+        "kind": "page",
+        "id": "109",
+        "title": "PDF 第 109 页"
+      },
+      {
+        "kind": "page",
+        "id": "111",
+        "title": "PDF 第 111 页"
+      },
+      {
+        "kind": "page",
+        "id": "113",
+        "title": "PDF 第 113 页"
+      },
+      {
+        "kind": "page",
+        "id": "115",
+        "title": "PDF 第 115 页"
+      },
+      {
+        "kind": "page",
+        "id": "116",
+        "title": "PDF 第 116 页"
+      },
+      {
+        "kind": "page",
+        "id": "117",
+        "title": "PDF 第 117 页"
+      },
+      {
+        "kind": "page",
+        "id": "118",
+        "title": "PDF 第 118 页"
+      },
+      {
+        "kind": "page",
+        "id": "121",
+        "title": "PDF 第 121 页"
+      },
+      {
+        "kind": "page",
+        "id": "127",
+        "title": "PDF 第 127 页"
+      },
+      {
+        "kind": "page",
+        "id": "129",
+        "title": "PDF 第 129 页"
+      },
+      {
+        "kind": "page",
+        "id": "130",
+        "title": "PDF 第 130 页"
+      },
+      {
+        "kind": "page",
+        "id": "132",
+        "title": "PDF 第 132 页"
+      },
+      {
+        "kind": "page",
+        "id": "133",
+        "title": "PDF 第 133 页"
+      },
+      {
+        "kind": "page",
+        "id": "137",
+        "title": "PDF 第 137 页"
+      },
+      {
+        "kind": "page",
+        "id": "138",
+        "title": "PDF 第 138 页"
+      },
+      {
+        "kind": "page",
+        "id": "140",
+        "title": "PDF 第 140 页"
+      },
+      {
+        "kind": "page",
+        "id": "145",
+        "title": "PDF 第 145 页"
+      },
+      {
+        "kind": "page",
+        "id": "149",
+        "title": "PDF 第 149 页"
+      },
+      {
+        "kind": "page",
+        "id": "150",
+        "title": "PDF 第 150 页"
+      },
+      {
+        "kind": "page",
+        "id": "152",
+        "title": "PDF 第 152 页"
+      },
+      {
+        "kind": "page",
+        "id": "155",
+        "title": "PDF 第 155 页"
+      },
+      {
+        "kind": "page",
+        "id": "156",
+        "title": "PDF 第 156 页"
+      },
+      {
+        "kind": "page",
+        "id": "160",
+        "title": "PDF 第 160 页"
+      },
+      {
+        "kind": "page",
+        "id": "164",
+        "title": "PDF 第 164 页"
+      },
+      {
+        "kind": "page",
+        "id": "170",
+        "title": "PDF 第 170 页"
+      },
+      {
+        "kind": "page",
+        "id": "172",
+        "title": "PDF 第 172 页"
+      },
+      {
+        "kind": "page",
+        "id": "181",
+        "title": "PDF 第 181 页"
+      },
+      {
+        "kind": "page",
+        "id": "182",
+        "title": "PDF 第 182 页"
+      },
+      {
+        "kind": "page",
+        "id": "183",
+        "title": "PDF 第 183 页"
+      },
+      {
+        "kind": "page",
+        "id": "185",
+        "title": "PDF 第 185 页"
+      },
+      {
+        "kind": "page",
+        "id": "186",
+        "title": "PDF 第 186 页"
+      },
+      {
+        "kind": "page",
+        "id": "189",
+        "title": "PDF 第 189 页"
+      },
+      {
+        "kind": "page",
+        "id": "190",
+        "title": "PDF 第 190 页"
+      },
+      {
+        "kind": "page",
+        "id": "191",
+        "title": "PDF 第 191 页"
+      },
+      {
+        "kind": "page",
+        "id": "192",
+        "title": "PDF 第 192 页"
+      },
+      {
+        "kind": "page",
+        "id": "194",
+        "title": "PDF 第 194 页"
+      },
+      {
+        "kind": "page",
+        "id": "196",
+        "title": "PDF 第 196 页"
+      },
+      {
+        "kind": "page",
+        "id": "197",
+        "title": "PDF 第 197 页"
+      },
+      {
+        "kind": "page",
+        "id": "199",
+        "title": "PDF 第 199 页"
+      },
+      {
+        "kind": "page",
+        "id": "200",
+        "title": "PDF 第 200 页"
+      },
+      {
+        "kind": "page",
+        "id": "201",
+        "title": "PDF 第 201 页"
+      },
+      {
+        "kind": "page",
+        "id": "202",
+        "title": "PDF 第 202 页"
+      },
+      {
+        "kind": "page",
+        "id": "203",
+        "title": "PDF 第 203 页"
+      },
+      {
+        "kind": "page",
+        "id": "204",
+        "title": "PDF 第 204 页"
+      },
+      {
+        "kind": "page",
+        "id": "205",
+        "title": "PDF 第 205 页"
+      },
+      {
+        "kind": "page",
+        "id": "208",
+        "title": "PDF 第 208 页"
+      },
+      {
+        "kind": "page",
+        "id": "210",
+        "title": "PDF 第 210 页"
+      },
+      {
+        "kind": "page",
+        "id": "214",
+        "title": "PDF 第 214 页"
+      },
+      {
+        "kind": "page",
+        "id": "216",
+        "title": "PDF 第 216 页"
+      },
+      {
+        "kind": "page",
+        "id": "227",
+        "title": "PDF 第 227 页"
+      },
+      {
+        "kind": "page",
+        "id": "228",
+        "title": "PDF 第 228 页"
+      },
+      {
+        "kind": "page",
+        "id": "231",
+        "title": "PDF 第 231 页"
+      },
+      {
+        "kind": "page",
+        "id": "235",
+        "title": "PDF 第 235 页"
+      },
+      {
+        "kind": "page",
+        "id": "240",
+        "title": "PDF 第 240 页"
+      },
+      {
+        "kind": "page",
+        "id": "243",
+        "title": "PDF 第 243 页"
+      },
+      {
+        "kind": "page",
+        "id": "246",
+        "title": "PDF 第 246 页"
+      },
+      {
+        "kind": "page",
+        "id": "253",
+        "title": "PDF 第 253 页"
+      },
+      {
+        "kind": "page",
+        "id": "254",
+        "title": "PDF 第 254 页"
+      },
+      {
+        "kind": "page",
+        "id": "255",
+        "title": "PDF 第 255 页"
+      },
+      {
+        "kind": "page",
+        "id": "260",
+        "title": "PDF 第 260 页"
+      },
+      {
+        "kind": "page",
+        "id": "264",
+        "title": "PDF 第 264 页"
+      },
+      {
+        "kind": "page",
+        "id": "268",
+        "title": "PDF 第 268 页"
+      },
+      {
+        "kind": "page",
+        "id": "269",
+        "title": "PDF 第 269 页"
+      },
+      {
+        "kind": "page",
+        "id": "270",
+        "title": "PDF 第 270 页"
+      },
+      {
+        "kind": "page",
+        "id": "271",
+        "title": "PDF 第 271 页"
+      },
+      {
+        "kind": "page",
+        "id": "273",
+        "title": "PDF 第 273 页"
+      },
+      {
+        "kind": "page",
+        "id": "277",
+        "title": "PDF 第 277 页"
+      },
+      {
+        "kind": "page",
+        "id": "286",
+        "title": "PDF 第 286 页"
+      },
+      {
+        "kind": "page",
+        "id": "287",
+        "title": "PDF 第 287 页"
+      },
+      {
+        "kind": "page",
+        "id": "291",
+        "title": "PDF 第 291 页"
+      },
+      {
+        "kind": "page",
+        "id": "292",
+        "title": "PDF 第 292 页"
+      },
+      {
+        "kind": "page",
+        "id": "299",
+        "title": "PDF 第 299 页"
+      },
+      {
+        "kind": "page",
+        "id": "302",
+        "title": "PDF 第 302 页"
+      },
+      {
+        "kind": "page",
+        "id": "307",
+        "title": "PDF 第 307 页"
+      },
+      {
+        "kind": "page",
+        "id": "308",
+        "title": "PDF 第 308 页"
+      },
+      {
+        "kind": "page",
+        "id": "311",
+        "title": "PDF 第 311 页"
+      },
+      {
+        "kind": "page",
+        "id": "314",
+        "title": "PDF 第 314 页"
+      },
+      {
+        "kind": "page",
+        "id": "315",
+        "title": "PDF 第 315 页"
+      },
+      {
+        "kind": "page",
+        "id": "316",
+        "title": "PDF 第 316 页"
+      },
+      {
+        "kind": "page",
+        "id": "323",
+        "title": "PDF 第 323 页"
+      },
+      {
+        "kind": "page",
+        "id": "324",
+        "title": "PDF 第 324 页"
+      },
+      {
+        "kind": "page",
+        "id": "328",
+        "title": "PDF 第 328 页"
+      },
+      {
+        "kind": "page",
+        "id": "330",
+        "title": "PDF 第 330 页"
+      },
+      {
+        "kind": "page",
+        "id": "332",
+        "title": "PDF 第 332 页"
+      },
+      {
+        "kind": "page",
+        "id": "335",
+        "title": "PDF 第 335 页"
+      },
+      {
+        "kind": "page",
+        "id": "340",
+        "title": "PDF 第 340 页"
+      },
+      {
+        "kind": "page",
+        "id": "342",
+        "title": "PDF 第 342 页"
+      },
+      {
+        "kind": "page",
+        "id": "352",
+        "title": "PDF 第 352 页"
+      },
+      {
+        "kind": "page",
+        "id": "353",
+        "title": "PDF 第 353 页"
+      },
+      {
+        "kind": "page",
+        "id": "354",
+        "title": "PDF 第 354 页"
+      },
+      {
+        "kind": "page",
+        "id": "356",
+        "title": "PDF 第 356 页"
+      },
+      {
+        "kind": "page",
+        "id": "357",
+        "title": "PDF 第 357 页"
+      },
+      {
+        "kind": "page",
+        "id": "361",
+        "title": "PDF 第 361 页"
+      },
+      {
+        "kind": "page",
+        "id": "364",
+        "title": "PDF 第 364 页"
+      },
+      {
+        "kind": "page",
+        "id": "366",
+        "title": "PDF 第 366 页"
+      },
+      {
+        "kind": "page",
+        "id": "368",
+        "title": "PDF 第 368 页"
+      },
+      {
+        "kind": "page",
+        "id": "371",
+        "title": "PDF 第 371 页"
+      },
+      {
+        "kind": "page",
+        "id": "374",
+        "title": "PDF 第 374 页"
+      },
+      {
+        "kind": "page",
+        "id": "376",
+        "title": "PDF 第 376 页"
+      },
+      {
+        "kind": "page",
+        "id": "377",
+        "title": "PDF 第 377 页"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0105",
+        "title": "牛肉"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-083cd6c918b3",
+        "title": "熟安格斯牛肉"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-265ee1ac4a2e",
+        "title": "炉烤小牛肉"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-3be047cece98",
+        "title": "干式熟成牛肉"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-44ad49f12d59",
+        "title": "牛肉清汤"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-56b0d34d4bde",
+        "title": "牛肉汤"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-624b08b9aff5",
+        "title": "水煮牛肉"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-6b419b770574",
+        "title": "生牛肉"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-70099ea01925",
+        "title": "牛肉"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-7b2326d15952",
+        "title": "安格斯牛肉"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-7b73ed6cf351",
+        "title": "沙朗牛肉"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-7f3f00cf5065",
+        "title": "韩国烤牛肉"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-871cc86cca89",
+        "title": "烘烤小牛肉"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-a23727be6c62",
+        "title": "浓缩小牛肉汁"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-cb2774760e7d",
+        "title": "网烤牛肉"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-cca3aa08284c",
+        "title": "利木赞牛肉"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-ce69631a4e4a",
+        "title": "烤牛肉"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-ef1e36d8a669",
+        "title": "烘烤小牛肉"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0106-oven",
+        "title": "牛排 · 炉烤牛排"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0106-pan",
+        "title": "牛排 · 嫩煎牛排"
+      }
+    ],
+    "query": "牛肉",
+    "kind": "all",
+    "matching": "Literal substring over imported bilingual search text; a mention is not proof of attribute presence."
+  },
+  "肉干": {
+    "total": 0,
+    "limit": 1000,
+    "offset": 0,
+    "returned": 0,
+    "has_more": false,
+    "truncated": false,
+    "items": [],
+    "query": "肉干",
+    "kind": "all",
+    "matching": "Literal substring over imported bilingual search text; a mention is not proof of attribute presence."
+  },
+  "肉乾": {
+    "total": 1,
+    "limit": 1000,
+    "offset": 0,
+    "returned": 1,
+    "has_more": false,
+    "truncated": false,
+    "items": [
+      {
+        "kind": "page",
+        "id": "279",
+        "title": "PDF 第 279 页"
+      }
+    ],
+    "query": "肉乾",
+    "kind": "all",
+    "matching": "Literal substring over imported bilingual search text; a mention is not proof of attribute presence."
+  },
+  "辣椒": {
+    "total": 190,
+    "limit": 1000,
+    "offset": 0,
+    "returned": 190,
+    "has_more": false,
+    "truncated": false,
+    "items": [
+      {
+        "kind": "page",
+        "id": "13",
+        "title": "PDF 第 13 页"
+      },
+      {
+        "kind": "page",
+        "id": "24",
+        "title": "PDF 第 24 页"
+      },
+      {
+        "kind": "page",
+        "id": "38",
+        "title": "PDF 第 38 页"
+      },
+      {
+        "kind": "page",
+        "id": "40",
+        "title": "PDF 第 40 页"
+      },
+      {
+        "kind": "page",
+        "id": "42",
+        "title": "PDF 第 42 页"
+      },
+      {
+        "kind": "page",
+        "id": "43",
+        "title": "PDF 第 43 页"
+      },
+      {
+        "kind": "page",
+        "id": "45",
+        "title": "PDF 第 45 页"
+      },
+      {
+        "kind": "page",
+        "id": "51",
+        "title": "PDF 第 51 页"
+      },
+      {
+        "kind": "page",
+        "id": "52",
+        "title": "PDF 第 52 页"
+      },
+      {
+        "kind": "page",
+        "id": "54",
+        "title": "PDF 第 54 页"
+      },
+      {
+        "kind": "page",
+        "id": "57",
+        "title": "PDF 第 57 页"
+      },
+      {
+        "kind": "page",
+        "id": "59",
+        "title": "PDF 第 59 页"
+      },
+      {
+        "kind": "page",
+        "id": "60",
+        "title": "PDF 第 60 页"
+      },
+      {
+        "kind": "page",
+        "id": "61",
+        "title": "PDF 第 61 页"
+      },
+      {
+        "kind": "page",
+        "id": "64",
+        "title": "PDF 第 64 页"
+      },
+      {
+        "kind": "page",
+        "id": "66",
+        "title": "PDF 第 66 页"
+      },
+      {
+        "kind": "page",
+        "id": "68",
+        "title": "PDF 第 68 页"
+      },
+      {
+        "kind": "page",
+        "id": "70",
+        "title": "PDF 第 70 页"
+      },
+      {
+        "kind": "page",
+        "id": "73",
+        "title": "PDF 第 73 页"
+      },
+      {
+        "kind": "page",
+        "id": "74",
+        "title": "PDF 第 74 页"
+      },
+      {
+        "kind": "page",
+        "id": "77",
+        "title": "PDF 第 77 页"
+      },
+      {
+        "kind": "page",
+        "id": "80",
+        "title": "PDF 第 80 页"
+      },
+      {
+        "kind": "page",
+        "id": "81",
+        "title": "PDF 第 81 页"
+      },
+      {
+        "kind": "page",
+        "id": "85",
+        "title": "PDF 第 85 页"
+      },
+      {
+        "kind": "page",
+        "id": "86",
+        "title": "PDF 第 86 页"
+      },
+      {
+        "kind": "page",
+        "id": "91",
+        "title": "PDF 第 91 页"
+      },
+      {
+        "kind": "page",
+        "id": "92",
+        "title": "PDF 第 92 页"
+      },
+      {
+        "kind": "page",
+        "id": "93",
+        "title": "PDF 第 93 页"
+      },
+      {
+        "kind": "page",
+        "id": "94",
+        "title": "PDF 第 94 页"
+      },
+      {
+        "kind": "page",
+        "id": "95",
+        "title": "PDF 第 95 页"
+      },
+      {
+        "kind": "page",
+        "id": "96",
+        "title": "PDF 第 96 页"
+      },
+      {
+        "kind": "page",
+        "id": "97",
+        "title": "PDF 第 97 页"
+      },
+      {
+        "kind": "page",
+        "id": "98",
+        "title": "PDF 第 98 页"
+      },
+      {
+        "kind": "page",
+        "id": "105",
+        "title": "PDF 第 105 页"
+      },
+      {
+        "kind": "page",
+        "id": "106",
+        "title": "PDF 第 106 页"
+      },
+      {
+        "kind": "page",
+        "id": "108",
+        "title": "PDF 第 108 页"
+      },
+      {
+        "kind": "page",
+        "id": "109",
+        "title": "PDF 第 109 页"
+      },
+      {
+        "kind": "page",
+        "id": "112",
+        "title": "PDF 第 112 页"
+      },
+      {
+        "kind": "page",
+        "id": "115",
+        "title": "PDF 第 115 页"
+      },
+      {
+        "kind": "page",
+        "id": "117",
+        "title": "PDF 第 117 页"
+      },
+      {
+        "kind": "page",
+        "id": "118",
+        "title": "PDF 第 118 页"
+      },
+      {
+        "kind": "page",
+        "id": "121",
+        "title": "PDF 第 121 页"
+      },
+      {
+        "kind": "page",
+        "id": "122",
+        "title": "PDF 第 122 页"
+      },
+      {
+        "kind": "page",
+        "id": "126",
+        "title": "PDF 第 126 页"
+      },
+      {
+        "kind": "page",
+        "id": "129",
+        "title": "PDF 第 129 页"
+      },
+      {
+        "kind": "page",
+        "id": "130",
+        "title": "PDF 第 130 页"
+      },
+      {
+        "kind": "page",
+        "id": "133",
+        "title": "PDF 第 133 页"
+      },
+      {
+        "kind": "page",
+        "id": "134",
+        "title": "PDF 第 134 页"
+      },
+      {
+        "kind": "page",
+        "id": "136",
+        "title": "PDF 第 136 页"
+      },
+      {
+        "kind": "page",
+        "id": "137",
+        "title": "PDF 第 137 页"
+      },
+      {
+        "kind": "page",
+        "id": "138",
+        "title": "PDF 第 138 页"
+      },
+      {
+        "kind": "page",
+        "id": "139",
+        "title": "PDF 第 139 页"
+      },
+      {
+        "kind": "page",
+        "id": "140",
+        "title": "PDF 第 140 页"
+      },
+      {
+        "kind": "page",
+        "id": "143",
+        "title": "PDF 第 143 页"
+      },
+      {
+        "kind": "page",
+        "id": "146",
+        "title": "PDF 第 146 页"
+      },
+      {
+        "kind": "page",
+        "id": "147",
+        "title": "PDF 第 147 页"
+      },
+      {
+        "kind": "page",
+        "id": "151",
+        "title": "PDF 第 151 页"
+      },
+      {
+        "kind": "page",
+        "id": "154",
+        "title": "PDF 第 154 页"
+      },
+      {
+        "kind": "page",
+        "id": "155",
+        "title": "PDF 第 155 页"
+      },
+      {
+        "kind": "page",
+        "id": "156",
+        "title": "PDF 第 156 页"
+      },
+      {
+        "kind": "page",
+        "id": "161",
+        "title": "PDF 第 161 页"
+      },
+      {
+        "kind": "page",
+        "id": "164",
+        "title": "PDF 第 164 页"
+      },
+      {
+        "kind": "page",
+        "id": "172",
+        "title": "PDF 第 172 页"
+      },
+      {
+        "kind": "page",
+        "id": "175",
+        "title": "PDF 第 175 页"
+      },
+      {
+        "kind": "page",
+        "id": "176",
+        "title": "PDF 第 176 页"
+      },
+      {
+        "kind": "page",
+        "id": "179",
+        "title": "PDF 第 179 页"
+      },
+      {
+        "kind": "page",
+        "id": "180",
+        "title": "PDF 第 180 页"
+      },
+      {
+        "kind": "page",
+        "id": "182",
+        "title": "PDF 第 182 页"
+      },
+      {
+        "kind": "page",
+        "id": "185",
+        "title": "PDF 第 185 页"
+      },
+      {
+        "kind": "page",
+        "id": "186",
+        "title": "PDF 第 186 页"
+      },
+      {
+        "kind": "page",
+        "id": "188",
+        "title": "PDF 第 188 页"
+      },
+      {
+        "kind": "page",
+        "id": "189",
+        "title": "PDF 第 189 页"
+      },
+      {
+        "kind": "page",
+        "id": "190",
+        "title": "PDF 第 190 页"
+      },
+      {
+        "kind": "page",
+        "id": "195",
+        "title": "PDF 第 195 页"
+      },
+      {
+        "kind": "page",
+        "id": "196",
+        "title": "PDF 第 196 页"
+      },
+      {
+        "kind": "page",
+        "id": "199",
+        "title": "PDF 第 199 页"
+      },
+      {
+        "kind": "page",
+        "id": "200",
+        "title": "PDF 第 200 页"
+      },
+      {
+        "kind": "page",
+        "id": "205",
+        "title": "PDF 第 205 页"
+      },
+      {
+        "kind": "page",
+        "id": "207",
+        "title": "PDF 第 207 页"
+      },
+      {
+        "kind": "page",
+        "id": "208",
+        "title": "PDF 第 208 页"
+      },
+      {
+        "kind": "page",
+        "id": "213",
+        "title": "PDF 第 213 页"
+      },
+      {
+        "kind": "page",
+        "id": "214",
+        "title": "PDF 第 214 页"
+      },
+      {
+        "kind": "page",
+        "id": "217",
+        "title": "PDF 第 217 页"
+      },
+      {
+        "kind": "page",
+        "id": "218",
+        "title": "PDF 第 218 页"
+      },
+      {
+        "kind": "page",
+        "id": "219",
+        "title": "PDF 第 219 页"
+      },
+      {
+        "kind": "page",
+        "id": "221",
+        "title": "PDF 第 221 页"
+      },
+      {
+        "kind": "page",
+        "id": "223",
+        "title": "PDF 第 223 页"
+      },
+      {
+        "kind": "page",
+        "id": "225",
+        "title": "PDF 第 225 页"
+      },
+      {
+        "kind": "page",
+        "id": "228",
+        "title": "PDF 第 228 页"
+      },
+      {
+        "kind": "page",
+        "id": "231",
+        "title": "PDF 第 231 页"
+      },
+      {
+        "kind": "page",
+        "id": "234",
+        "title": "PDF 第 234 页"
+      },
+      {
+        "kind": "page",
+        "id": "235",
+        "title": "PDF 第 235 页"
+      },
+      {
+        "kind": "page",
+        "id": "236",
+        "title": "PDF 第 236 页"
+      },
+      {
+        "kind": "page",
+        "id": "240",
+        "title": "PDF 第 240 页"
+      },
+      {
+        "kind": "page",
+        "id": "241",
+        "title": "PDF 第 241 页"
+      },
+      {
+        "kind": "page",
+        "id": "243",
+        "title": "PDF 第 243 页"
+      },
+      {
+        "kind": "page",
+        "id": "245",
+        "title": "PDF 第 245 页"
+      },
+      {
+        "kind": "page",
+        "id": "246",
+        "title": "PDF 第 246 页"
+      },
+      {
+        "kind": "page",
+        "id": "247",
+        "title": "PDF 第 247 页"
+      },
+      {
+        "kind": "page",
+        "id": "250",
+        "title": "PDF 第 250 页"
+      },
+      {
+        "kind": "page",
+        "id": "253",
+        "title": "PDF 第 253 页"
+      },
+      {
+        "kind": "page",
+        "id": "254",
+        "title": "PDF 第 254 页"
+      },
+      {
+        "kind": "page",
+        "id": "255",
+        "title": "PDF 第 255 页"
+      },
+      {
+        "kind": "page",
+        "id": "259",
+        "title": "PDF 第 259 页"
+      },
+      {
+        "kind": "page",
+        "id": "260",
+        "title": "PDF 第 260 页"
+      },
+      {
+        "kind": "page",
+        "id": "263",
+        "title": "PDF 第 263 页"
+      },
+      {
+        "kind": "page",
+        "id": "265",
+        "title": "PDF 第 265 页"
+      },
+      {
+        "kind": "page",
+        "id": "269",
+        "title": "PDF 第 269 页"
+      },
+      {
+        "kind": "page",
+        "id": "270",
+        "title": "PDF 第 270 页"
+      },
+      {
+        "kind": "page",
+        "id": "271",
+        "title": "PDF 第 271 页"
+      },
+      {
+        "kind": "page",
+        "id": "274",
+        "title": "PDF 第 274 页"
+      },
+      {
+        "kind": "page",
+        "id": "276",
+        "title": "PDF 第 276 页"
+      },
+      {
+        "kind": "page",
+        "id": "277",
+        "title": "PDF 第 277 页"
+      },
+      {
+        "kind": "page",
+        "id": "278",
+        "title": "PDF 第 278 页"
+      },
+      {
+        "kind": "page",
+        "id": "280",
+        "title": "PDF 第 280 页"
+      },
+      {
+        "kind": "page",
+        "id": "281",
+        "title": "PDF 第 281 页"
+      },
+      {
+        "kind": "page",
+        "id": "282",
+        "title": "PDF 第 282 页"
+      },
+      {
+        "kind": "page",
+        "id": "283",
+        "title": "PDF 第 283 页"
+      },
+      {
+        "kind": "page",
+        "id": "286",
+        "title": "PDF 第 286 页"
+      },
+      {
+        "kind": "page",
+        "id": "288",
+        "title": "PDF 第 288 页"
+      },
+      {
+        "kind": "page",
+        "id": "289",
+        "title": "PDF 第 289 页"
+      },
+      {
+        "kind": "page",
+        "id": "292",
+        "title": "PDF 第 292 页"
+      },
+      {
+        "kind": "page",
+        "id": "300",
+        "title": "PDF 第 300 页"
+      },
+      {
+        "kind": "page",
+        "id": "301",
+        "title": "PDF 第 301 页"
+      },
+      {
+        "kind": "page",
+        "id": "303",
+        "title": "PDF 第 303 页"
+      },
+      {
+        "kind": "page",
+        "id": "304",
+        "title": "PDF 第 304 页"
+      },
+      {
+        "kind": "page",
+        "id": "305",
+        "title": "PDF 第 305 页"
+      },
+      {
+        "kind": "page",
+        "id": "306",
+        "title": "PDF 第 306 页"
+      },
+      {
+        "kind": "page",
+        "id": "307",
+        "title": "PDF 第 307 页"
+      },
+      {
+        "kind": "page",
+        "id": "308",
+        "title": "PDF 第 308 页"
+      },
+      {
+        "kind": "page",
+        "id": "311",
+        "title": "PDF 第 311 页"
+      },
+      {
+        "kind": "page",
+        "id": "313",
+        "title": "PDF 第 313 页"
+      },
+      {
+        "kind": "page",
+        "id": "315",
+        "title": "PDF 第 315 页"
+      },
+      {
+        "kind": "page",
+        "id": "316",
+        "title": "PDF 第 316 页"
+      },
+      {
+        "kind": "page",
+        "id": "319",
+        "title": "PDF 第 319 页"
+      },
+      {
+        "kind": "page",
+        "id": "320",
+        "title": "PDF 第 320 页"
+      },
+      {
+        "kind": "page",
+        "id": "324",
+        "title": "PDF 第 324 页"
+      },
+      {
+        "kind": "page",
+        "id": "325",
+        "title": "PDF 第 325 页"
+      },
+      {
+        "kind": "page",
+        "id": "327",
+        "title": "PDF 第 327 页"
+      },
+      {
+        "kind": "page",
+        "id": "328",
+        "title": "PDF 第 328 页"
+      },
+      {
+        "kind": "page",
+        "id": "331",
+        "title": "PDF 第 331 页"
+      },
+      {
+        "kind": "page",
+        "id": "332",
+        "title": "PDF 第 332 页"
+      },
+      {
+        "kind": "page",
+        "id": "336",
+        "title": "PDF 第 336 页"
+      },
+      {
+        "kind": "page",
+        "id": "339",
+        "title": "PDF 第 339 页"
+      },
+      {
+        "kind": "page",
+        "id": "340",
+        "title": "PDF 第 340 页"
+      },
+      {
+        "kind": "page",
+        "id": "341",
+        "title": "PDF 第 341 页"
+      },
+      {
+        "kind": "page",
+        "id": "342",
+        "title": "PDF 第 342 页"
+      },
+      {
+        "kind": "page",
+        "id": "343",
+        "title": "PDF 第 343 页"
+      },
+      {
+        "kind": "page",
+        "id": "345",
+        "title": "PDF 第 345 页"
+      },
+      {
+        "kind": "page",
+        "id": "346",
+        "title": "PDF 第 346 页"
+      },
+      {
+        "kind": "page",
+        "id": "348",
+        "title": "PDF 第 348 页"
+      },
+      {
+        "kind": "page",
+        "id": "353",
+        "title": "PDF 第 353 页"
+      },
+      {
+        "kind": "page",
+        "id": "354",
+        "title": "PDF 第 354 页"
+      },
+      {
+        "kind": "page",
+        "id": "355",
+        "title": "PDF 第 355 页"
+      },
+      {
+        "kind": "page",
+        "id": "357",
+        "title": "PDF 第 357 页"
+      },
+      {
+        "kind": "page",
+        "id": "358",
+        "title": "PDF 第 358 页"
+      },
+      {
+        "kind": "page",
+        "id": "361",
+        "title": "PDF 第 361 页"
+      },
+      {
+        "kind": "page",
+        "id": "362",
+        "title": "PDF 第 362 页"
+      },
+      {
+        "kind": "page",
+        "id": "364",
+        "title": "PDF 第 364 页"
+      },
+      {
+        "kind": "page",
+        "id": "365",
+        "title": "PDF 第 365 页"
+      },
+      {
+        "kind": "page",
+        "id": "366",
+        "title": "PDF 第 366 页"
+      },
+      {
+        "kind": "page",
+        "id": "367",
+        "title": "PDF 第 367 页"
+      },
+      {
+        "kind": "page",
+        "id": "368",
+        "title": "PDF 第 368 页"
+      },
+      {
+        "kind": "page",
+        "id": "369",
+        "title": "PDF 第 369 页"
+      },
+      {
+        "kind": "page",
+        "id": "373",
+        "title": "PDF 第 373 页"
+      },
+      {
+        "kind": "page",
+        "id": "378",
+        "title": "PDF 第 378 页"
+      },
+      {
+        "kind": "page",
+        "id": "379",
+        "title": "PDF 第 379 页"
+      },
+      {
+        "kind": "page",
+        "id": "382",
+        "title": "PDF 第 382 页"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0039",
+        "title": "秘鲁黄辣椒"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0040",
+        "title": "潘卡辣椒"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0041",
+        "title": "罗可多辣椒"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0042",
+        "title": "青哈瓦那辣椒"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0043",
+        "title": "红哈瓦那辣椒"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0067",
+        "title": "泰国青柠叶"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-18829d41a1a7",
+        "title": "炸辣椒酱"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-36bbebba6f94",
+        "title": "土耳其乌尔法辣椒片"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-45040d2a9264",
+        "title": "青哈瓦那辣椒"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-57a7eba5482c",
+        "title": "秘鲁黄辣椒"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-5cb3dddf1208",
+        "title": "红哈瓦那辣椒"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-81a2830676a4",
+        "title": "煎泰国青辣椒"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-84fba5f84f2e",
+        "title": "泰国绿辣椒"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-8d5ae7881eeb",
+        "title": "潘卡辣椒"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-9b66e65c4b8a",
+        "title": "辣椒酱"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-c4cc4cb4e366",
+        "title": "干奇波雷辣椒"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-c6256369f7ad",
+        "title": "罗可多辣椒"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-e4fa8473e829",
+        "title": "红辣椒粉"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-fd73052c181f",
+        "title": "米拉索辣椒"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-feb153dc3062",
+        "title": "青辣椒"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0039",
+        "title": "秘鲁黄辣椒 · 新鲜或晒干米拉索"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0043",
+        "title": "红哈瓦那辣椒 · 红色成熟哈瓦那辣椒"
+      }
+    ],
+    "query": "辣椒",
+    "kind": "all",
+    "matching": "Literal substring over imported bilingual search text; a mention is not proof of attribute presence."
+  },
+  "姜": {
+    "total": 21,
+    "limit": 1000,
+    "offset": 0,
+    "returned": 21,
+    "has_more": false,
+    "truncated": false,
+    "items": [
+      {
+        "kind": "page",
+        "id": "305",
+        "title": "PDF 第 305 页"
+      },
+      {
+        "kind": "page",
+        "id": "308",
+        "title": "PDF 第 308 页"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0069",
+        "title": "姜"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0070",
+        "title": "姜"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0071",
+        "title": "姜"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-3acbe5bd3f32",
+        "title": "干高良姜汁"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-3d5f7cfcc250",
+        "title": "大高良姜"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-435a566040b3",
+        "title": "薄脆姜饼"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-4a09c3a35c35",
+        "title": "高良姜"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-4e0f20ef7cec",
+        "title": "嫩姜"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-7ffab0120cb2",
+        "title": "小高良姜"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-86a23931090e",
+        "title": "姜泥"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-90e0a3d30c9d",
+        "title": "干高良姜"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-94e60f43b839",
+        "title": "姜汁啤酒"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-94ed6bf3e1ad",
+        "title": "姜"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-9e04023fc206",
+        "title": "姜黄"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-b2cbf5e35ed6",
+        "title": "姜汁汽水"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-dd22fedaea24",
+        "title": "姜饼"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-f899a01fbb19",
+        "title": "生姜"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0070",
+        "title": "姜 · 烹熟姜"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0071",
+        "title": "姜 · 干姜"
+      }
+    ],
+    "query": "姜",
+    "kind": "all",
+    "matching": "Literal substring over imported bilingual search text; a mention is not proof of attribute presence."
+  },
+  "生姜": {
+    "total": 5,
+    "limit": 1000,
+    "offset": 0,
+    "returned": 5,
+    "has_more": false,
+    "truncated": false,
+    "items": [
+      {
+        "kind": "evidence",
+        "id": "E0069",
+        "title": "姜"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0071",
+        "title": "姜"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-f899a01fbb19",
+        "title": "生姜"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0070",
+        "title": "姜 · 烹熟姜"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0071",
+        "title": "姜 · 干姜"
+      }
+    ],
+    "query": "生姜",
+    "kind": "all",
+    "matching": "Literal substring over imported bilingual search text; a mention is not proof of attribute presence."
+  },
+  "黑胡椒": {
+    "total": 39,
+    "limit": 1000,
+    "offset": 0,
+    "returned": 39,
+    "has_more": false,
+    "truncated": false,
+    "items": [
+      {
+        "kind": "page",
+        "id": "42",
+        "title": "PDF 第 42 页"
+      },
+      {
+        "kind": "page",
+        "id": "63",
+        "title": "PDF 第 63 页"
+      },
+      {
+        "kind": "page",
+        "id": "71",
+        "title": "PDF 第 71 页"
+      },
+      {
+        "kind": "page",
+        "id": "102",
+        "title": "PDF 第 102 页"
+      },
+      {
+        "kind": "page",
+        "id": "117",
+        "title": "PDF 第 117 页"
+      },
+      {
+        "kind": "page",
+        "id": "139",
+        "title": "PDF 第 139 页"
+      },
+      {
+        "kind": "page",
+        "id": "143",
+        "title": "PDF 第 143 页"
+      },
+      {
+        "kind": "page",
+        "id": "145",
+        "title": "PDF 第 145 页"
+      },
+      {
+        "kind": "page",
+        "id": "160",
+        "title": "PDF 第 160 页"
+      },
+      {
+        "kind": "page",
+        "id": "216",
+        "title": "PDF 第 216 页"
+      },
+      {
+        "kind": "page",
+        "id": "218",
+        "title": "PDF 第 218 页"
+      },
+      {
+        "kind": "page",
+        "id": "226",
+        "title": "PDF 第 226 页"
+      },
+      {
+        "kind": "page",
+        "id": "231",
+        "title": "PDF 第 231 页"
+      },
+      {
+        "kind": "page",
+        "id": "235",
+        "title": "PDF 第 235 页"
+      },
+      {
+        "kind": "page",
+        "id": "255",
+        "title": "PDF 第 255 页"
+      },
+      {
+        "kind": "page",
+        "id": "257",
+        "title": "PDF 第 257 页"
+      },
+      {
+        "kind": "page",
+        "id": "259",
+        "title": "PDF 第 259 页"
+      },
+      {
+        "kind": "page",
+        "id": "260",
+        "title": "PDF 第 260 页"
+      },
+      {
+        "kind": "page",
+        "id": "271",
+        "title": "PDF 第 271 页"
+      },
+      {
+        "kind": "page",
+        "id": "273",
+        "title": "PDF 第 273 页"
+      },
+      {
+        "kind": "page",
+        "id": "274",
+        "title": "PDF 第 274 页"
+      },
+      {
+        "kind": "page",
+        "id": "275",
+        "title": "PDF 第 275 页"
+      },
+      {
+        "kind": "page",
+        "id": "276",
+        "title": "PDF 第 276 页"
+      },
+      {
+        "kind": "page",
+        "id": "277",
+        "title": "PDF 第 277 页"
+      },
+      {
+        "kind": "page",
+        "id": "278",
+        "title": "PDF 第 278 页"
+      },
+      {
+        "kind": "page",
+        "id": "287",
+        "title": "PDF 第 287 页"
+      },
+      {
+        "kind": "page",
+        "id": "289",
+        "title": "PDF 第 289 页"
+      },
+      {
+        "kind": "page",
+        "id": "320",
+        "title": "PDF 第 320 页"
+      },
+      {
+        "kind": "page",
+        "id": "324",
+        "title": "PDF 第 324 页"
+      },
+      {
+        "kind": "page",
+        "id": "327",
+        "title": "PDF 第 327 页"
+      },
+      {
+        "kind": "page",
+        "id": "328",
+        "title": "PDF 第 328 页"
+      },
+      {
+        "kind": "page",
+        "id": "357",
+        "title": "PDF 第 357 页"
+      },
+      {
+        "kind": "page",
+        "id": "359",
+        "title": "PDF 第 359 页"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0177",
+        "title": "黑胡椒"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0178",
+        "title": "白胡椒"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-25c96b530ffb",
+        "title": "黑胡椒"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-754714f37da8",
+        "title": "黑胡椒粉"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0176",
+        "title": "胡椒 · 黑、白、绿、红胡椒状态分类"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0177",
+        "title": "黑胡椒 · 研磨黑胡椒"
+      }
+    ],
+    "query": "黑胡椒",
+    "kind": "all",
+    "matching": "Literal substring over imported bilingual search text; a mention is not proof of attribute presence."
+  },
+  "苦": {
+    "total": 103,
+    "limit": 1000,
+    "offset": 0,
+    "returned": 103,
+    "has_more": false,
+    "truncated": false,
+    "items": [
+      {
+        "kind": "page",
+        "id": "11",
+        "title": "PDF 第 11 页"
+      },
+      {
+        "kind": "page",
+        "id": "15",
+        "title": "PDF 第 15 页"
+      },
+      {
+        "kind": "page",
+        "id": "21",
+        "title": "PDF 第 21 页"
+      },
+      {
+        "kind": "page",
+        "id": "22",
+        "title": "PDF 第 22 页"
+      },
+      {
+        "kind": "page",
+        "id": "23",
+        "title": "PDF 第 23 页"
+      },
+      {
+        "kind": "page",
+        "id": "24",
+        "title": "PDF 第 24 页"
+      },
+      {
+        "kind": "page",
+        "id": "27",
+        "title": "PDF 第 27 页"
+      },
+      {
+        "kind": "page",
+        "id": "32",
+        "title": "PDF 第 32 页"
+      },
+      {
+        "kind": "page",
+        "id": "37",
+        "title": "PDF 第 37 页"
+      },
+      {
+        "kind": "page",
+        "id": "50",
+        "title": "PDF 第 50 页"
+      },
+      {
+        "kind": "page",
+        "id": "59",
+        "title": "PDF 第 59 页"
+      },
+      {
+        "kind": "page",
+        "id": "60",
+        "title": "PDF 第 60 页"
+      },
+      {
+        "kind": "page",
+        "id": "61",
+        "title": "PDF 第 61 页"
+      },
+      {
+        "kind": "page",
+        "id": "63",
+        "title": "PDF 第 63 页"
+      },
+      {
+        "kind": "page",
+        "id": "64",
+        "title": "PDF 第 64 页"
+      },
+      {
+        "kind": "page",
+        "id": "66",
+        "title": "PDF 第 66 页"
+      },
+      {
+        "kind": "page",
+        "id": "69",
+        "title": "PDF 第 69 页"
+      },
+      {
+        "kind": "page",
+        "id": "73",
+        "title": "PDF 第 73 页"
+      },
+      {
+        "kind": "page",
+        "id": "79",
+        "title": "PDF 第 79 页"
+      },
+      {
+        "kind": "page",
+        "id": "81",
+        "title": "PDF 第 81 页"
+      },
+      {
+        "kind": "page",
+        "id": "87",
+        "title": "PDF 第 87 页"
+      },
+      {
+        "kind": "page",
+        "id": "90",
+        "title": "PDF 第 90 页"
+      },
+      {
+        "kind": "page",
+        "id": "91",
+        "title": "PDF 第 91 页"
+      },
+      {
+        "kind": "page",
+        "id": "92",
+        "title": "PDF 第 92 页"
+      },
+      {
+        "kind": "page",
+        "id": "93",
+        "title": "PDF 第 93 页"
+      },
+      {
+        "kind": "page",
+        "id": "114",
+        "title": "PDF 第 114 页"
+      },
+      {
+        "kind": "page",
+        "id": "131",
+        "title": "PDF 第 131 页"
+      },
+      {
+        "kind": "page",
+        "id": "139",
+        "title": "PDF 第 139 页"
+      },
+      {
+        "kind": "page",
+        "id": "141",
+        "title": "PDF 第 141 页"
+      },
+      {
+        "kind": "page",
+        "id": "144",
+        "title": "PDF 第 144 页"
+      },
+      {
+        "kind": "page",
+        "id": "163",
+        "title": "PDF 第 163 页"
+      },
+      {
+        "kind": "page",
+        "id": "171",
+        "title": "PDF 第 171 页"
+      },
+      {
+        "kind": "page",
+        "id": "174",
+        "title": "PDF 第 174 页"
+      },
+      {
+        "kind": "page",
+        "id": "182",
+        "title": "PDF 第 182 页"
+      },
+      {
+        "kind": "page",
+        "id": "192",
+        "title": "PDF 第 192 页"
+      },
+      {
+        "kind": "page",
+        "id": "195",
+        "title": "PDF 第 195 页"
+      },
+      {
+        "kind": "page",
+        "id": "200",
+        "title": "PDF 第 200 页"
+      },
+      {
+        "kind": "page",
+        "id": "209",
+        "title": "PDF 第 209 页"
+      },
+      {
+        "kind": "page",
+        "id": "213",
+        "title": "PDF 第 213 页"
+      },
+      {
+        "kind": "page",
+        "id": "215",
+        "title": "PDF 第 215 页"
+      },
+      {
+        "kind": "page",
+        "id": "217",
+        "title": "PDF 第 217 页"
+      },
+      {
+        "kind": "page",
+        "id": "219",
+        "title": "PDF 第 219 页"
+      },
+      {
+        "kind": "page",
+        "id": "221",
+        "title": "PDF 第 221 页"
+      },
+      {
+        "kind": "page",
+        "id": "223",
+        "title": "PDF 第 223 页"
+      },
+      {
+        "kind": "page",
+        "id": "229",
+        "title": "PDF 第 229 页"
+      },
+      {
+        "kind": "page",
+        "id": "231",
+        "title": "PDF 第 231 页"
+      },
+      {
+        "kind": "page",
+        "id": "233",
+        "title": "PDF 第 233 页"
+      },
+      {
+        "kind": "page",
+        "id": "236",
+        "title": "PDF 第 236 页"
+      },
+      {
+        "kind": "page",
+        "id": "237",
+        "title": "PDF 第 237 页"
+      },
+      {
+        "kind": "page",
+        "id": "240",
+        "title": "PDF 第 240 页"
+      },
+      {
+        "kind": "page",
+        "id": "251",
+        "title": "PDF 第 251 页"
+      },
+      {
+        "kind": "page",
+        "id": "258",
+        "title": "PDF 第 258 页"
+      },
+      {
+        "kind": "page",
+        "id": "263",
+        "title": "PDF 第 263 页"
+      },
+      {
+        "kind": "page",
+        "id": "265",
+        "title": "PDF 第 265 页"
+      },
+      {
+        "kind": "page",
+        "id": "271",
+        "title": "PDF 第 271 页"
+      },
+      {
+        "kind": "page",
+        "id": "281",
+        "title": "PDF 第 281 页"
+      },
+      {
+        "kind": "page",
+        "id": "289",
+        "title": "PDF 第 289 页"
+      },
+      {
+        "kind": "page",
+        "id": "295",
+        "title": "PDF 第 295 页"
+      },
+      {
+        "kind": "page",
+        "id": "297",
+        "title": "PDF 第 297 页"
+      },
+      {
+        "kind": "page",
+        "id": "304",
+        "title": "PDF 第 304 页"
+      },
+      {
+        "kind": "page",
+        "id": "307",
+        "title": "PDF 第 307 页"
+      },
+      {
+        "kind": "page",
+        "id": "308",
+        "title": "PDF 第 308 页"
+      },
+      {
+        "kind": "page",
+        "id": "309",
+        "title": "PDF 第 309 页"
+      },
+      {
+        "kind": "page",
+        "id": "315",
+        "title": "PDF 第 315 页"
+      },
+      {
+        "kind": "page",
+        "id": "323",
+        "title": "PDF 第 323 页"
+      },
+      {
+        "kind": "page",
+        "id": "329",
+        "title": "PDF 第 329 页"
+      },
+      {
+        "kind": "page",
+        "id": "333",
+        "title": "PDF 第 333 页"
+      },
+      {
+        "kind": "page",
+        "id": "347",
+        "title": "PDF 第 347 页"
+      },
+      {
+        "kind": "page",
+        "id": "349",
+        "title": "PDF 第 349 页"
+      },
+      {
+        "kind": "page",
+        "id": "355",
+        "title": "PDF 第 355 页"
+      },
+      {
+        "kind": "page",
+        "id": "357",
+        "title": "PDF 第 357 页"
+      },
+      {
+        "kind": "page",
+        "id": "359",
+        "title": "PDF 第 359 页"
+      },
+      {
+        "kind": "page",
+        "id": "361",
+        "title": "PDF 第 361 页"
+      },
+      {
+        "kind": "page",
+        "id": "363",
+        "title": "PDF 第 363 页"
+      },
+      {
+        "kind": "page",
+        "id": "367",
+        "title": "PDF 第 367 页"
+      },
+      {
+        "kind": "page",
+        "id": "368",
+        "title": "PDF 第 368 页"
+      },
+      {
+        "kind": "page",
+        "id": "376",
+        "title": "PDF 第 376 页"
+      },
+      {
+        "kind": "page",
+        "id": "384",
+        "title": "PDF 第 384 页"
+      },
+      {
+        "kind": "page",
+        "id": "389",
+        "title": "PDF 第 389 页"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0096",
+        "title": "橄榄油"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0102",
+        "title": "兰比克啤酒"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0136",
+        "title": "香柠檬"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0148",
+        "title": "胡萝卜"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0201",
+        "title": "芝麻籽"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0224",
+        "title": "杏仁"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0234",
+        "title": "葡萄柚"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-2e25b4c34d9e",
+        "title": "苦艾"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-338f805eb617",
+        "title": "苦艾酒"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-68649455991c",
+        "title": "苦橙皮"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-6b284fc3edce",
+        "title": "熟苦荞"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-8f4f8e445d2c",
+        "title": "熟苦荞"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-a4c5504347bb",
+        "title": "甜苦艾酒"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-a8f05af6577c",
+        "title": "干苦艾酒"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-d15e0dcd1fd6",
+        "title": "尚贝里苦艾酒"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-ef5539ac92dc",
+        "title": "熟苦荞"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0096",
+        "title": "橄榄油 · 机械搅拌细化的油醋酱"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0102",
+        "title": "兰比克啤酒 · 使用干啤酒花的兰比克啤酒"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0148",
+        "title": "胡萝卜 · 早采与大个成熟胡萝卜"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0201",
+        "title": "芝麻籽 · 去皮芝麻籽"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0224",
+        "title": "杏仁 · 苦扁桃来源纯杏仁萃取物"
+      },
+      {
+        "kind": "processing",
+        "id": "PR-002",
+        "title": "咖啡过度烘焙：多数挥发物下降或趋稳，少数继续增加"
+      },
+      {
+        "kind": "processing",
+        "id": "PX-002",
+        "title": "咖啡深焙：产地特征减弱并出现焦煳、刺鼻调"
+      },
+      {
+        "kind": "processing",
+        "id": "PX-006",
+        "title": "茶叶萎凋与揉捻：酶促释放形成花香分子"
+      }
+    ],
+    "query": "苦",
+    "kind": "all",
+    "matching": "Literal substring over imported bilingual search text; a mention is not proof of attribute presence."
+  },
+  "猕猴": {
+    "total": 0,
+    "limit": 1000,
+    "offset": 0,
+    "returned": 0,
+    "has_more": false,
+    "truncated": false,
+    "items": [],
+    "query": "猕猴",
+    "kind": "all",
+    "matching": "Literal substring over imported bilingual search text; a mention is not proof of attribute presence."
+  },
+  "发酵": {
+    "total": 41,
+    "limit": 1000,
+    "offset": 0,
+    "returned": 41,
+    "has_more": false,
+    "truncated": false,
+    "items": [
+      {
+        "kind": "evidence",
+        "id": "E0017",
+        "title": "黑巧克力"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0018",
+        "title": "可可豆"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0068",
+        "title": "皮尔森啤酒"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0099",
+        "title": "酸种裸麦面包"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0101",
+        "title": "兰比克啤酒"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0135",
+        "title": "黑橄榄"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0155",
+        "title": "韩国大酱"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0172",
+        "title": "优格"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0190",
+        "title": "西班牙乔利佐香肠"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0197",
+        "title": "日本酱油"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0199",
+        "title": "韩国泡菜"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0207",
+        "title": "巴萨米克醋"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-00e5eb6bf4e4",
+        "title": "大酱韩国发酵大豆酱"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-741d12f160cf",
+        "title": "发酵李子汁"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-99973649ff72",
+        "title": "普逵酒发酵龙舌兰饮"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-a367beebcab4",
+        "title": "大酱(韩国发酵大豆酱)"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-a5e63e81abfb",
+        "title": "大酱（韩国发酵大豆酱）"
+      },
+      {
+        "kind": "ingredient",
+        "id": "ing-d9cf5577f85a",
+        "title": "豆豉发酵黑豆"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0017",
+        "title": "黑巧克力 · 不同产地和工艺的黑巧克力"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0018",
+        "title": "可可豆 · 可可豆发酵及延长发酵"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0054",
+        "title": "黑蒜泥 · 湿热陈放黑蒜泥"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0068",
+        "title": "皮尔森啤酒 · 不同啤酒花、麦芽处理和发酵条件"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0099-cool",
+        "title": "酸种裸麦面包 · 干燥凉爽条件发酵酸种裸麦面包"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0099-warm",
+        "title": "酸种裸麦面包 · 湿热条件发酵酸种裸麦面包"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0101",
+        "title": "兰比克啤酒 · 干啤酒花与发酵的兰比克啤酒"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0102",
+        "title": "兰比克啤酒 · 使用干啤酒花的兰比克啤酒"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0135",
+        "title": "黑橄榄 · 成熟后传统盐水发酵皮夸尔黑橄榄"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0155",
+        "title": "韩国大酱 · 韩国发酵大酱"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0172",
+        "title": "优格 · 牛奶发酵优格"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0190",
+        "title": "西班牙乔利佐香肠 · 西班牙乔利佐香肠"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0197",
+        "title": "日本酱油 · 日本酱油制作"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0199",
+        "title": "韩国泡菜 · 韩国泡菜"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0207",
+        "title": "巴萨米克醋 · 传统熟成巴萨米克醋"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0252",
+        "title": "茶 · 六类茶的制造与氧化差异"
+      },
+      {
+        "kind": "processing",
+        "id": "PR-003",
+        "title": "可可：发酵天数与干燥温度共同塑造挥发物谱"
+      },
+      {
+        "kind": "processing",
+        "id": "PR-012",
+        "title": "可可定向发酵：定义菌群复现部分精品巧克力属性"
+      },
+      {
+        "kind": "processing",
+        "id": "PR-013",
+        "title": "滴滤咖啡：固定浓度与萃取率后，87–93°C 的感官影响很小"
+      },
+      {
+        "kind": "processing",
+        "id": "PX-004",
+        "title": "香草荚生香：烫蒸后高温潮湿处理形成香草分子"
+      },
+      {
+        "kind": "processing",
+        "id": "PX-005",
+        "title": "香草荚干燥与调理：除水并继续释放香气"
+      },
+      {
+        "kind": "processing",
+        "id": "PX-006",
+        "title": "茶叶萎凋与揉捻：酶促释放形成花香分子"
+      },
+      {
+        "kind": "processing",
+        "id": "PX-009",
+        "title": "可可干燥与烘烤：形成坚果、烘烤和焦糖等香气"
+      }
+    ],
+    "query": "发酵",
+    "kind": "all",
+    "matching": "Literal substring over imported bilingual search text; a mention is not proof of attribute presence."
+  },
+  "酶": {
+    "total": 22,
+    "limit": 1000,
+    "offset": 0,
+    "returned": 22,
+    "has_more": false,
+    "truncated": false,
+    "items": [
+      {
+        "kind": "page",
+        "id": "67",
+        "title": "PDF 第 67 页"
+      },
+      {
+        "kind": "page",
+        "id": "113",
+        "title": "PDF 第 113 页"
+      },
+      {
+        "kind": "page",
+        "id": "165",
+        "title": "PDF 第 165 页"
+      },
+      {
+        "kind": "page",
+        "id": "177",
+        "title": "PDF 第 177 页"
+      },
+      {
+        "kind": "page",
+        "id": "265",
+        "title": "PDF 第 265 页"
+      },
+      {
+        "kind": "page",
+        "id": "283",
+        "title": "PDF 第 283 页"
+      },
+      {
+        "kind": "page",
+        "id": "284",
+        "title": "PDF 第 284 页"
+      },
+      {
+        "kind": "page",
+        "id": "337",
+        "title": "PDF 第 337 页"
+      },
+      {
+        "kind": "page",
+        "id": "359",
+        "title": "PDF 第 359 页"
+      },
+      {
+        "kind": "evidence",
+        "id": "E0049",
+        "title": "大蒜"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0049",
+        "title": "大蒜 · 切片、捣碎或剁碎大蒜"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0084",
+        "title": "番茄 · 低于 12°C 贮藏番茄"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0119",
+        "title": "山羊乳酪 · 酶促熟成山羊乳酪"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0174",
+        "title": "黄瓜 · 切开黄瓜"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0216",
+        "title": "布里乳酪 · 由外向内熟成的布里乳酪"
+      },
+      {
+        "kind": "processing",
+        "id": "PB-E0252",
+        "title": "茶 · 六类茶的制造与氧化差异"
+      },
+      {
+        "kind": "processing",
+        "id": "PR-006",
+        "title": "大蒜破碎后：有机硫化物随放置时间增加，但蒜素未显著增加"
+      },
+      {
+        "kind": "processing",
+        "id": "PR-007",
+        "title": "大蒜加热：80°C 十分钟抑制后续多数硫化物生成"
+      },
+      {
+        "kind": "processing",
+        "id": "PX-004",
+        "title": "香草荚生香：烫蒸后高温潮湿处理形成香草分子"
+      },
+      {
+        "kind": "processing",
+        "id": "PX-006",
+        "title": "茶叶萎凋与揉捻：酶促释放形成花香分子"
+      },
+      {
+        "kind": "processing",
+        "id": "PX-007",
+        "title": "茶叶炒菁：青绿青草调转向烘烤与坚果香"
+      },
+      {
+        "kind": "processing",
+        "id": "PX-008",
+        "title": "煎茶短时蒸菁：抑制氧化，保留颜色与风味"
+      }
+    ],
+    "query": "酶",
+    "kind": "all",
+    "matching": "Literal substring over imported bilingual search text; a mention is not proof of attribute presence."
+  }
+}

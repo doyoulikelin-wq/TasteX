@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "policy": "Reviewed retrieval expansions only. These terms do not merge source ingredient identities, processing states, varieties or measurements. An expansion is recall assistance, never evidence of equivalence.",
+  "groups": [
+    {
+      "key": "kiwifruit",
+      "review_status": "reviewed",
+      "terms": ["猕猴桃", "獼猴桃", "奇異果", "奇异果", "kiwi", "kiwifruit"],
+      "scope": "Kiwifruit name search; fresh fruit remains distinct from juice, powder and kiwi berry.",
+      "do_not_equate": ["奇異莓", "奇异莓", "kiwi berry", "kiwiberry", "奇異果汁", "奇异果汁", "猕猴桃果粉", "猕猴桃冻干粉"],
+      "basis": "Source ingredient ing-f9bfb14ffe98 is 奇異果; PDF pages 43 and 44 distinguish 奇異莓, and ing-6605f67426a6 is a separate juice identity. Conventional Chinese/English name expansion reviewed for retrieval only."
+    },
+    {
+      "key": "beef",
+      "review_status": "reviewed",
+      "terms": ["牛肉", "beef"],
+      "scope": "Beef name search. Breed, cut, fat content, raw/cooked/dried states remain distinct.",
+      "do_not_equate": ["和牛", "生牛肉", "牛肉干", "牛肉乾", "瘦牛肉"],
+      "basis": "The database contains separate raw, boiled, roasted, breed-specific and generic beef IDs; expansion is navigation only."
+    },
+    {
+      "key": "red_chili_powder",
+      "review_status": "reviewed",
+      "terms": ["红辣椒粉", "紅辣椒粉", "red chili powder", "red chilli powder"],
+      "scope": "Red chili powder name search; the batch's heat and ready-to-eat processing are not established by the source name.",
+      "do_not_equate": ["辣椒酱", "辣椒醬", "甜椒粉", "低辣红辣椒粉"],
+      "basis": "Source ID ing-e4fa8473e829 retains its own state and evidence; no assumed equal pungency across batches."
+    },
+    {
+      "key": "chili",
+      "review_status": "reviewed",
+      "terms": ["辣椒", "chili", "chilli"],
+      "scope": "Broad chili name search. This returns different varieties and processed states as separate candidates.",
+      "do_not_equate": ["辣椒酱", "辣椒醬", "辣椒粉", "辣椒油"],
+      "basis": "Literal source names include these Chinese terms; broad retrieval cannot transfer a variety's dose, heat or pairing."
+    },
+    {
+      "key": "water",
+      "review_status": "reviewed",
+      "terms": ["饮用水", "飲用水", "water"],
+      "scope": "Drinking-water name search. No automatic selection of another water-containing food.",
+      "do_not_equate": [],
+      "basis": "Language-only navigation. Missing ingredient evidence is retained as a gap."
+    }
+  ]
+}

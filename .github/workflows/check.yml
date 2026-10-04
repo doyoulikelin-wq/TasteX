@@ -1,0 +1,33 @@
+name: TasteX checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.10', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Source integrity and source snapshot fidelity
+        run: |
+          python -m tastex doctor
+          python scripts/verify_database.py
+      - name: Harness regressions
+        run: python -m unittest discover -s tests -v
+      - name: Existing database API regressions
+        run: python -m unittest discover -s flavor-database/tests -p test_api.py -v
+      - name: Published case exact replay
+        run: python -m tastex replay cases/kiwi-jerky/example-run --out runs/ci-replay
+      - name: Studio semantics and processing indexes
+        run: |
+          node flavor-studio/scripts/test_engine_full.cjs
+          node flavor-studio/scripts/test_processing.cjs

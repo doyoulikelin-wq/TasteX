@@ -1,0 +1,495 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/doyoulikelin-wq/TasteX/schemas/brief.schema.json",
+  "title": "TasteX experimental brief v1",
+  "description": "Portable input contract; runtime additionally checks cross-field identities and finite numeric values. Acceptance is a descriptive criterion, not automatically scored.",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "case_id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,79}$"
+    },
+    "revision": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,79}$"
+    },
+    "request_text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "product": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "matrix": {
+          "type": "string",
+          "minLength": 1
+        },
+        "development_stage": {
+          "type": "string",
+          "minLength": 1
+        },
+        "intended_use": {
+          "type": "string",
+          "minLength": 1
+        },
+        "storage_requirement": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "name",
+        "matrix",
+        "development_stage",
+        "intended_use",
+        "storage_requirement"
+      ],
+      "additionalProperties": true
+    },
+    "targets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "dimension": {
+            "type": "string",
+            "minLength": 1
+          },
+          "intent": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reference": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "acceptance": {
+            "anyOf": [
+              {
+                "type": "object",
+                "minProperties": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "dimension",
+          "intent",
+          "reference",
+          "acceptance"
+        ],
+        "additionalProperties": true
+      },
+      "minItems": 1
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "enum": [
+              "hard",
+              "preference"
+            ]
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "enum": [
+              "confirmed",
+              "assumed",
+              "unresolved"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "kind",
+          "text",
+          "status"
+        ],
+        "additionalProperties": true
+      },
+      "minItems": 0
+    },
+    "assumptions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "enum": [
+              "confirmed",
+              "assumed",
+              "unresolved"
+            ]
+          },
+          "consequence": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "text",
+          "status",
+          "consequence"
+        ],
+        "additionalProperties": true
+      },
+      "minItems": 0
+    },
+    "ingredients": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "key": {
+            "type": "string",
+            "minLength": 1
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "query": {
+            "type": "string",
+            "minLength": 1
+          },
+          "requested_state": {
+            "type": "string",
+            "minLength": 1
+          },
+          "role": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reference_id": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^ing-[a-f0-9]{12}$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "identity_relation": {
+            "enum": [
+              "exact",
+              "different_state",
+              "unresolved"
+            ]
+          }
+        },
+        "required": [
+          "key",
+          "label",
+          "query",
+          "requested_state",
+          "role",
+          "reference_id",
+          "identity_relation"
+        ],
+        "additionalProperties": true
+      },
+      "minItems": 1
+    },
+    "routes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "enum": [
+              "selected_for_screening",
+              "alternative",
+              "deferred"
+            ]
+          },
+          "rationale": {
+            "type": "string",
+            "minLength": 1
+          },
+          "advantages": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "limitations": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "parameters": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "type": [
+                    "number",
+                    "string",
+                    "null"
+                  ]
+                },
+                "unit": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "origin": {
+                  "enum": [
+                    "user",
+                    "source",
+                    "hypothesis"
+                  ]
+                },
+                "basis": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "name",
+                "value",
+                "unit",
+                "origin",
+                "basis"
+              ],
+              "additionalProperties": true
+            },
+            "minItems": 0
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "status",
+          "rationale",
+          "advantages",
+          "limitations",
+          "evidence_refs",
+          "parameters"
+        ],
+        "additionalProperties": true
+      },
+      "minItems": 1
+    },
+    "design": {
+      "type": "object",
+      "properties": {
+        "basis_g": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "base_key": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sample_base_g": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "factors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "key": {
+                "type": "string",
+                "minLength": 1
+              },
+              "levels_g": {
+                "type": "array",
+                "items": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "minItems": 2,
+                "maxItems": 20,
+                "uniqueItems": true
+              },
+              "origin": {
+                "enum": [
+                  "user",
+                  "source",
+                  "hypothesis"
+                ]
+              },
+              "rationale": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "key",
+              "levels_g",
+              "origin",
+              "rationale"
+            ],
+            "additionalProperties": true
+          },
+          "minItems": 1
+        },
+        "constants": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "key": {
+                "type": "string",
+                "minLength": 1
+              },
+              "grams_per_basis": {
+                "type": "number",
+                "minimum": 0
+              }
+            },
+            "required": [
+              "key",
+              "grams_per_basis"
+            ],
+            "additionalProperties": true
+          },
+          "minItems": 0
+        },
+        "native_control": {
+          "type": "boolean"
+        },
+        "planned_batches": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100
+        },
+        "seed": {
+          "type": "integer"
+        },
+        "wait_minutes": {
+          "type": "number",
+          "minimum": 0
+        },
+        "dimensions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "preparation_notes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "basis_g",
+        "base_key",
+        "sample_base_g",
+        "factors",
+        "constants",
+        "native_control",
+        "planned_batches",
+        "seed",
+        "wait_minutes",
+        "dimensions",
+        "preparation_notes"
+      ],
+      "additionalProperties": true
+    },
+    "external_evidence": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object"
+      },
+      "description": "Exact external record snapshots retained with input; not refetched or scientifically certified by the harness."
+    }
+  },
+  "required": [
+    "schema_version",
+    "case_id",
+    "revision",
+    "request_text",
+    "product",
+    "targets",
+    "constraints",
+    "assumptions",
+    "ingredients",
+    "routes",
+    "design"
+  ],
+  "additionalProperties": true
+}

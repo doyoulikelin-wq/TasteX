@@ -1,0 +1,2026 @@
+{
+  "schemaVersion": "1.0",
+  "records": [
+    {
+      "id": "PR-001",
+      "title": "咖啡烘焙：相同终点颜色仍受温度—时间轨迹影响",
+      "ingredientNames": [
+        "咖啡",
+        "咖啡豆"
+      ],
+      "methods": [
+        "烘烤"
+      ],
+      "before": "生咖啡豆",
+      "after": "相同浅亮度终点的烘焙豆",
+      "conditions": "商业水平滚筒与实验流化床；高温短时、低温长时；以豆色浅亮度统一烘焙终点。",
+      "mechanism": "香气生成动力学随实际豆温—时间轨迹变化。",
+      "summary": "不同温度—时间组合的挥发物形成轨迹不同；两种设备若匹配豆温轨迹，香气生成动力学相近。",
+      "limitations": "摘要没有给出每条温度曲线与绝对浓度；同色不代表同香，也不能外推所有豆种。",
+      "recordKind": "condition_dependency",
+      "effects": [
+        {
+          "domain": "chemical",
+          "label": "挥发物",
+          "direction": "conditional",
+          "detail": "比较 16 种香气化合物的生成动力学，而非给出通用增香系数。"
+        }
+      ],
+      "source": {
+        "id": "R-COFFEE-2008",
+        "kind": "research",
+        "evidenceIds": [],
+        "pdfPages": [],
+        "bookPages": [],
+        "title": "Coffee Roasting and Aroma Formation: Application of Different Time–Temperature Conditions",
+        "journal": "Journal of Agricultural and Food Chemistry",
+        "year": 2008,
+        "doi": "10.1021/jf800327j",
+        "url": "https://pubs.acs.org/doi/10.1021/jf800327j",
+        "accessScope": "abstract",
+        "extractionScope": "study_summary",
+        "verifiedAt": "2026-10-04",
+        "accessNote": "出版社正文访问受限；本层仅转录已核对的作者摘要层结论。",
+        "alternateUrls": [
+          "https://pubs.acs.org/doi/pdf/10.1021/jf800327j",
+          "https://www.research-collection.ethz.ch/server/api/core/bitstreams/dd361647-056f-4e2c-a68b-e62b0a037364/content"
+        ]
+      },
+      "reportedValues": [
+        {
+          "metric": "追踪香气化合物",
+          "value": 16,
+          "unit": "种",
+          "context": "实验选择的分析物"
+        }
+      ],
+      "evidenceLevel": "实验化学测量",
+      "original": {
+        "type": "source_summary_paraphrase",
+        "note": "中文事实释义，不是作者原文逐字引文；原始数据请按来源链接查阅。",
+        "summary": "不同温度—时间组合的挥发物形成轨迹不同；两种设备若匹配豆温轨迹，香气生成动力学相近。"
+      }
+    },
+    {
+      "id": "PR-002",
+      "title": "咖啡过度烘焙：多数挥发物下降或趋稳，少数继续增加",
+      "ingredientNames": [
+        "咖啡",
+        "咖啡豆"
+      ],
+      "methods": [
+        "烘烤"
+      ],
+      "before": "达到设定烘焙终点",
+      "after": "继续过度烘焙",
+      "conditions": "同一项烘焙实验中的过度烘焙阶段；摘要未提供可复用的具体温度与时长。",
+      "mechanism": "摘要未分别量化形成、挥发和降解的贡献。",
+      "summary": "多数受测挥发物减少或保持稳定；己醛、吡啶和二甲基三硫醚（dimethyl trisulfide）继续增加。",
+      "limitations": "这里只记录分子的变化方向，没有据此计算人的烘烤香、苦味或喜好强度。",
+      "recordKind": "change",
+      "effects": [
+        {
+          "domain": "chemical",
+          "label": "挥发物",
+          "direction": "conditional",
+          "detail": "多数下降或稳定，不把两种方向合并为全部下降。"
+        },
+        {
+          "domain": "chemical",
+          "label": "己醛、吡啶、二甲基三硫醚",
+          "direction": "increase",
+          "detail": "这三个化合物在过度烘焙阶段继续增加。"
+        }
+      ],
+      "source": {
+        "id": "R-COFFEE-2008",
+        "kind": "research",
+        "evidenceIds": [],
+        "pdfPages": [],
+        "bookPages": [],
+        "title": "Coffee Roasting and Aroma Formation: Application of Different Time–Temperature Conditions",
+        "journal": "Journal of Agricultural and Food Chemistry",
+        "year": 2008,
+        "doi": "10.1021/jf800327j",
+        "url": "https://pubs.acs.org/doi/10.1021/jf800327j",
+        "accessScope": "abstract",
+        "extractionScope": "study_summary",
+        "verifiedAt": "2026-10-04",
+        "accessNote": "出版社正文访问受限；本层仅转录已核对的作者摘要层结论。",
+        "alternateUrls": [
+          "https://pubs.acs.org/doi/pdf/10.1021/jf800327j",
+          "https://www.research-collection.ethz.ch/server/api/core/bitstreams/dd361647-056f-4e2c-a68b-e62b0a037364/content"
+        ]
+      },
+      "reportedValues": [],
+      "evidenceLevel": "实验化学测量",
+      "original": {
+        "type": "source_summary_paraphrase",
+        "note": "中文事实释义，不是作者原文逐字引文；原始数据请按来源链接查阅。",
+        "summary": "多数受测挥发物减少或保持稳定；己醛、吡啶和二甲基三硫醚（dimethyl trisulfide）继续增加。"
+      }
+    },
+    {
+      "id": "PR-003",
+      "title": "可可：发酵天数与干燥温度共同塑造挥发物谱",
+      "ingredientNames": [
+        "可可",
+        "可可豆"
+      ],
+      "methods": [
+        "发酵",
+        "干燥"
+      ],
+      "before": "不同发酵时长的可可豆",
+      "after": "在不同温度干燥后的可可豆",
+      "conditions": "发酵 2、4、6、8 天 × 干燥 60、70、80°C；与日晒及 Samoa 干燥器样品比较。",
+      "mechanism": "发酵与干燥联合作用；摘要未逐一拆分各成分的生成和损失机制。",
+      "summary": "本实验中，发酵 6 天后在 70 或 80°C 干燥，挥发物谱接近日晒样品；作者按结果与成本选择 70°C。",
+      "limitations": "是特定实验的选择，不能设为所有产地、菌群和设备的最佳参数；摘要结论不等于人体风味强度。",
+      "recordKind": "condition_dependency",
+      "effects": [
+        {
+          "domain": "chemical",
+          "label": "挥发物",
+          "direction": "conditional",
+          "detail": "发酵与干燥的组合条件影响挥发物谱，不能分别使用固定加成。"
+        }
+      ],
+      "source": {
+        "id": "R-COCOA-2012",
+        "kind": "research",
+        "evidenceIds": [],
+        "pdfPages": [],
+        "bookPages": [],
+        "title": "Effect of fermentation time and drying temperature on volatile compounds in cocoa",
+        "journal": "Food Chemistry",
+        "year": 2012,
+        "doi": "10.1016/j.foodchem.2011.10.078",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26434291/",
+        "accessScope": "abstract",
+        "extractionScope": "study_summary",
+        "verifiedAt": "2026-10-04",
+        "accessNote": "已核对 PubMed 作者摘要；未将全文逐化合物矩阵录入。",
+        "onlineDate": "2011-10-31"
+      },
+      "reportedValues": [
+        {
+          "metric": "发酵时间",
+          "value": [
+            2,
+            4,
+            6,
+            8
+          ],
+          "unit": "天",
+          "context": "实验水平"
+        },
+        {
+          "metric": "干燥温度",
+          "value": [
+            60,
+            70,
+            80
+          ],
+          "unit": "°C",
+          "context": "实验水平"
+        },
+        {
+          "metric": "鉴定挥发物",
+          "value": 58,
+          "unit": "种",
+          "context": "SPME-HS/GC–MS"
+        }
+      ],
+      "evidenceLevel": "实验化学测量",
+      "original": {
+        "type": "source_summary_paraphrase",
+        "note": "中文事实释义，不是作者原文逐字引文；原始数据请按来源链接查阅。",
+        "summary": "本实验中，发酵 6 天后在 70 或 80°C 干燥，挥发物谱接近日晒样品；作者按结果与成本选择 70°C。"
+      }
+    },
+    {
+      "id": "PR-004",
+      "title": "番茄短期冷藏：1–3 天未检出显著挥发物损失",
+      "ingredientNames": [
+        "番茄"
+      ],
+      "methods": [
+        "冷藏"
+      ],
+      "before": "采收当日红熟番茄",
+      "after": "冷藏并回温后的番茄",
+      "conditions": "Ailsa Craig 与 FLA 8059；5°C 冷藏 1、3、7 天，再于 20°C 回温 1 或 3 天。",
+      "mechanism": "论文研究低温对挥发物合成与相关基因表达的影响。",
+      "summary": "冷藏 1 或 3 天未见显著挥发物损失；7 天后两品种均显著降低，回温 3 天仍未恢复至采收日水平。",
+      "limitations": "“未显著”不等于证明完全无变化；结论限定两个品种与该储藏实验。",
+      "recordKind": "condition_dependency",
+      "effects": [
+        {
+          "domain": "chemical",
+          "label": "挥发物",
+          "direction": "no_significant_change",
+          "detail": "1 或 3 天的冷藏处理未检出显著损失。"
+        },
+        {
+          "domain": "chemical",
+          "label": "挥发物",
+          "direction": "decrease",
+          "detail": "7 天处理显著下降；这与短期结果并存。"
+        }
+      ],
+      "source": {
+        "id": "R-TOMATO-2016",
+        "kind": "research",
+        "evidenceIds": [],
+        "pdfPages": [],
+        "bookPages": [],
+        "title": "Chilling-induced tomato flavor loss is associated with altered volatile synthesis and transient changes in DNA methylation",
+        "journal": "PNAS",
+        "year": 2016,
+        "doi": "10.1073/pnas.1613910113",
+        "url": "https://www.pnas.org/doi/10.1073/pnas.1613910113",
+        "accessScope": "full_text",
+        "extractionScope": "study_summary",
+        "verifiedAt": "2026-10-04",
+        "accessNote": "核对结果、图 1 说明和材料方法；未逐项录入补充表。"
+      },
+      "reportedValues": [
+        {
+          "metric": "冷藏温度",
+          "value": 5,
+          "unit": "°C",
+          "context": "红熟果实"
+        },
+        {
+          "metric": "冷藏时间",
+          "value": [
+            1,
+            3,
+            7
+          ],
+          "unit": "天",
+          "context": "预实验"
+        },
+        {
+          "metric": "回温温度",
+          "value": 20,
+          "unit": "°C",
+          "context": "回温 1 或 3 天"
+        }
+      ],
+      "evidenceLevel": "实验化学测量",
+      "original": {
+        "type": "source_summary_paraphrase",
+        "note": "中文事实释义，不是作者原文逐字引文；原始数据请按来源链接查阅。",
+        "summary": "冷藏 1 或 3 天未见显著挥发物损失；7 天后两品种均显著降低，回温 3 天仍未恢复至采收日水平。"
+      }
+    },
+    {
+      "id": "PR-005",
+      "title": "番茄长期冷藏：挥发物降低，糖酸未显著变化",
+      "ingredientNames": [
+        "番茄"
+      ],
+      "methods": [
+        "冷藏"
+      ],
+      "before": "采收当日 Ailsa Craig 红熟番茄",
+      "after": "5°C 冷藏 8 天；另设 7 天冷藏加 1 天回温",
+      "conditions": "5°C、相对湿度 92%；8 天冷藏组与采收当日组比较。感官另比较 7 天冷藏＋20°C 回温 1 天与新采果实。",
+      "mechanism": "挥发物合成相关转录水平降低，并伴随暂时的 DNA 甲基化变化；不是全部机制均已证明为因果。",
+      "summary": "8 天组所测挥发物总量相对采收日低 65%；葡萄糖、果糖、苹果酸与柠檬酸无显著差异。另一个回温处理组的总体喜欢程度更低。",
+      "limitations": "65% 是挥发物测量差异，不是香气强度或喜欢程度下降 65%；对照采收日期不同。",
+      "recordKind": "change",
+      "effects": [
+        {
+          "domain": "chemical",
+          "label": "挥发物",
+          "direction": "decrease",
+          "detail": "图 1B 以 ng·g鲜重⁻¹·h⁻¹ 表示挥发物释放测量。"
+        },
+        {
+          "domain": "chemical",
+          "label": "糖和有机酸",
+          "direction": "no_significant_change",
+          "detail": "四种化学成分的非显著差异，不应改写为所有甜酸感受恒定。"
+        },
+        {
+          "domain": "other",
+          "label": "总体喜欢程度",
+          "direction": "decrease",
+          "detail": "76 人面板；冷藏 7 天并回温 1 天的组较不受喜欢，P < 0.03。"
+        }
+      ],
+      "source": {
+        "id": "R-TOMATO-2016",
+        "kind": "research",
+        "evidenceIds": [],
+        "pdfPages": [],
+        "bookPages": [],
+        "title": "Chilling-induced tomato flavor loss is associated with altered volatile synthesis and transient changes in DNA methylation",
+        "journal": "PNAS",
+        "year": 2016,
+        "doi": "10.1073/pnas.1613910113",
+        "url": "https://www.pnas.org/doi/10.1073/pnas.1613910113",
+        "accessScope": "full_text",
+        "extractionScope": "study_summary",
+        "verifiedAt": "2026-10-04",
+        "accessNote": "核对结果、图 1 说明和材料方法；未逐项录入补充表。"
+      },
+      "reportedValues": [
+        {
+          "metric": "所测挥发物相对下降",
+          "value": 65,
+          "unit": "%",
+          "context": "8 天冷藏相对于采收当日；非感官强度"
+        },
+        {
+          "metric": "相对湿度",
+          "value": 92,
+          "unit": "%",
+          "context": "冷藏条件"
+        },
+        {
+          "metric": "生物学重复",
+          "value": 3,
+          "unit": "组",
+          "context": "每组混合 6 个果实"
+        },
+        {
+          "metric": "消费者面板人数",
+          "value": 76,
+          "unit": "人",
+          "context": "7 天冷藏＋1 天回温的独立比较"
+        }
+      ],
+      "evidenceLevel": "实验化学测量与消费者评价",
+      "original": {
+        "type": "source_summary_paraphrase",
+        "note": "中文事实释义，不是作者原文逐字引文；原始数据请按来源链接查阅。",
+        "summary": "8 天组所测挥发物总量相对采收日低 65%；葡萄糖、果糖、苹果酸与柠檬酸无显著差异。另一个回温处理组的总体喜欢程度更低。"
+      }
+    },
+    {
+      "id": "PR-006",
+      "title": "大蒜破碎后：有机硫化物随放置时间增加，但蒜素未显著增加",
+      "ingredientNames": [
+        "大蒜",
+        "蒜泥"
+      ],
+      "methods": [
+        "切碎/破碎"
+      ],
+      "before": "刚破碎的大蒜",
+      "after": "室温放置后的破碎大蒜",
+      "conditions": "破碎后追踪顶空挥发物随时间变化；HS-GC–MS 峰面积。",
+      "mechanism": "破碎后酶促反应与后续硫化物转化相互作用。",
+      "summary": "多种有机硫化物的顶空信号随时间增加；本研究中蒜素随时间变化未达显著。",
+      "limitations": "峰面积不是绝对浓度或鼻腔感知；不能把所有含硫分子都写成增加。",
+      "recordKind": "change",
+      "effects": [
+        {
+          "domain": "chemical",
+          "label": "有机硫化物",
+          "direction": "increase",
+          "detail": "顶空有机硫化物增加，P < 0.05。"
+        },
+        {
+          "domain": "chemical",
+          "label": "蒜素",
+          "direction": "no_significant_change",
+          "detail": "本研究随放置时间变化的 P = 0.249。"
+        }
+      ],
+      "source": {
+        "id": "R-GARLIC-2019",
+        "kind": "research",
+        "evidenceIds": [],
+        "pdfPages": [],
+        "bookPages": [],
+        "title": "Effect of crushing and heating on the formation of volatile organosulfur compounds in garlic",
+        "journal": "CyTA – Journal of Food",
+        "year": 2019,
+        "doi": "10.1080/19476337.2019.1656288",
+        "url": "https://www.tandfonline.com/doi/full/10.1080/19476337.2019.1656288",
+        "accessScope": "full_text",
+        "extractionScope": "study_summary",
+        "verifiedAt": "2026-10-04",
+        "accessNote": "期刊全文网页返回 403；核对出版社 PDF 检索可见正文、表 2 和摘要，未录入整张峰面积矩阵。",
+        "alternateUrls": [
+          "https://www.tandfonline.com/doi/pdf/10.1080/19476337.2019.1656288"
+        ]
+      },
+      "reportedValues": [
+        {
+          "metric": "蒜素时间效应 P 值",
+          "value": 0.249,
+          "unit": "无量纲",
+          "context": "未达显著；不是效应大小"
+        }
+      ],
+      "evidenceLevel": "实验化学测量",
+      "original": {
+        "type": "source_summary_paraphrase",
+        "note": "中文事实释义，不是作者原文逐字引文；原始数据请按来源链接查阅。",
+        "summary": "多种有机硫化物的顶空信号随时间增加；本研究中蒜素随时间变化未达显著。"
+      }
+    },
+    {
+      "id": "PR-007",
+      "title": "大蒜加热：80°C 十分钟抑制后续多数硫化物生成",
+      "ingredientNames": [
+        "大蒜",
+        "蒜泥"
+      ],
+      "methods": [
+        "加热",
+        "切碎/破碎"
+      ],
+      "before": "破碎或完整的大蒜",
+      "after": "热处理后于室温放置的大蒜",
+      "conditions": "比较 60、80、100°C 热处理 10 分钟；测量处理后室温阶段的顶空变化。",
+      "mechanism": "热负荷改变酶活性与含硫成分转化。",
+      "summary": "80°C 十分钟后，多数有机硫化物不再随室温放置显著增加；60°C 十分钟未完全抑制。个别分子仍有不同响应。",
+      "limitations": "是后续生成速率的变化，不等于全部硫化物含量下降；密闭分析条件不等同敞锅炒蒜。",
+      "recordKind": "condition_dependency",
+      "effects": [
+        {
+          "domain": "chemical",
+          "label": "有机硫化物生成",
+          "direction": "conditional",
+          "detail": "80°C 多数受抑，60°C 不完全；DAMS 是时间效应例外。"
+        },
+        {
+          "domain": "chemical",
+          "label": "蒜素形成速率",
+          "direction": "no_significant_change",
+          "detail": "论文报告升高加热温度对该速率未有显著作用。"
+        }
+      ],
+      "source": {
+        "id": "R-GARLIC-2019",
+        "kind": "research",
+        "evidenceIds": [],
+        "pdfPages": [],
+        "bookPages": [],
+        "title": "Effect of crushing and heating on the formation of volatile organosulfur compounds in garlic",
+        "journal": "CyTA – Journal of Food",
+        "year": 2019,
+        "doi": "10.1080/19476337.2019.1656288",
+        "url": "https://www.tandfonline.com/doi/full/10.1080/19476337.2019.1656288",
+        "accessScope": "full_text",
+        "extractionScope": "study_summary",
+        "verifiedAt": "2026-10-04",
+        "accessNote": "期刊全文网页返回 403；核对出版社 PDF 检索可见正文、表 2 和摘要，未录入整张峰面积矩阵。",
+        "alternateUrls": [
+          "https://www.tandfonline.com/doi/pdf/10.1080/19476337.2019.1656288"
+        ]
+      },
+      "reportedValues": [
+        {
+          "metric": "加热温度",
+          "value": [
+            60,
+            80,
+            100
+          ],
+          "unit": "°C",
+          "context": "研究的热处理水平"
+        },
+        {
+          "metric": "处理时间",
+          "value": 10,
+          "unit": "分钟",
+          "context": "各热处理组"
+        }
+      ],
+      "evidenceLevel": "实验化学测量",
+      "original": {
+        "type": "source_summary_paraphrase",
+        "note": "中文事实释义，不是作者原文逐字引文；原始数据请按来源链接查阅。",
+        "summary": "80°C 十分钟后，多数有机硫化物不再随室温放置显著增加；60°C 十分钟未完全抑制。个别分子仍有不同响应。"
+      }
+    },
+    {
+      "id": "PR-008",
+      "title": "香菇蒸制：挥发物与组织结构随时间变化",
+      "ingredientNames": [
+        "香菇"
+      ],
+      "methods": [
+        "蒸制"
+      ],
+      "before": "生香菇片",
+      "after": "蒸过的香菇片",
+      "conditions": "切片厚 3 mm，每组 100 g；蒸制 100°C，分别 5、10、15、20 分钟。",
+      "mechanism": "热处理伴随挥发物组成变化、组织收缩与细胞结构破坏。",
+      "summary": "受测挥发物种类与相对含量减少；明亮度、质构和微观组织也改变。",
+      "limitations": "GC–MS 相对峰面积不能当作感官强度；空气炸和烤箱条件均为 100°C，不外推日常 180–200°C。",
+      "recordKind": "change",
+      "effects": [
+        {
+          "domain": "chemical",
+          "label": "挥发物",
+          "direction": "decrease",
+          "detail": "受测挥发物种类和相对含量减少；不是所有单一分子都同向。"
+        },
+        {
+          "domain": "color",
+          "label": "明亮度",
+          "direction": "decrease",
+          "detail": "相对于生样，颜色变暗。"
+        },
+        {
+          "domain": "texture",
+          "label": "硬度",
+          "direction": "decrease",
+          "detail": "蒸制 20 分钟的硬度下降最多，与空气炸 20 分钟无显著差异。"
+        }
+      ],
+      "source": {
+        "id": "R-SHIITAKE-2023",
+        "kind": "research",
+        "evidenceIds": [],
+        "pdfPages": [],
+        "bookPages": [],
+        "title": "Effect of Different Cooking Methods on the Bioactive Components, Color, Texture, Microstructure, and Volatiles of Shiitake Mushrooms",
+        "journal": "Foods",
+        "year": 2023,
+        "doi": "10.3390/foods12132573",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10340526/",
+        "accessScope": "full_text",
+        "extractionScope": "study_summary",
+        "verifiedAt": "2026-10-04",
+        "accessNote": "核对原文方法、结果和结论；GC–MS 为相对含量，表 3 逐化合物矩阵尚未录入。",
+        "alternateUrls": [
+          "https://www.mdpi.com/2304-8158/12/13/2573"
+        ]
+      },
+      "reportedValues": [
+        {
+          "metric": "处理温度",
+          "value": 100,
+          "unit": "°C",
+          "context": "蒸制实验设定"
+        },
+        {
+          "metric": "处理时间",
+          "value": [
+            5,
+            10,
+            15,
+            20
+          ],
+          "unit": "分钟",
+          "context": "独立样品组"
+        },
+        {
+          "metric": "切片厚度",
+          "value": 3,
+          "unit": "mm",
+          "context": "样品制备"
+        },
+        {
+          "metric": "样品质量",
+          "value": 100,
+          "unit": "g",
+          "context": "每处理组"
+        }
+      ],
+      "evidenceLevel": "实验化学、色度与质构测量",
+      "original": {
+        "type": "source_summary_paraphrase",
+        "note": "中文事实释义，不是作者原文逐字引文；原始数据请按来源链接查阅。",
+        "summary": "受测挥发物种类与相对含量减少；明亮度、质构和微观组织也改变。"
+      }
+    },
+    {
+      "id": "PR-009",
+      "title": "香菇水煮：挥发物与组织结构随时间变化",
+      "ingredientNames": [
+        "香菇"
+      ],
+      "methods": [
+        "水煮"
+      ],
+      "before": "生香菇片",
+      "after": "水煮香菇片",
+      "conditions": "切片厚 3 mm，每组 100 g；水煮 100°C，分别 5、10、15、20 分钟。",
+      "mechanism": "热处理伴随挥发物组成变化、组织收缩与细胞结构破坏。",
+      "summary": "受测挥发物种类与相对含量减少；明亮度、质构和微观组织也改变。",
+      "limitations": "GC–MS 相对峰面积不能当作感官强度；空气炸和烤箱条件均为 100°C，不外推日常 180–200°C。",
+      "recordKind": "change",
+      "effects": [
+        {
+          "domain": "chemical",
+          "label": "挥发物",
+          "direction": "decrease",
+          "detail": "受测挥发物种类和相对含量减少；不是所有单一分子都同向。"
+        },
+        {
+          "domain": "color",
+          "label": "明亮度",
+          "direction": "decrease",
+          "detail": "相对于生样，颜色变暗。"
+        },
+        {
+          "domain": "texture",
+          "label": "质地",
+          "direction": "change",
+          "detail": "仪器质构与微观组织改变；不直接推导人类口感偏好。"
+        }
+      ],
+      "source": {
+        "id": "R-SHIITAKE-2023",
+        "kind": "research",
+        "evidenceIds": [],
+        "pdfPages": [],
+        "bookPages": [],
+        "title": "Effect of Different Cooking Methods on the Bioactive Components, Color, Texture, Microstructure, and Volatiles of Shiitake Mushrooms",
+        "journal": "Foods",
+        "year": 2023,
+        "doi": "10.3390/foods12132573",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10340526/",
+        "accessScope": "full_text",
+        "extractionScope": "study_summary",
+        "verifiedAt": "2026-10-04",
+        "accessNote": "核对原文方法、结果和结论；GC–MS 为相对含量，表 3 逐化合物矩阵尚未录入。",
+        "alternateUrls": [
+          "https://www.mdpi.com/2304-8158/12/13/2573"
+        ]
+      },
+      "reportedValues": [
+        {
+          "metric": "处理温度",
+          "value": 100,
+          "unit": "°C",
+          "context": "水煮实验设定"
+        },
+        {
+          "metric": "处理时间",
+          "value": [
+            5,
+            10,
+            15,
+            20
+          ],
+          "unit": "分钟",
+          "context": "独立样品组"
+        },
+        {
+          "metric": "切片厚度",
+          "value": 3,
+          "unit": "mm",
+          "context": "样品制备"
+        },
+        {
+          "metric": "样品质量",
+          "value": 100,
+          "unit": "g",
+          "context": "每处理组"
+        }
+      ],
+      "evidenceLevel": "实验化学、色度与质构测量",
+      "original": {
+        "type": "source_summary_paraphrase",
+        "note": "中文事实释义，不是作者原文逐字引文；原始数据请按来源链接查阅。",
+        "summary": "受测挥发物种类与相对含量减少；明亮度、质构和微观组织也改变。"
+      }
+    },
+    {
+      "id": "PR-010",
+      "title": "香菇空气炸：挥发物与组织结构随时间变化",
+      "ingredientNames": [
+        "香菇"
+      ],
+      "methods": [
+        "空气炸"
+      ],
+      "before": "生香菇片",
+      "after": "空气炸制香菇片",
+      "conditions": "切片厚 3 mm，每组 100 g；空气炸 100°C，分别 5、10、15、20 分钟。",
+      "mechanism": "热处理伴随挥发物组成变化、组织收缩与细胞结构破坏。",
+      "summary": "受测挥发物种类与相对含量减少；明亮度、质构和微观组织也改变。",
+      "limitations": "GC–MS 相对峰面积不能当作感官强度；空气炸和烤箱条件均为 100°C，不外推日常 180–200°C。",
+      "recordKind": "change",
+      "effects": [
+        {
+          "domain": "chemical",
+          "label": "挥发物",
+          "direction": "decrease",
+          "detail": "受测挥发物种类和相对含量减少；不是所有单一分子都同向。"
+        },
+        {
+          "domain": "color",
+          "label": "明亮度",
+          "direction": "decrease",
+          "detail": "相对于生样，颜色变暗。"
+        },
+        {
+          "domain": "texture",
+          "label": "质地",
+          "direction": "change",
+          "detail": "仪器质构与微观组织改变；不直接推导人类口感偏好。"
+        }
+      ],
+      "source": {
+        "id": "R-SHIITAKE-2023",
+        "kind": "research",
+        "evidenceIds": [],
+        "pdfPages": [],
+        "bookPages": [],
+        "title": "Effect of Different Cooking Methods on the Bioactive Components, Color, Texture, Microstructure, and Volatiles of Shiitake Mushrooms",
+        "journal": "Foods",
+        "year": 2023,
+        "doi": "10.3390/foods12132573",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10340526/",
+        "accessScope": "full_text",
+        "extractionScope": "study_summary",
+        "verifiedAt": "2026-10-04",
+        "accessNote": "核对原文方法、结果和结论；GC–MS 为相对含量，表 3 逐化合物矩阵尚未录入。",
+        "alternateUrls": [
+          "https://www.mdpi.com/2304-8158/12/13/2573"
+        ]
+      },
+      "reportedValues": [
+        {
+          "metric": "处理温度",
+          "value": 100,
+          "unit": "°C",
+          "context": "空气炸实验设定"
+        },
+        {
+          "metric": "处理时间",
+          "value": [
+            5,
+            10,
+            15,
+            20
+          ],
+          "unit": "分钟",
+          "context": "独立样品组"
+        },
+        {
+          "metric": "切片厚度",
+          "value": 3,
+          "unit": "mm",
+          "context": "样品制备"
+        },
+        {
+          "metric": "样品质量",
+          "value": 100,
+          "unit": "g",
+          "context": "每处理组"
+        }
+      ],
+      "evidenceLevel": "实验化学、色度与质构测量",
+      "original": {
+        "type": "source_summary_paraphrase",
+        "note": "中文事实释义，不是作者原文逐字引文；原始数据请按来源链接查阅。",
+        "summary": "受测挥发物种类与相对含量减少；明亮度、质构和微观组织也改变。"
+      }
+    },
+    {
+      "id": "PR-011",
+      "title": "香菇烘烤：挥发物与组织结构随时间变化",
+      "ingredientNames": [
+        "香菇"
+      ],
+      "methods": [
+        "烘烤"
+      ],
+      "before": "生香菇片",
+      "after": "烤箱烘烤香菇片",
+      "conditions": "切片厚 3 mm，每组 100 g；烘烤 100°C，分别 5、10、15、20 分钟。",
+      "mechanism": "热处理伴随挥发物组成变化、组织收缩与细胞结构破坏。",
+      "summary": "受测挥发物种类与相对含量减少；明亮度、质构和微观组织也改变。",
+      "limitations": "GC–MS 相对峰面积不能当作感官强度；空气炸和烤箱条件均为 100°C，不外推日常 180–200°C。",
+      "recordKind": "change",
+      "effects": [
+        {
+          "domain": "chemical",
+          "label": "挥发物",
+          "direction": "decrease",
+          "detail": "受测挥发物种类和相对含量减少；不是所有单一分子都同向。"
+        },
+        {
+          "domain": "color",
+          "label": "明亮度",
+          "direction": "decrease",
+          "detail": "相对于生样，颜色变暗。"
+        },
+        {
+          "domain": "texture",
+          "label": "质地",
+          "direction": "change",
+          "detail": "仪器质构与微观组织改变；不直接推导人类口感偏好。"
+        }
+      ],
+      "source": {
+        "id": "R-SHIITAKE-2023",
+        "kind": "research",
+        "evidenceIds": [],
+        "pdfPages": [],
+        "bookPages": [],
+        "title": "Effect of Different Cooking Methods on the Bioactive Components, Color, Texture, Microstructure, and Volatiles of Shiitake Mushrooms",
+        "journal": "Foods",
+        "year": 2023,
+        "doi": "10.3390/foods12132573",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10340526/",
+        "accessScope": "full_text",
+        "extractionScope": "study_summary",
+        "verifiedAt": "2026-10-04",
+        "accessNote": "核对原文方法、结果和结论；GC–MS 为相对含量，表 3 逐化合物矩阵尚未录入。",
+        "alternateUrls": [
+          "https://www.mdpi.com/2304-8158/12/13/2573"
+        ]
+      },
+      "reportedValues": [
+        {
+          "metric": "处理温度",
+          "value": 100,
+          "unit": "°C",
+          "context": "烘烤实验设定"
+        },
+        {
+          "metric": "处理时间",
+          "value": [
+            5,
+            10,
+            15,
+            20
+          ],
+          "unit": "分钟",
+          "context": "独立样品组"
+        },
+        {
+          "metric": "切片厚度",
+          "value": 3,
+          "unit": "mm",
+          "context": "样品制备"
+        },
+        {
+          "metric": "样品质量",
+          "value": 100,
+          "unit": "g",
+          "context": "每处理组"
+        }
+      ],
+      "evidenceLevel": "实验化学、色度与质构测量",
+      "original": {
+        "type": "source_summary_paraphrase",
+        "note": "中文事实释义，不是作者原文逐字引文；原始数据请按来源链接查阅。",
+        "summary": "受测挥发物种类与相对含量减少；明亮度、质构和微观组织也改变。"
+      }
+    },
+    {
+      "id": "PR-012",
+      "title": "可可定向发酵：定义菌群复现部分精品巧克力属性",
+      "ingredientNames": [
+        "可可",
+        "可可豆",
+        "巧克力"
+      ],
+      "methods": [
+        "发酵"
+      ],
+      "before": "带果肉的可可豆",
+      "after": "用定义菌群发酵后制得的可可浆",
+      "conditions": "受控微型发酵；完整菌群、缺失单菌、随机菌群及未接种对照；完整菌群含 5 种细菌与 4 种真菌。",
+      "mechanism": "菌群代谢能力与温度、pH 的动态共同影响发酵及最终风味。",
+      "summary": "定义菌群在受控条件下复现了精品巧克力的部分风味属性，结合组学、代谢网络和受训面板核验。",
+      "limitations": "不是任意巧克力风味的通用生成公式；菌株、基质及温度程序均受控，未把相关分析当作任意外推因果。",
+      "recordKind": "condition_dependency",
+      "effects": [
+        {
+          "domain": "other",
+          "label": "整体风味属性",
+          "direction": "conditional",
+          "detail": "整体属性复现，没有将其翻译为统一增加若干百分比。"
+        }
+      ],
+      "source": {
+        "id": "R-COCOA-2025",
+        "kind": "research",
+        "evidenceIds": [],
+        "pdfPages": [],
+        "bookPages": [],
+        "title": "A defined microbial community reproduces attributes of fine flavour chocolate fermentation",
+        "journal": "Nature Microbiology",
+        "year": 2025,
+        "doi": "10.1038/s41564-025-02077-6",
+        "url": "https://www.nature.com/articles/s41564-025-02077-6",
+        "accessScope": "full_text",
+        "extractionScope": "study_summary",
+        "verifiedAt": "2026-10-04",
+        "accessNote": "核对原始全文的合成菌群、体外方法与感官验证；属于 Nature Microbiology，非 Nature 主刊。",
+        "dataUrl": "https://github.com/David-Lee86/min-com-choc"
+      },
+      "reportedValues": [
+        {
+          "metric": "定义菌群成员",
+          "value": 9,
+          "unit": "种",
+          "context": "5 种细菌＋4 种真菌"
+        },
+        {
+          "metric": "受控发酵总时长",
+          "value": 120,
+          "unit": "小时",
+          "context": "主实验温度程序：0–48 h 30°C；48–72 h 35°C；72–120 h 45°C；另有恒温对照"
+        }
+      ],
+      "evidenceLevel": "受控发酵、组学与受训感官评价",
+      "original": {
+        "type": "source_summary_paraphrase",
+        "note": "中文事实释义，不是作者原文逐字引文；原始数据请按来源链接查阅。",
+        "summary": "定义菌群在受控条件下复现了精品巧克力的部分风味属性，结合组学、代谢网络和受训面板核验。"
+      }
+    },
+    {
+      "id": "PR-013",
+      "title": "滴滤咖啡：固定浓度与萃取率后，87–93°C 的感官影响很小",
+      "ingredientNames": [
+        "咖啡",
+        "滴滤咖啡"
+      ],
+      "methods": [
+        "萃取"
+      ],
+      "before": "固定浓度与萃取率的滴滤咖啡",
+      "after": "用不同水温冲煮但匹配浓度与萃取率的咖啡",
+      "conditions": "同一烘焙咖啡；87、90、93°C；通过研磨、流速与时间匹配 TDS 和萃取率，品评温度也控制。",
+      "mechanism": "冲煮水温影响萃取动力学；若终点浓度与萃取率固定，其独立感官作用很小。",
+      "summary": "多变量分析中冲煮温度主效应未显著；但单变量分析中坚果调存在温度效应，棕色香辛料、泥土和发酵调有温度交互作用。变化幅度小，作者将整体影响判断为很小。",
+      "limitations": "不能写成所有属性均无变化；个别单变量与交互项有统计差异。该结论不能外推冷萃、不控制浓度/萃取率或不同品评温度；未做化学成分分析。",
+      "recordKind": "condition_dependency",
+      "effects": [
+        {
+          "domain": "other",
+          "label": "感官轮廓",
+          "direction": "no_significant_change",
+          "detail": "多变量分析的冲煮温度主效应及低于四阶的温度交互未显著；限于该控制实验。"
+        },
+        {
+          "domain": "aroma",
+          "label": "坚果气味",
+          "direction": "change",
+          "detail": "单变量分析存在显著温度效应，不能用整体结果抹去此例外。"
+        },
+        {
+          "domain": "aroma",
+          "label": "香辛料气味",
+          "direction": "conditional",
+          "detail": "棕色香辛料的单变量分析有温度×TDS 交互。"
+        },
+        {
+          "domain": "aroma",
+          "label": "泥土气味",
+          "direction": "conditional",
+          "detail": "泥土调单变量分析有温度×TDS×萃取率交互。"
+        },
+        {
+          "domain": "aroma",
+          "label": "发酵气味",
+          "direction": "conditional",
+          "detail": "发酵调单变量分析有温度×TDS×萃取率交互。"
+        },
+        {
+          "domain": "other",
+          "label": "感官属性",
+          "direction": "conditional",
+          "detail": "TDS 与萃取率仍影响感官；温度相关差别小于 100 分量表的 5 分。"
+        }
+      ],
+      "source": {
+        "id": "R-COFFEE-2020",
+        "kind": "research",
+        "evidenceIds": [],
+        "pdfPages": [],
+        "bookPages": [],
+        "title": "Brew temperature, at fixed brew strength and extraction, has little impact on the sensory profile of drip brew coffee",
+        "journal": "Scientific Reports",
+        "year": 2020,
+        "doi": "10.1038/s41598-020-73341-4",
+        "url": "https://www.nature.com/articles/s41598-020-73341-4",
+        "accessScope": "full_text",
+        "extractionScope": "study_summary",
+        "verifiedAt": "2026-10-04",
+        "accessNote": "核对摘要、实验设计与结果；是固定 TDS、萃取率和品评温度的条件性结论。"
+      },
+      "reportedValues": [
+        {
+          "metric": "冲煮水温",
+          "value": [
+            87,
+            90,
+            93
+          ],
+          "unit": "°C",
+          "context": "实验温区"
+        },
+        {
+          "metric": "样品类型",
+          "value": 27,
+          "unit": "种",
+          "context": "9 组浓度/萃取率组合 × 3 个温度"
+        },
+        {
+          "metric": "感官描述属性",
+          "value": 31,
+          "unit": "项",
+          "context": "受训面板盲评与重复"
+        },
+        {
+          "metric": "温度相关差异幅度",
+          "value": "<5",
+          "unit": "分/100分量表",
+          "context": "作者讨论中对显著单变量温度效应与交互的幅度描述；不作为模型固定偏移"
+        }
+      ],
+      "evidenceLevel": "受训描述性感官实验",
+      "original": {
+        "type": "source_summary_paraphrase",
+        "note": "中文事实释义，不是作者原文逐字引文；原始数据请按来源链接查阅。",
+        "summary": "多变量分析中冲煮温度主效应未显著；但单变量分析中坚果调存在温度效应，棕色香辛料、泥土和发酵调有温度交互作用。变化幅度小，作者将整体影响判断为很小。"
+      }
+    },
+    {
+      "id": "PX-001",
+      "title": "咖啡烘焙：从坚果香到烘焙咖啡特征",
+      "ingredientNames": [
+        "咖啡",
+        "咖啡豆"
+      ],
+      "methods": [
+        "烘烤"
+      ],
+      "before": "绿咖啡豆",
+      "after": "逐步升温烘焙的咖啡豆",
+      "conditions": "书中温度指烘焙机内部；未说明豆芯温度、时长、含水率或设备型号。",
+      "mechanism": "烘焙中挥发性成分形成并变化。",
+      "summary": "机内约 170°C 时坚果味分子开始形成；约 190°C 出现早期咖啡香；220–230°C 形成典型烘焙咖啡特征。",
+      "limitations": "书中概述，不是可跨设备复制的热处理阈值或感官强度数据。",
+      "recordKind": "change",
+      "effects": [
+        {
+          "domain": "aroma",
+          "label": "坚果气味",
+          "direction": "emerge",
+          "detail": "书中描述约 170°C 的形成阶段。"
+        },
+        {
+          "domain": "aroma",
+          "label": "烘烤气味",
+          "direction": "emerge",
+          "detail": "由早期咖啡香转向典型烘焙咖啡特征。"
+        }
+      ],
+      "source": {
+        "id": "B-PDF-297",
+        "kind": "book",
+        "evidenceIds": [],
+        "pdfPages": [
+          297
+        ],
+        "bookPages": [
+          294
+        ],
+        "title": "食物風味搭配科學 · 咖啡",
+        "journal": null,
+        "year": null,
+        "doi": null,
+        "url": null,
+        "accessScope": "book_page",
+        "extractionScope": "study_summary",
+        "verifiedAt": "2026-10-04",
+        "accessNote": "已核对用户提供 PDF 原页；原文中的定性词及过程边界保留。"
+      },
+      "reportedValues": [
+        {
+          "metric": "机内坚果香形成阶段",
+          "value": 170,
+          "unit": "°C",
+          "context": "烘焙机内部温度；书中概述"
+        },
+        {
+          "metric": "机内早期咖啡香阶段",
+          "value": 190,
+          "unit": "°C",
+          "context": "烘焙机内部温度"
+        },
+        {
+          "metric": "机内典型烘焙咖啡阶段",
+          "value": "220–230",
+          "unit": "°C",
+          "context": "烘焙机内部温度"
+        }
+      ],
+      "evidenceLevel": "书中定性机制与过程描述",
+      "original": {
+        "type": "user_pdf_excerpt",
+        "text": "咖啡豆揮發物成分最劇烈的增加和變化發生在烘焙過程中。堅果味香氣分子在烘焙機內部溫度達到170°C時開始形成。隨著內部溫度攀升至190°C，我們看見早期階段咖啡般的香氣開始產生，但直到220–230°C豆子才真正發展出其烘焙咖啡的風味特點。",
+        "transcription": "依据原页人工核对，保留繁体原词；仅按段落整理换行。"
+      }
+    },
+    {
+      "id": "PX-002",
+      "title": "咖啡深焙：产地特征减弱并出现焦煳、刺鼻调",
+      "ingredientNames": [
+        "咖啡",
+        "咖啡豆"
+      ],
+      "methods": [
+        "烘烤"
+      ],
+      "before": "浅焙至中焙咖啡",
+      "after": "深焙咖啡",
+      "conditions": "按书中浅、中、深焙描述；无时间与豆色分级阈值。",
+      "mechanism": "加深烘焙改变并遮蔽部分原有香气特征。",
+      "summary": "浅焙具有香甜、可可和坚果香；中焙更复杂且较显产地特征；深焙后这些特色消失，出现烧焦、刺鼻及苦中带酸的调性。",
+      "limitations": "“香甜”保留为香气描述，不能换算糖含量；烘焙等级没有量化定义。",
+      "recordKind": "change",
+      "effects": [
+        {
+          "domain": "aroma",
+          "label": "产地香气特征",
+          "direction": "decrease",
+          "detail": "书中描述深焙后地区特征消失。"
+        },
+        {
+          "domain": "aroma",
+          "label": "焦煳气味",
+          "direction": "emerge",
+          "detail": "深焙阶段的烧焦、刺鼻调。"
+        },
+        {
+          "domain": "taste",
+          "label": "苦酸调性",
+          "direction": "change",
+          "detail": "书中未量化苦味与酸味的独立增减。"
+        }
+      ],
+      "source": {
+        "id": "B-PDF-297",
+        "kind": "book",
+        "evidenceIds": [],
+        "pdfPages": [
+          297
+        ],
+        "bookPages": [
+          294
+        ],
+        "title": "食物風味搭配科學 · 咖啡",
+        "journal": null,
+        "year": null,
+        "doi": null,
+        "url": null,
+        "accessScope": "book_page",
+        "extractionScope": "study_summary",
+        "verifiedAt": "2026-10-04",
+        "accessNote": "已核对用户提供 PDF 原页；原文中的定性词及过程边界保留。"
+      },
+      "reportedValues": [],
+      "evidenceLevel": "书中定性机制与过程描述",
+      "original": {
+        "type": "user_pdf_excerpt",
+        "text": "淺焙產生香甜、可可和堅果味香氣化合物，它們在接近中焙時變得越來越複雜。單一產地咖啡特別適合採用中焙，因為豆子的地區風味更容易顯現。深焙之後這些特色就會消失了，咖啡呈燒焦、刺鼻味並散發苦中帶酸的調性。",
+        "transcription": "依据原页人工核对，保留繁体原词；仅按段落整理换行。"
+      }
+    },
+    {
+      "id": "PX-003",
+      "title": "咖啡研磨：接触面积与可释放挥发物改变",
+      "ingredientNames": [
+        "咖啡",
+        "咖啡豆",
+        "咖啡粉"
+      ],
+      "methods": [
+        "切碎/破碎",
+        "萃取"
+      ],
+      "before": "整粒烘焙咖啡豆",
+      "after": "研磨后的咖啡粉",
+      "conditions": "书中比较研磨与未研磨；未说明粒径、转速、热量或放置时间。",
+      "mechanism": "研磨增大萃取接触面积；粒度与研磨生热影响萃取和风味。",
+      "summary": "书中指出研磨增大接触面积并提高可用挥发物；均匀粒度有助均匀萃取。",
+      "limitations": "不能从“可用挥发物浓度激增”推导每种分子或最终杯中香气等比上升。",
+      "recordKind": "change",
+      "effects": [
+        {
+          "domain": "chemical",
+          "label": "可释放挥发物",
+          "direction": "increase",
+          "detail": "书中对研磨后可用挥发物的定性描述。"
+        },
+        {
+          "domain": "other",
+          "label": "萃取均匀性",
+          "direction": "conditional",
+          "detail": "取决于研磨粒度分布，未量化。"
+        }
+      ],
+      "source": {
+        "id": "B-PDF-297",
+        "kind": "book",
+        "evidenceIds": [],
+        "pdfPages": [
+          297
+        ],
+        "bookPages": [
+          294
+        ],
+        "title": "食物風味搭配科學 · 咖啡",
+        "journal": null,
+        "year": null,
+        "doi": null,
+        "url": null,
+        "accessScope": "book_page",
+        "extractionScope": "study_summary",
+        "verifiedAt": "2026-10-04",
+        "accessNote": "已核对用户提供 PDF 原页；原文中的定性词及过程边界保留。"
+      },
+      "reportedValues": [],
+      "evidenceLevel": "书中定性机制与过程描述",
+      "original": {
+        "type": "user_pdf_excerpt",
+        "text": "咖啡豆的研磨經常是整體風味經驗當中被忽略的一環。其一，它會增加萃取時的接觸表面積，同時使可用揮發物濃度激增。建議使用磨盤式磨豆機以達到較一致的粒度，使萃取更均勻，不會像砍豆型磨豆機將咖啡粉暴露於高溫下。記住：整個過程中只要生熱都會影響咖啡風味。",
+        "transcription": "依据原页人工核对，保留繁体原词；仅按段落整理换行。"
+      }
+    },
+    {
+      "id": "PX-004",
+      "title": "香草荚生香：烫蒸后高温潮湿处理形成香草分子",
+      "ingredientNames": [
+        "香草",
+        "香草荚"
+      ],
+      "methods": [
+        "汆烫",
+        "蒸制",
+        "温热熟成",
+        "酶促氧化"
+      ],
+      "before": "刚采收的香草荚",
+      "after": "生香处理中的香草荚",
+      "conditions": "先烫或蒸，再在羊毛毯上进行温湿处理；书中无具体温湿度与此阶段时长。",
+      "mechanism": "原文称“发酵”，并明确描述酶反应、组织破坏和氧化；未据此认定为特定微生物发酵。",
+      "summary": "豆荚颜色逐渐变深，发展出香草气味分子；芳香主要与荚内黏稠褐色液体相关。",
+      "limitations": "没有各步骤独立对照和香气浓度曲线。",
+      "recordKind": "change",
+      "effects": [
+        {
+          "domain": "aroma",
+          "label": "香草气味",
+          "direction": "emerge",
+          "detail": "高温潮湿生香阶段逐渐形成。"
+        },
+        {
+          "domain": "color",
+          "label": "颜色",
+          "direction": "change",
+          "detail": "豆荚逐渐变深。"
+        }
+      ],
+      "source": {
+        "id": "B-PDF-57",
+        "kind": "book",
+        "evidenceIds": [],
+        "pdfPages": [
+          57
+        ],
+        "bookPages": [
+          54
+        ],
+        "title": "食物風味搭配科學 · 香草",
+        "journal": null,
+        "year": null,
+        "doi": null,
+        "url": null,
+        "accessScope": "book_page",
+        "extractionScope": "study_summary",
+        "verifiedAt": "2026-10-04",
+        "accessNote": "已核对用户提供 PDF 原页；原文中的定性词及过程边界保留。"
+      },
+      "reportedValues": [],
+      "evidenceLevel": "书中定性机制与过程描述",
+      "original": {
+        "type": "user_pdf_excerpt",
+        "text": "收成的香草莢先燙過或蒸過，然後放在羊毛毯上發酵進行生香處理。這個過程會引發酵素反應，破壞細胞和植物組織，造成氧化發生。在高溫潮濕之下，豆莢的顏色逐漸變深，發展出香草味的分子。不過，香草特有的芬芳並非來自數千顆小小的種子，而是豆莢裡黏稠的褐色液體。",
+        "transcription": "依据原页人工核对，保留繁体原词；仅按段落整理换行。"
+      }
+    },
+    {
+      "id": "PX-005",
+      "title": "香草荚干燥与调理：除水并继续释放香气",
+      "ingredientNames": [
+        "香草",
+        "香草荚"
+      ],
+      "methods": [
+        "干燥",
+        "熟成"
+      ],
+      "before": "生香处理后的香草荚",
+      "after": "干燥并调理后的香草荚",
+      "conditions": "干燥后移入铺防油纸的箱子调理 3–6 个月；其他参数未说明。",
+      "mechanism": "干燥去水，后续调理使香气继续发展。",
+      "summary": "书中描述干燥保留香味、除去多余水分；随后调理至香草味充分释放。",
+      "limitations": "“封住香味”“完全释放”是书中措辞，不表示挥发物完全不损失或达到 100% 释放率。",
+      "recordKind": "change",
+      "effects": [
+        {
+          "domain": "aroma",
+          "label": "香草气味",
+          "direction": "change",
+          "detail": "干燥与调理的保香、生香描述；没有可计算保留率。"
+        },
+        {
+          "domain": "other",
+          "label": "含水量",
+          "direction": "decrease",
+          "detail": "干燥去除多余水分。"
+        }
+      ],
+      "source": {
+        "id": "B-PDF-57",
+        "kind": "book",
+        "evidenceIds": [],
+        "pdfPages": [
+          57
+        ],
+        "bookPages": [
+          54
+        ],
+        "title": "食物風味搭配科學 · 香草",
+        "journal": null,
+        "year": null,
+        "doi": null,
+        "url": null,
+        "accessScope": "book_page",
+        "extractionScope": "study_summary",
+        "verifiedAt": "2026-10-04",
+        "accessNote": "已核对用户提供 PDF 原页；原文中的定性词及过程边界保留。"
+      },
+      "reportedValues": [
+        {
+          "metric": "调理时长",
+          "value": "3–6",
+          "unit": "个月",
+          "context": "干燥之后的箱内调理阶段"
+        }
+      ],
+      "evidenceLevel": "书中定性机制与过程描述",
+      "original": {
+        "type": "user_pdf_excerpt",
+        "text": "下一步，將發酵過的香草莢乾燥以封住香味，除去多餘水分避免腐爛。乾香草莢接著被移至鋪了防油紙的箱子中，「調理」三至六個月，直到香草味完全釋放。",
+        "transcription": "依据原页人工核对，保留繁体原词；仅按段落整理换行。"
+      }
+    },
+    {
+      "id": "PX-006",
+      "title": "茶叶萎凋与揉捻：酶促释放形成花香分子",
+      "ingredientNames": [
+        "茶",
+        "茶叶",
+        "红茶",
+        "乌龙茶"
+      ],
+      "methods": [
+        "萎凋",
+        "切碎/破碎",
+        "酶促氧化"
+      ],
+      "before": "采收后的茶叶",
+      "after": "萎凋、揉捻或挤压后的茶叶",
+      "conditions": "书中未给统一时长、温湿度与破碎程度；不同茶类程序不同。",
+      "mechanism": "组织破坏使酶释放，糖苷水解及类胡萝卜素降解参与生香。",
+      "summary": "形成芳樟醇、苯乙醇、β-紫罗兰酮和β-大马烯酮等香气分子；原苦味酚类参与转化。",
+      "limitations": "书中“发酵”需按上下文理解；此条描述酶促氧化，不能等同微生物发酵或所有茶类的统一工艺。",
+      "recordKind": "change",
+      "effects": [
+        {
+          "domain": "chemical",
+          "label": "香气分子",
+          "direction": "emerge",
+          "detail": "前体经释放与转化形成挥发性分子。"
+        },
+        {
+          "domain": "taste",
+          "label": "苦味",
+          "direction": "change",
+          "detail": "酚类发生转化，书中未报告苦味下降幅度。"
+        }
+      ],
+      "source": {
+        "id": "B-PDF-363",
+        "kind": "book",
+        "evidenceIds": [],
+        "pdfPages": [
+          363
+        ],
+        "bookPages": [
+          360
+        ],
+        "title": "食物風味搭配科學 · 茶",
+        "journal": null,
+        "year": null,
+        "doi": null,
+        "url": null,
+        "accessScope": "book_page",
+        "extractionScope": "study_summary",
+        "verifiedAt": "2026-10-04",
+        "accessNote": "已核对用户提供 PDF 原页；原文中的定性词及过程边界保留。"
+      },
+      "reportedValues": [],
+      "evidenceLevel": "书中定性机制与过程描述",
+      "original": {
+        "type": "user_pdf_excerpt",
+        "text": "類胡蘿蔔素降解僅在萎凋階段氧化黃烷醇存在時發生，形成新的香氣分子像是乙位-紫羅蘭酮和乙位-大馬烯酮。糖苷由與不同香氣分子結合的單糖構成。採收後，茶葉會進行萎凋，接著揉捻或擠壓。被破壞的葉片從植物細胞裡釋出酵素，使糖脫離。這讓可用的分子得以形成新的香氣化合物，像是芳樟醇和苯乙醇。原本具苦味的酚化合物被轉化為複雜飽滿的風味，也就是我們喜愛的茶香。",
+        "transcription": "依据原页人工核对，保留繁体原词；仅按段落整理换行。"
+      }
+    },
+    {
+      "id": "PX-007",
+      "title": "茶叶炒菁：青绿青草调转向烘烤与坚果香",
+      "ingredientNames": [
+        "茶",
+        "茶叶",
+        "龙井茶"
+      ],
+      "methods": [
+        "煎炒",
+        "干燥"
+      ],
+      "before": "新鲜茶叶",
+      "after": "热锅炒菁后的茶叶",
+      "conditions": "龙井热锅手炒情境；原页未给锅温、茶叶温度或炒制时长。",
+      "mechanism": "抑制酶活性，升温时美拉德与氨基酸转化参与生香，同时失水。",
+      "summary": "部分青绿青草香气被烘烤和坚果味分子取代；叶片脱水并变平。",
+      "limitations": "书中概述，不能把所有炒青茶的青草香设为归零。",
+      "recordKind": "change",
+      "effects": [
+        {
+          "domain": "aroma",
+          "label": "青绿气味",
+          "direction": "decrease",
+          "detail": "描述多数青草分子被其他香气取代，不等于完全没有。"
+        },
+        {
+          "domain": "aroma",
+          "label": "烘烤气味",
+          "direction": "emerge",
+          "detail": "书中关联史崔克醛及热反应。"
+        },
+        {
+          "domain": "aroma",
+          "label": "坚果气味",
+          "direction": "emerge",
+          "detail": "书中列举新的坚果香气分子。"
+        },
+        {
+          "domain": "other",
+          "label": "含水量",
+          "direction": "decrease",
+          "detail": "炒制使叶片散失水分。"
+        }
+      ],
+      "source": {
+        "id": "B-PDF-363",
+        "kind": "book",
+        "evidenceIds": [],
+        "pdfPages": [
+          363
+        ],
+        "bookPages": [
+          360
+        ],
+        "title": "食物風味搭配科學 · 茶",
+        "journal": null,
+        "year": null,
+        "doi": null,
+        "url": null,
+        "accessScope": "book_page",
+        "extractionScope": "study_summary",
+        "verifiedAt": "2026-10-04",
+        "accessNote": "已核对用户提供 PDF 原页；原文中的定性词及过程边界保留。"
+      },
+      "reportedValues": [],
+      "evidenceLevel": "书中定性机制与过程描述",
+      "original": {
+        "type": "user_pdf_excerpt",
+        "text": "為了抑制酵素活性，茶葉會進行蒸菁和炒菁。隨著溫度升高，梅納反應發生，新的烘烤和堅果香氣分子像是呋喃、吡嗪、吡啶和吡咯也出現。胺基酸的轉化則產生史崔克醛和其他含硫化合物。最優質的中國龍井茶傳統上以人工在熱鍋裡手炒，直到嫩葉夠乾燥。這種手法使煎茶典型的多數青綠-青草香氣分子被烘烤史崔克醛及堅果味的香豆素所取代。",
+        "transcription": "依据原页人工核对，保留繁体原词；仅按段落整理换行。"
+      }
+    },
+    {
+      "id": "PX-008",
+      "title": "煎茶短时蒸菁：抑制氧化，保留颜色与风味",
+      "ingredientNames": [
+        "茶",
+        "茶叶",
+        "煎茶"
+      ],
+      "methods": [
+        "蒸制"
+      ],
+      "before": "采摘后的嫩茶叶",
+      "after": "短时蒸菁后的煎茶叶",
+      "conditions": "书中先以潮湿空气保持新鲜，再蒸 30 秒至 2 分钟；未报告蒸汽温度。",
+      "mechanism": "蒸菁抑制氧化相关酶活性。",
+      "summary": "书中将短时蒸菁与保留颜色、风味联系起来。",
+      "limitations": "“保留”不是已测量的无显著变化或 100% 保留率，因此按条件性效果保存。",
+      "recordKind": "condition_dependency",
+      "effects": [
+        {
+          "domain": "aroma",
+          "label": "原有风味",
+          "direction": "conditional",
+          "detail": "书中定性保留描述，不是无差异检验。"
+        },
+        {
+          "domain": "color",
+          "label": "颜色",
+          "direction": "conditional",
+          "detail": "以抑制氧化来保持颜色。"
+        }
+      ],
+      "source": {
+        "id": "B-PDF-363",
+        "kind": "book",
+        "evidenceIds": [],
+        "pdfPages": [
+          363
+        ],
+        "bookPages": [
+          360
+        ],
+        "title": "食物風味搭配科學 · 茶",
+        "journal": null,
+        "year": null,
+        "doi": null,
+        "url": null,
+        "accessScope": "book_page",
+        "extractionScope": "study_summary",
+        "verifiedAt": "2026-10-04",
+        "accessNote": "已核对用户提供 PDF 原页；原文中的定性词及过程边界保留。"
+      },
+      "reportedValues": [
+        {
+          "metric": "蒸菁时间",
+          "value": "30 秒–2 分钟",
+          "unit": "原书混合单位",
+          "context": "煎茶短时处理；没有提供蒸汽温度"
+        }
+      ],
+      "evidenceLevel": "书中定性机制与过程描述",
+      "original": {
+        "type": "user_pdf_excerpt",
+        "text": "至於煎茶採摘自茶樹新開的兩三片葉肉，用潮濕空氣吹拂以保持新鮮並減緩氧化。接著短暫蒸三十秒至二分鐘抑制氧化，同時保留顏色和風味。",
+        "transcription": "依据原页人工核对，保留繁体原词；仅按段落整理换行。"
+      }
+    },
+    {
+      "id": "PX-009",
+      "title": "可可干燥与烘烤：形成坚果、烘烤和焦糖等香气",
+      "ingredientNames": [
+        "可可",
+        "可可豆",
+        "巧克力"
+      ],
+      "methods": [
+        "干燥",
+        "烘烤"
+      ],
+      "before": "发酵后的可可豆",
+      "after": "干燥并烘烤后的可可豆",
+      "conditions": "原书合并叙述干燥与烘烤；未拆分各步骤温度、时长或贡献。",
+      "mechanism": "热处理与前体转化产生新的香气分子。",
+      "summary": "形成坚果、烘烤、焦糖、辛辣、花卉及泥土等香气。",
+      "limitations": "各效果属于组合流程，不能声称每个单一步骤均独立造成所有变化。",
+      "recordKind": "change",
+      "effects": [
+        {
+          "domain": "aroma",
+          "label": "坚果气味",
+          "direction": "emerge",
+          "detail": "干燥—烘烤组合流程。"
+        },
+        {
+          "domain": "aroma",
+          "label": "烘烤气味",
+          "direction": "emerge",
+          "detail": "干燥—烘烤组合流程。"
+        },
+        {
+          "domain": "aroma",
+          "label": "焦糖气味",
+          "direction": "emerge",
+          "detail": "香气维度，不能等同甜味。"
+        },
+        {
+          "domain": "aroma",
+          "label": "辛辣气味",
+          "direction": "emerge",
+          "detail": "书中香气描述，非辣痛强度。"
+        },
+        {
+          "domain": "aroma",
+          "label": "花卉气味",
+          "direction": "emerge",
+          "detail": "书中列出的生成香气。"
+        },
+        {
+          "domain": "aroma",
+          "label": "泥土气味",
+          "direction": "emerge",
+          "detail": "书中列出的生成香气。"
+        }
+      ],
+      "source": {
+        "id": "B-PDF-61",
+        "kind": "book",
+        "evidenceIds": [],
+        "pdfPages": [
+          61
+        ],
+        "bookPages": [
+          58
+        ],
+        "title": "食物風味搭配科學 · 巧克力",
+        "journal": null,
+        "year": null,
+        "doi": null,
+        "url": null,
+        "accessScope": "book_page",
+        "extractionScope": "study_summary",
+        "verifiedAt": "2026-10-04",
+        "accessNote": "已核对用户提供 PDF 原页；原文中的定性词及过程边界保留。"
+      },
+      "reportedValues": [],
+      "evidenceLevel": "书中定性机制与过程描述",
+      "original": {
+        "type": "user_pdf_excerpt",
+        "text": "發酵過後的豆子接著進行乾燥和烘烤，產生巧克力令人上癮的堅果、烘烤、焦糖、辛辣、花卉甚至泥土香氣分子。",
+        "transcription": "依据原页人工核对，保留繁体原词；仅按段落整理换行。"
+      }
+    },
+    {
+      "id": "PX-010",
+      "title": "可可干燥或储藏不当：产生腐臭、橡胶与纸板调",
+      "ingredientNames": [
+        "可可",
+        "可可豆"
+      ],
+      "methods": [
+        "干燥",
+        "储藏"
+      ],
+      "before": "待干燥或储藏的可可豆",
+      "after": "处理不当的可可豆",
+      "conditions": "书中未给湿度、温度、氧气与时间阈值。",
+      "mechanism": "原页未给出每种异味的具体形成机制。",
+      "summary": "不当干燥与储藏可能出现腐臭、橡胶或纸板般气味。",
+      "limitations": "不能用此条计算异味发生概率或把所有泥土、化学香气判为缺陷。",
+      "recordKind": "condition_dependency",
+      "effects": [
+        {
+          "domain": "aroma",
+          "label": "异味",
+          "direction": "emerge",
+          "detail": "具体描述为腐臭、橡胶、纸板；须保留各描述词。"
+        }
+      ],
+      "source": {
+        "id": "B-PDF-61",
+        "kind": "book",
+        "evidenceIds": [],
+        "pdfPages": [
+          61
+        ],
+        "bookPages": [
+          58
+        ],
+        "title": "食物風味搭配科學 · 巧克力",
+        "journal": null,
+        "year": null,
+        "doi": null,
+        "url": null,
+        "accessScope": "book_page",
+        "extractionScope": "study_summary",
+        "verifiedAt": "2026-10-04",
+        "accessNote": "已核对用户提供 PDF 原页；原文中的定性词及过程边界保留。"
+      },
+      "reportedValues": [],
+      "evidenceLevel": "书中定性机制与过程描述",
+      "original": {
+        "type": "user_pdf_excerpt",
+        "text": "不當的乾燥和儲藏方式會讓可可豆發出腐臭或橡膠、紙板般的討厭氣味。",
+        "transcription": "依据原页人工核对，保留繁体原词；仅按段落整理换行。"
+      }
+    },
+    {
+      "id": "PX-011",
+      "title": "巧克力精炼：质地滑顺，并改变香气与酸度",
+      "ingredientNames": [
+        "巧克力",
+        "可可",
+        "可可豆"
+      ],
+      "methods": [
+        "精炼",
+        "混合/乳化",
+        "加热"
+      ],
+      "before": "研磨后的巧克力混合物",
+      "after": "加热搅拌精炼后的巧克力",
+      "conditions": "将烘烤豆与可可脂、可可膏、牛奶或奶粉、糖和香草研磨，随后加热搅拌数小时至一周。",
+      "mechanism": "剪切、混合和加热改变质地；温度升高时可出现美拉德相关挥发物。",
+      "summary": "质地变得滑顺绵密；较高温精炼形成额外焦糖、辛辣和乳酪香气，并调和酸度。",
+      "limitations": "不同配方和设备的温度未给出；“调和酸度”不等于 pH 一定上升或酸味必然下降。",
+      "recordKind": "change",
+      "effects": [
+        {
+          "domain": "texture",
+          "label": "滑顺绵密",
+          "direction": "increase",
+          "detail": "书中的质地描述，无仪器数值。"
+        },
+        {
+          "domain": "aroma",
+          "label": "焦糖气味",
+          "direction": "emerge",
+          "detail": "精炼升温情境。"
+        },
+        {
+          "domain": "aroma",
+          "label": "辛辣气味",
+          "direction": "emerge",
+          "detail": "精炼升温情境，非辣痛评分。"
+        },
+        {
+          "domain": "aroma",
+          "label": "乳酪气味",
+          "direction": "emerge",
+          "detail": "精炼升温情境。"
+        },
+        {
+          "domain": "taste",
+          "label": "酸度感受",
+          "direction": "change",
+          "detail": "保留“调和”而不强设增减方向。"
+        }
+      ],
+      "source": {
+        "id": "B-PDF-61",
+        "kind": "book",
+        "evidenceIds": [],
+        "pdfPages": [
+          61
+        ],
+        "bookPages": [
+          58
+        ],
+        "title": "食物風味搭配科學 · 巧克力",
+        "journal": null,
+        "year": null,
+        "doi": null,
+        "url": null,
+        "accessScope": "book_page",
+        "extractionScope": "study_summary",
+        "verifiedAt": "2026-10-04",
+        "accessNote": "已核对用户提供 PDF 原页；原文中的定性词及过程边界保留。"
+      },
+      "reportedValues": [
+        {
+          "metric": "精炼时长",
+          "value": "数小时至一周",
+          "unit": "原书范围",
+          "context": "取决于具体流程；温度未给出"
+        }
+      ],
+      "evidenceLevel": "书中定性机制与过程描述",
+      "original": {
+        "type": "user_pdf_excerpt",
+        "text": "製作巧克力的最後一個階段是「精煉」（conching），將烘烤過的豆子與可可脂、可可膏、牛奶或奶粉、糖和香草一起研磨，再經過數小時至一週不等的加熱和攪拌程序，巧克力就有了滑順、綿密的質地。接著冷卻和定型。若在精煉過程中溫度升高，會產生跟梅納反應相關的其他焦糖、辛辣和乳酪味揮發性化合物。精煉也有助於調和巧克力的酸度。",
+        "transcription": "依据原页人工核对，保留繁体原词；仅按段落整理换行。"
+      }
+    }
+  ],
+  "references": [
+    {
+      "id": "R-COFFEE-2008",
+      "kind": "research",
+      "evidenceIds": [],
+      "pdfPages": [],
+      "bookPages": [],
+      "title": "Coffee Roasting and Aroma Formation: Application of Different Time–Temperature Conditions",
+      "journal": "Journal of Agricultural and Food Chemistry",
+      "year": 2008,
+      "doi": "10.1021/jf800327j",
+      "url": "https://pubs.acs.org/doi/10.1021/jf800327j",
+      "accessScope": "abstract",
+      "extractionScope": "study_summary",
+      "verifiedAt": "2026-10-04",
+      "accessNote": "出版社正文访问受限；本层仅转录已核对的作者摘要层结论。",
+      "alternateUrls": [
+        "https://pubs.acs.org/doi/pdf/10.1021/jf800327j",
+        "https://www.research-collection.ethz.ch/server/api/core/bitstreams/dd361647-056f-4e2c-a68b-e62b0a037364/content"
+      ]
+    },
+    {
+      "id": "R-COCOA-2012",
+      "kind": "research",
+      "evidenceIds": [],
+      "pdfPages": [],
+      "bookPages": [],
+      "title": "Effect of fermentation time and drying temperature on volatile compounds in cocoa",
+      "journal": "Food Chemistry",
+      "year": 2012,
+      "doi": "10.1016/j.foodchem.2011.10.078",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26434291/",
+      "accessScope": "abstract",
+      "extractionScope": "study_summary",
+      "verifiedAt": "2026-10-04",
+      "accessNote": "已核对 PubMed 作者摘要；未将全文逐化合物矩阵录入。",
+      "onlineDate": "2011-10-31"
+    },
+    {
+      "id": "R-TOMATO-2016",
+      "kind": "research",
+      "evidenceIds": [],
+      "pdfPages": [],
+      "bookPages": [],
+      "title": "Chilling-induced tomato flavor loss is associated with altered volatile synthesis and transient changes in DNA methylation",
+      "journal": "PNAS",
+      "year": 2016,
+      "doi": "10.1073/pnas.1613910113",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.1613910113",
+      "accessScope": "full_text",
+      "extractionScope": "study_summary",
+      "verifiedAt": "2026-10-04",
+      "accessNote": "核对结果、图 1 说明和材料方法；未逐项录入补充表。"
+    },
+    {
+      "id": "R-GARLIC-2019",
+      "kind": "research",
+      "evidenceIds": [],
+      "pdfPages": [],
+      "bookPages": [],
+      "title": "Effect of crushing and heating on the formation of volatile organosulfur compounds in garlic",
+      "journal": "CyTA – Journal of Food",
+      "year": 2019,
+      "doi": "10.1080/19476337.2019.1656288",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/19476337.2019.1656288",
+      "accessScope": "full_text",
+      "extractionScope": "study_summary",
+      "verifiedAt": "2026-10-04",
+      "accessNote": "期刊全文网页返回 403；核对出版社 PDF 检索可见正文、表 2 和摘要，未录入整张峰面积矩阵。",
+      "alternateUrls": [
+        "https://www.tandfonline.com/doi/pdf/10.1080/19476337.2019.1656288"
+      ]
+    },
+    {
+      "id": "R-SHIITAKE-2023",
+      "kind": "research",
+      "evidenceIds": [],
+      "pdfPages": [],
+      "bookPages": [],
+      "title": "Effect of Different Cooking Methods on the Bioactive Components, Color, Texture, Microstructure, and Volatiles of Shiitake Mushrooms",
+      "journal": "Foods",
+      "year": 2023,
+      "doi": "10.3390/foods12132573",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10340526/",
+      "accessScope": "full_text",
+      "extractionScope": "study_summary",
+      "verifiedAt": "2026-10-04",
+      "accessNote": "核对原文方法、结果和结论；GC–MS 为相对含量，表 3 逐化合物矩阵尚未录入。",
+      "alternateUrls": [
+        "https://www.mdpi.com/2304-8158/12/13/2573"
+      ]
+    },
+    {
+      "id": "R-COCOA-2025",
+      "kind": "research",
+      "evidenceIds": [],
+      "pdfPages": [],
+      "bookPages": [],
+      "title": "A defined microbial community reproduces attributes of fine flavour chocolate fermentation",
+      "journal": "Nature Microbiology",
+      "year": 2025,
+      "doi": "10.1038/s41564-025-02077-6",
+      "url": "https://www.nature.com/articles/s41564-025-02077-6",
+      "accessScope": "full_text",
+      "extractionScope": "study_summary",
+      "verifiedAt": "2026-10-04",
+      "accessNote": "核对原始全文的合成菌群、体外方法与感官验证；属于 Nature Microbiology，非 Nature 主刊。",
+      "dataUrl": "https://github.com/David-Lee86/min-com-choc"
+    },
+    {
+      "id": "R-COFFEE-2020",
+      "kind": "research",
+      "evidenceIds": [],
+      "pdfPages": [],
+      "bookPages": [],
+      "title": "Brew temperature, at fixed brew strength and extraction, has little impact on the sensory profile of drip brew coffee",
+      "journal": "Scientific Reports",
+      "year": 2020,
+      "doi": "10.1038/s41598-020-73341-4",
+      "url": "https://www.nature.com/articles/s41598-020-73341-4",
+      "accessScope": "full_text",
+      "extractionScope": "study_summary",
+      "verifiedAt": "2026-10-04",
+      "accessNote": "核对摘要、实验设计与结果；是固定 TDS、萃取率和品评温度的条件性结论。"
+    },
+    {
+      "id": "B-PDF-297",
+      "kind": "book",
+      "evidenceIds": [],
+      "pdfPages": [
+        297
+      ],
+      "bookPages": [
+        294
+      ],
+      "title": "食物風味搭配科學 · 咖啡",
+      "journal": null,
+      "year": null,
+      "doi": null,
+      "url": null,
+      "accessScope": "book_page",
+      "extractionScope": "study_summary",
+      "verifiedAt": "2026-10-04",
+      "accessNote": "已核对用户提供 PDF 原页；原文中的定性词及过程边界保留。"
+    },
+    {
+      "id": "B-PDF-57",
+      "kind": "book",
+      "evidenceIds": [],
+      "pdfPages": [
+        57
+      ],
+      "bookPages": [
+        54
+      ],
+      "title": "食物風味搭配科學 · 香草",
+      "journal": null,
+      "year": null,
+      "doi": null,
+      "url": null,
+      "accessScope": "book_page",
+      "extractionScope": "study_summary",
+      "verifiedAt": "2026-10-04",
+      "accessNote": "已核对用户提供 PDF 原页；原文中的定性词及过程边界保留。"
+    },
+    {
+      "id": "B-PDF-363",
+      "kind": "book",
+      "evidenceIds": [],
+      "pdfPages": [
+        363
+      ],
+      "bookPages": [
+        360
+      ],
+      "title": "食物風味搭配科學 · 茶",
+      "journal": null,
+      "year": null,
+      "doi": null,
+      "url": null,
+      "accessScope": "book_page",
+      "extractionScope": "study_summary",
+      "verifiedAt": "2026-10-04",
+      "accessNote": "已核对用户提供 PDF 原页；原文中的定性词及过程边界保留。"
+    },
+    {
+      "id": "B-PDF-61",
+      "kind": "book",
+      "evidenceIds": [],
+      "pdfPages": [
+        61
+      ],
+      "bookPages": [
+        58
+      ],
+      "title": "食物風味搭配科學 · 巧克力",
+      "journal": null,
+      "year": null,
+      "doi": null,
+      "url": null,
+      "accessScope": "book_page",
+      "extractionScope": "study_summary",
+      "verifiedAt": "2026-10-04",
+      "accessNote": "已核对用户提供 PDF 原页；原文中的定性词及过程边界保留。"
+    }
+  ],
+  "notes": [
+    "本文件新增 7 篇研究的研究层摘要，以及用户 PDF 4 个原页的加工段落；不是论文所有原始实验点或全书加工条目的穷尽数据库。",
+    "化学、香气、味觉、质地、颜色与喜欢程度分别保存；统计上的未显著变化与定性保留不同。",
+    "reportedValues 保留研究/书中的条件与指标，不用于自动缩放原圆点表、风味饼图或生成通用烹饪系数。",
+    "同一条记录可以出现多个方法和效果，各索引是交叉入口，不能相加成独立实验数量。",
+    "书中香草与茶的“发酵”保留原词，但按段落机制标注；未给出微生物证据时不推断为微生物发酵。",
+    "原文摘录来自用户已提供 PDF；网络研究仅保存中文事实释义、书目与链接，不存放论文全文。"
+  ]
+}

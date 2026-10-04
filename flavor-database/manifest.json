@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0.0",
+  "built_at_utc": "2026-10-04T16:35:18.035782+00:00",
+  "database": {
+    "path": "flavor.sqlite",
+    "sha256": "1db2c4700ce4e2fc4a05a51885f6efd0c5089be2a3655df9cdb685db296e9a6a",
+    "byte_size": 154898432
+  },
+  "schema": {
+    "path": "schema.sql",
+    "sha256": "024bf2289e811192389b011563d7ea8f9e401f44537eaa122bc33980fe58be7f"
+  },
+  "builder": {
+    "path": "build_database.py",
+    "sha256": "d928da8c337bbd660310c8c01e9912d5b35e2623a581e38b08cc6ed4bc8d3fc2"
+  },
+  "runtime": {
+    "sqlite_version": "3.51.1",
+    "python_stdlib_only": true,
+    "search": {
+      "available": true,
+      "tokenizer": "trigram",
+      "fallback": "LIKE over search_documents.text"
+    }
+  },
+  "counts": {
+    "aroma_categories": 14,
+    "assets": 1475,
+    "attribute_evidence": 253,
+    "book_pages": 392,
+    "descriptor_mentions": 936,
+    "descriptors": 70,
+    "dot_records": 10439,
+    "dot_values": 146146,
+    "evidence_domains": 478,
+    "evidence_links": 1275,
+    "ingredient_aliases": 2634,
+    "ingredients": 1474,
+    "metadata": 23,
+    "pairings": 9490,
+    "processing_audit": 253,
+    "processing_effects": 608,
+    "processing_evidence": 152,
+    "processing_ingredient_names": 264,
+    "processing_links": 1591,
+    "processing_methods": 228,
+    "processing_numbers": 65,
+    "processing_records": 176,
+    "reported_numbers": 24,
+    "search_documents": 2295,
+    "source_snapshots": 19,
+    "source_tables": 949,
+    "sources": 12
+  },
+  "metrics": {
+    "recommendation_ingredients": 1464,
+    "recommendation_pairings": 9269,
+    "restored_pairings": 10,
+    "unknown_presence_cells": 14,
+    "teaching_rows": 11,
+    "processing_method_groups": 55,
+    "processing_effect_groups": 293,
+    "processing_ingredient_groups": 154,
+    "research_studies": 7
+  },
+  "integrity_check": "ok",
+  "foreign_key_violations": 0,
+  "source_snapshots": [
+    {
+      "id": "file:flavor-studio/assets/art-validation.json",
+      "relative_path": "flavor-studio/assets/art-validation.json",
+      "sha256": "6adfe754f5bf3e13d2f554cce25681a32b735b5e2b18445c9c1452b7c7d36af8"
+    },
+    {
+      "id": "file:flavor-studio/assets/contact-sheet-items.json",
+      "relative_path": "flavor-studio/assets/contact-sheet-items.json",
+      "sha256": "b02b840377677a41667988df2cc341b8fc21f630edd0602d8cca1f016f1a07e9"
+    },
+    {
+      "id": "file:flavor-studio/assets/generated/generation-record.json",
+      "relative_path": "flavor-studio/assets/generated/generation-record.json",
+      "sha256": "f7c67f588be54a6033666617d69bd6c6dd0ab7d62fd7154290950e3be1daae16"
+    },
+    {
+      "id": "asset-manifest",
+      "relative_path": "flavor-studio/assets/manifest.json",
+      "sha256": "9dd6d686604926b12afdde71795d8d859f522c6bfb15c51cfa46ec8ff2ad7769"
+    },
+    {
+      "id": "catalog",
+      "relative_path": "flavor-studio/data/catalog.json",
+      "sha256": "1ecb99ba5919d8d4acb58026b8e0bf2e873a1751d20b0c16eed583b7cb9e0f88"
+    },
+    {
+      "id": "file:flavor-studio/data/catalog_summary.json",
+      "relative_path": "flavor-studio/data/catalog_summary.json",
+      "sha256": "1a8cd68f0c9913b97cbf150fbdd0e5c43fdef168d08ccd4c171d31a7a703ca28"
+    },
+    {
+      "id": "file:flavor-studio/data/catalog_validation.json",
+      "relative_path": "flavor-studio/data/catalog_validation.json",
+      "sha256": "11b252f500c25e1a13b7cc2294da7aeb68ffbbdbb9cc1dfe92917da5daad2023"
+    },
+    {
+      "id": "file:flavor-studio/data/conflicts.json",
+      "relative_path": "flavor-studio/data/conflicts.json",
+      "sha256": "885076b26b0db75ad5da6e514190dd6c2743956a1109f6cbe395814958ed5b72"
+    },
+    {
+      "id": "evidence-full",
+      "relative_path": "flavor-studio/data/evidence-full.json",
+      "sha256": "53d06d7d2e1ea3b9d4d75f8a2740970ae8c2ef13def5df434d0b980a07540a07"
+    },
+    {
+      "id": "file:flavor-studio/data/name-corrections-second-half.json",
+      "relative_path": "flavor-studio/data/name-corrections-second-half.json",
+      "sha256": "4e4c889b5a2eb5ec3e660a0f0b41793e45e3221149a2f5f044aaa6f777b40827"
+    },
+    {
+      "id": "file:flavor-studio/data/name-display-corrections.json",
+      "relative_path": "flavor-studio/data/name-display-corrections.json",
+      "sha256": "e19d68315913650ef7101613f9a21add945e84feb15c996ab11482b5e436388c"
+    },
+    {
+      "id": "file:flavor-studio/data/name-review-needed.json",
+      "relative_path": "flavor-studio/data/name-review-needed.json",
+      "sha256": "da20f395e59d83d51a7748b616332c5ff44d712fa102c46b19972a4d3de19219"
+    },
+    {
+      "id": "file:flavor-studio/data/names.json",
+      "relative_path": "flavor-studio/data/names.json",
+      "sha256": "04991c16129b7c331dc406c53301b366d96e614cf036608363f3f63c9290d133"
+    },
+    {
+      "id": "processing-book",
+      "relative_path": "flavor-studio/data/processing-book.json",
+      "sha256": "cc7f1922aa129474effc740632de1cff0b660119eac04e7c3dce2ac09e5864dd"
+    },
+    {
+      "id": "processing-research",
+      "relative_path": "flavor-studio/data/processing-research.json",
+      "sha256": "224daa226de2fbfc7c4743672a51a0a60b848ee641f4423aed52a58d3b8aee5f"
+    },
+    {
+      "id": "processing",
+      "relative_path": "flavor-studio/data/processing.json",
+      "sha256": "90107e0919cb33d4eb317ace83220f7b000db1e8ea742d35a7df6059c3ff8da4"
+    },
+    {
+      "id": "attribute-source",
+      "relative_path": "output/flavor/食材风味属性_结构化数据.json",
+      "sha256": "83d83f4d9ff47199c83a6b1cfaf2246b32642f5a6ee8f78d885a7e6e18adf245"
+    },
+    {
+      "id": "dot-source",
+      "relative_path": "outputs/01a0f6ce-570d-7c33-92d8-cba7e50ca147/食材圆点表_本地整理数据.json",
+      "sha256": "fae71fdb234e1d7201bf1ecf9fb26e7dd6d0518a401299ec96c3268a675ee7ff"
+    },
+    {
+      "id": "book-pages",
+      "relative_path": "tmp/pdfs/flavor_source/pages.json",
+      "sha256": "8f790fc1e173be6053bfba98c499fb514c3c94488b66183c18ba95096df3c272"
+    }
+  ],
+  "original_pdf": {
+    "relative_path": "食物風味搭配科學 ( etc.) (Z-Library).pdf",
+    "sha256": "c6643cf0281fc17e2aa334a6c8bab78148da2302e6f367e0f1a61aa5440f26f6",
+    "embedded": false
+  },
+  "scope": "当前工作台数据的无损数据库版本；全书未穷尽提取，论文保存研究摘要与条件而非全部原始实验点。",
+  "asset_policy": "1474个原本地SVG插画加1张ImageGen草莓PNG；不是1474张照片；非感官测量。",
+  "read_only": "Agents should open using URI mode=ro. Database contains no user recipe storage or UI localStorage."
+}

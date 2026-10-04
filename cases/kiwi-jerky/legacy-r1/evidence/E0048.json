@@ -1,0 +1,176 @@
+{
+  "id": "E0048",
+  "original": {
+    "ingredient": "紅椒粉",
+    "state": "成熟甜椒经干燥磨粉",
+    "pdf_page": 109,
+    "book_page": 106,
+    "attribute_type": "state_change",
+    "attributes": [
+      "焦糖",
+      "枫糖",
+      "紫罗兰",
+      "蜂蜜",
+      "酸",
+      "乳酪"
+    ],
+    "relation_or_value": {
+      "from": "鲜甜椒",
+      "to": "红椒粉",
+      "decreases": [
+        "典型甜椒吡嗪"
+      ],
+      "increases": [
+        "焦糖",
+        "枫糖",
+        "紫罗兰",
+        "蜂蜜"
+      ]
+    },
+    "evidence_mode": "text",
+    "note": "烟熏还依具体红椒粉种类，不能赋给全部红椒粉。",
+    "evidence_id": "E0048",
+    "source": "食物風味搭配科學，2021 年繁體中文版",
+    "verification": "书中证据提取；代表页已目视核对；未独立验证科学结论"
+  },
+  "ingredientName": "紅椒粉",
+  "state": "成熟甜椒经干燥磨粉",
+  "displayIngredient": "红椒粉",
+  "displayState": "成熟甜椒经干燥磨粉",
+  "searchText": "{\n  \"ingredient\": \"紅椒粉\",\n  \"state\": \"成熟甜椒经干燥磨粉\",\n  \"pdf_page\": 109,\n  \"book_page\": 106,\n  \"attribute_type\": \"state_change\",\n  \"attributes\": [\n    \"焦糖\",\n    \"枫糖\",\n    \"紫罗兰\",\n    \"蜂蜜\",\n    \"酸\",\n    \"乳酪\"\n  ],\n  \"relation_or_value\": {\n    \"from\": \"鲜甜椒\",\n    \"to\": \"红椒粉\",\n    \"decreases\": [\n      \"典型甜椒吡嗪\"\n    ],\n    \"increases\": [\n      \"焦糖\",\n      \"枫糖\",\n      \"紫罗兰\",\n      \"蜂蜜\"\n    ]\n  },\n  \"evidence_mode\": \"text\",\n  \"note\": \"烟熏还依具体红椒粉种类，不能赋给全部红椒粉。\",\n  \"evidence_id\": \"E0048\",\n  \"source\": \"食物風味搭配科學，2021 年繁體中文版\",\n  \"verification\": \"书中证据提取；代表页已目视核对；未独立验证科学结论\"\n}\n{\n  \"ingredient\": \"红椒粉\",\n  \"state\": \"成熟甜椒经干燥磨粉\",\n  \"pdf_page\": 109,\n  \"book_page\": 106,\n  \"attribute_type\": \"state_change\",\n  \"attributes\": [\n    \"焦糖\",\n    \"枫糖\",\n    \"紫罗兰\",\n    \"蜂蜜\",\n    \"酸\",\n    \"乳酪\"\n  ],\n  \"relation_or_value\": {\n    \"from\": \"鲜甜椒\",\n    \"to\": \"红椒粉\",\n    \"decreases\": [\n      \"典型甜椒吡嗪\"\n    ],\n    \"increases\": [\n      \"焦糖\",\n      \"枫糖\",\n      \"紫罗兰\",\n      \"蜂蜜\"\n    ]\n  },\n  \"evidence_mode\": \"text\",\n  \"note\": \"烟熏还依具体红椒粉种类，不能赋给全部红椒粉。\",\n  \"evidence_id\": \"E0048\",\n  \"source\": \"食物风味搭配科学，2021 年繁体中文版\",\n  \"verification\": \"书中证据提取；代表页已目视核对；未独立验证科学结论\"\n}",
+  "links": [
+    {
+      "ingredientId": "ing-19f9ae6722e8",
+      "kind": "related_context",
+      "reason": "名称存在子串或上下位文字关系，未认定为同一食材",
+      "nameMatchBasis": "substring_or_state_mention",
+      "matchedAliases": [
+        "甜紅椒粉",
+        "甜红椒粉"
+      ],
+      "contextScope": {
+        "status": "related_only",
+        "sourceState": "成熟甜椒经干燥磨粉",
+        "quantitativeTransferAllowed": false
+      },
+      "quantitativeTransferAllowed": false
+    },
+    {
+      "ingredientId": "ing-caa0589cc5be",
+      "kind": "related_context",
+      "reason": "原始食材名称完全一致；目标名称未编码证据状态：干燥、成熟",
+      "nameMatchBasis": "exact_name",
+      "matchedAliases": [
+        "紅椒粉",
+        "红椒粉"
+      ],
+      "contextScope": {
+        "status": "requires_context_review",
+        "reasons": [
+          "目标名称未编码证据状态：干燥、成熟"
+        ],
+        "sourceState": "成熟甜椒经干燥磨粉",
+        "sourceIngredient": "紅椒粉",
+        "targetDisplayName": "红椒粉",
+        "quantitativeTransferAllowed": false,
+        "note": "即使名称相同，也必须保留原文的品种、部位、加工、分母和测定语境；此索引不授权转移数值。"
+      },
+      "quantitativeTransferAllowed": false
+    }
+  ],
+  "domains": [
+    "compound",
+    "process"
+  ],
+  "domainBasis": {
+    "basis": "attribute_type_and_text_mentions_for_navigation_only",
+    "sourceAttributeType": "state_change",
+    "note": "主题标签只说明原文涉及该领域，不将否定、比较、例子或条件叙述转换为属性存在事实。"
+  },
+  "descriptorMentions": [
+    {
+      "descriptorId": "floral_03",
+      "descriptor": "蜂蜜",
+      "category": "花卉",
+      "fieldPaths": [
+        "attributes[3]",
+        "relation_or_value.increases[3]"
+      ],
+      "interpretation": "text_mention_only"
+    },
+    {
+      "descriptorId": "floral_05",
+      "descriptor": "紫羅蘭",
+      "category": "花卉",
+      "fieldPaths": [
+        "attributes[2]",
+        "relation_or_value.increases[2]"
+      ],
+      "interpretation": "text_mention_only"
+    },
+    {
+      "descriptorId": "vegetable_01",
+      "descriptor": "甜椒",
+      "category": "蔬菜",
+      "fieldPaths": [
+        "state",
+        "relation_or_value.from",
+        "relation_or_value.decreases[0]"
+      ],
+      "interpretation": "text_mention_only"
+    },
+    {
+      "descriptorId": "caramel_01",
+      "descriptor": "焦糖",
+      "category": "焦糖",
+      "fieldPaths": [
+        "attributes[0]",
+        "relation_or_value.increases[0]"
+      ],
+      "interpretation": "text_mention_only"
+    },
+    {
+      "descriptorId": "caramel_02",
+      "descriptor": "楓糖",
+      "category": "焦糖",
+      "fieldPaths": [
+        "attributes[1]",
+        "relation_or_value.increases[1]"
+      ],
+      "interpretation": "text_mention_only"
+    },
+    {
+      "descriptorId": "woody_04",
+      "descriptor": "煙燻",
+      "category": "木質",
+      "fieldPaths": [
+        "note"
+      ],
+      "interpretation": "text_mention_only"
+    },
+    {
+      "descriptorId": "cheesy_01",
+      "descriptor": "酸",
+      "category": "乳酪",
+      "fieldPaths": [
+        "attributes[4]"
+      ],
+      "interpretation": "text_mention_only"
+    },
+    {
+      "descriptorId": "cheesy_03",
+      "descriptor": "乳酪",
+      "category": "乳酪",
+      "fieldPaths": [
+        "attributes[5]"
+      ],
+      "interpretation": "text_mention_only"
+    }
+  ],
+  "mentionPolicy": "检索命中只表示提及，包含否定、对比、例子和条件，不表示该属性存在。",
+  "sourceRef": {
+    "pdfPage": 109,
+    "bookPage": 106,
+    "evidenceId": "E0048"
+  }
+}

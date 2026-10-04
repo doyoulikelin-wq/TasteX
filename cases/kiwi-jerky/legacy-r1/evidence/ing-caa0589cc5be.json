@@ -1,0 +1,803 @@
+{
+  "ingredient": {
+    "id": "ing-caa0589cc5be",
+    "name": "紅椒粉",
+    "displayName": "红椒粉",
+    "aliases": [
+      "紅椒粉",
+      "红椒粉"
+    ],
+    "searchText": "紅椒粉 红椒粉 紅椒粉 红椒粉",
+    "visualFamily": "spice",
+    "visualFamilyLabel": "香辛料",
+    "visualFamilyBasis": "specific_name_keywords_before_generic_words; navigation/art inference only; uses canonical reviewed name when available",
+    "image": "assets/ingredients/ing-caa0589cc5be.svg",
+    "presence": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "canonical": {
+      "presence": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "recordId": "p201_t01_r05",
+      "selectionReason": "most_frequent_exact_source_vector",
+      "sourceRef": {
+        "tableId": "p201_t01",
+        "rowId": "p201_t01_r05",
+        "pdfPage": 201,
+        "bookPage": 198
+      },
+      "reviewStatus": "machine_reconstructed",
+      "sourceName": "紅椒粉",
+      "displayName": "红椒粉",
+      "nameReviewStatus": "source_OCR_not_letter_by_letter_reviewed"
+    },
+    "sourceRef": {
+      "tableId": "p201_t01",
+      "rowId": "p201_t01_r05",
+      "pdfPage": 201,
+      "bookPage": 198
+    },
+    "variantCount": 2,
+    "conflictCategories": [
+      "蔬菜"
+    ],
+    "conflictCategoryIndices": [
+      5
+    ],
+    "unknownCategories": [],
+    "unknownCategoryIndices": [],
+    "anyRecordUnknownCategories": [],
+    "recordCount": 2,
+    "sourceRecordCount": 2,
+    "mainRecordCount": 0,
+    "records": [
+      {
+        "id": "p201_t01_r05",
+        "tableId": "p201_t01",
+        "pdfPage": 201,
+        "bookPage": 198,
+        "role": "pairing",
+        "name": "紅椒粉",
+        "rawName": "紅椒粉",
+        "displayName": "红椒粉",
+        "presence": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "sharedWithMain": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "mainIngredientId": "ing-9ddac4c4f0c3",
+        "reviewStatus": "machine_reconstructed",
+        "nameReviewStatus": "source_OCR_not_letter_by_letter_reviewed",
+        "originalNameReviewStatus": "source_OCR_not_letter_by_letter_reviewed",
+        "nameNeedsReview": false,
+        "identityEligible": true,
+        "sourceRef": {
+          "tableId": "p201_t01",
+          "rowId": "p201_t01_r05",
+          "pdfPage": 201,
+          "bookPage": 198
+        },
+        "isExample": false
+      },
+      {
+        "id": "p335_t03_r10",
+        "tableId": "p335_t03",
+        "pdfPage": 335,
+        "bookPage": 332,
+        "role": "pairing",
+        "name": "紅椒粉",
+        "rawName": "紅椒粉",
+        "displayName": "红椒粉",
+        "presence": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "sharedWithMain": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "mainIngredientId": "ing-b3026894ba1a",
+        "reviewStatus": "machine_reconstructed",
+        "nameReviewStatus": "source_OCR_not_letter_by_letter_reviewed",
+        "originalNameReviewStatus": "source_OCR_not_letter_by_letter_reviewed",
+        "nameNeedsReview": false,
+        "identityEligible": true,
+        "sourceRef": {
+          "tableId": "p335_t03",
+          "rowId": "p335_t03_r10",
+          "pdfPage": 335,
+          "bookPage": 332
+        },
+        "isExample": false
+      }
+    ],
+    "nameVisuallyReviewed": false,
+    "nameNeedsReview": false,
+    "canonicalNameVisuallyReviewed": false,
+    "allSameNameRecordsReviewed": false,
+    "remainingUnreviewedSuspectNameRecords": 0,
+    "nameReviewReasons": [],
+    "exampleOnly": false,
+    "recommendationEligible": true
+  },
+  "profile": {
+    "ingredient_id": "ing-caa0589cc5be",
+    "original_name": "紅椒粉",
+    "display_name": "红椒粉",
+    "include_examples": false,
+    "source_record_count": 2,
+    "record_count": 2,
+    "excluded_example_ids": [],
+    "source_record_ids": [
+      "p201_t01_r05",
+      "p335_t03_r10"
+    ],
+    "variant_count": 2,
+    "variants": [
+      {
+        "presence": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "source_record_ids": [
+          "p201_t01_r05"
+        ],
+        "source_refs": [
+          {
+            "table_id": "p201_t01",
+            "record_id": "p201_t01_r05",
+            "pdf_page": 201,
+            "book_page": 198
+          }
+        ],
+        "record_count": 1
+      },
+      {
+        "presence": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "source_record_ids": [
+          "p335_t03_r10"
+        ],
+        "source_refs": [
+          {
+            "table_id": "p335_t03",
+            "record_id": "p335_t03_r10",
+            "pdf_page": 335,
+            "book_page": 332
+          }
+        ],
+        "record_count": 1
+      }
+    ],
+    "categories": [
+      {
+        "category_index": 0,
+        "source_name": "水果",
+        "display_name": "水果",
+        "marked_count": 2,
+        "unmarked_count": 0,
+        "unknown_count": 0,
+        "record_count": 2,
+        "status": "marked",
+        "has_unknown": false,
+        "marked_source_ids": [
+          "p201_t01_r05",
+          "p335_t03_r10"
+        ],
+        "unmarked_source_ids": [],
+        "unknown_source_ids": []
+      },
+      {
+        "category_index": 1,
+        "source_name": "柑橘",
+        "display_name": "柑橘",
+        "marked_count": 2,
+        "unmarked_count": 0,
+        "unknown_count": 0,
+        "record_count": 2,
+        "status": "marked",
+        "has_unknown": false,
+        "marked_source_ids": [
+          "p201_t01_r05",
+          "p335_t03_r10"
+        ],
+        "unmarked_source_ids": [],
+        "unknown_source_ids": []
+      },
+      {
+        "category_index": 2,
+        "source_name": "花卉",
+        "display_name": "花卉",
+        "marked_count": 2,
+        "unmarked_count": 0,
+        "unknown_count": 0,
+        "record_count": 2,
+        "status": "marked",
+        "has_unknown": false,
+        "marked_source_ids": [
+          "p201_t01_r05",
+          "p335_t03_r10"
+        ],
+        "unmarked_source_ids": [],
+        "unknown_source_ids": []
+      },
+      {
+        "category_index": 3,
+        "source_name": "青綠",
+        "display_name": "青绿",
+        "marked_count": 2,
+        "unmarked_count": 0,
+        "unknown_count": 0,
+        "record_count": 2,
+        "status": "marked",
+        "has_unknown": false,
+        "marked_source_ids": [
+          "p201_t01_r05",
+          "p335_t03_r10"
+        ],
+        "unmarked_source_ids": [],
+        "unknown_source_ids": []
+      },
+      {
+        "category_index": 4,
+        "source_name": "草本",
+        "display_name": "草本",
+        "marked_count": 0,
+        "unmarked_count": 2,
+        "unknown_count": 0,
+        "record_count": 2,
+        "status": "unmarked",
+        "has_unknown": false,
+        "marked_source_ids": [],
+        "unmarked_source_ids": [
+          "p201_t01_r05",
+          "p335_t03_r10"
+        ],
+        "unknown_source_ids": []
+      },
+      {
+        "category_index": 5,
+        "source_name": "蔬菜",
+        "display_name": "蔬菜",
+        "marked_count": 1,
+        "unmarked_count": 1,
+        "unknown_count": 0,
+        "record_count": 2,
+        "status": "conflict",
+        "has_unknown": false,
+        "marked_source_ids": [
+          "p335_t03_r10"
+        ],
+        "unmarked_source_ids": [
+          "p201_t01_r05"
+        ],
+        "unknown_source_ids": []
+      },
+      {
+        "category_index": 6,
+        "source_name": "焦糖",
+        "display_name": "焦糖",
+        "marked_count": 2,
+        "unmarked_count": 0,
+        "unknown_count": 0,
+        "record_count": 2,
+        "status": "marked",
+        "has_unknown": false,
+        "marked_source_ids": [
+          "p201_t01_r05",
+          "p335_t03_r10"
+        ],
+        "unmarked_source_ids": [],
+        "unknown_source_ids": []
+      },
+      {
+        "category_index": 7,
+        "source_name": "烘烤",
+        "display_name": "烘烤",
+        "marked_count": 2,
+        "unmarked_count": 0,
+        "unknown_count": 0,
+        "record_count": 2,
+        "status": "marked",
+        "has_unknown": false,
+        "marked_source_ids": [
+          "p201_t01_r05",
+          "p335_t03_r10"
+        ],
+        "unmarked_source_ids": [],
+        "unknown_source_ids": []
+      },
+      {
+        "category_index": 8,
+        "source_name": "堅果",
+        "display_name": "坚果",
+        "marked_count": 0,
+        "unmarked_count": 2,
+        "unknown_count": 0,
+        "record_count": 2,
+        "status": "unmarked",
+        "has_unknown": false,
+        "marked_source_ids": [],
+        "unmarked_source_ids": [
+          "p201_t01_r05",
+          "p335_t03_r10"
+        ],
+        "unknown_source_ids": []
+      },
+      {
+        "category_index": 9,
+        "source_name": "木質",
+        "display_name": "木质",
+        "marked_count": 2,
+        "unmarked_count": 0,
+        "unknown_count": 0,
+        "record_count": 2,
+        "status": "marked",
+        "has_unknown": false,
+        "marked_source_ids": [
+          "p201_t01_r05",
+          "p335_t03_r10"
+        ],
+        "unmarked_source_ids": [],
+        "unknown_source_ids": []
+      },
+      {
+        "category_index": 10,
+        "source_name": "辛辣",
+        "display_name": "辛辣",
+        "marked_count": 2,
+        "unmarked_count": 0,
+        "unknown_count": 0,
+        "record_count": 2,
+        "status": "marked",
+        "has_unknown": false,
+        "marked_source_ids": [
+          "p201_t01_r05",
+          "p335_t03_r10"
+        ],
+        "unmarked_source_ids": [],
+        "unknown_source_ids": []
+      },
+      {
+        "category_index": 11,
+        "source_name": "乳酪",
+        "display_name": "乳酪",
+        "marked_count": 2,
+        "unmarked_count": 0,
+        "unknown_count": 0,
+        "record_count": 2,
+        "status": "marked",
+        "has_unknown": false,
+        "marked_source_ids": [
+          "p201_t01_r05",
+          "p335_t03_r10"
+        ],
+        "unmarked_source_ids": [],
+        "unknown_source_ids": []
+      },
+      {
+        "category_index": 12,
+        "source_name": "動物",
+        "display_name": "动物",
+        "marked_count": 0,
+        "unmarked_count": 2,
+        "unknown_count": 0,
+        "record_count": 2,
+        "status": "unmarked",
+        "has_unknown": false,
+        "marked_source_ids": [],
+        "unmarked_source_ids": [
+          "p201_t01_r05",
+          "p335_t03_r10"
+        ],
+        "unknown_source_ids": []
+      },
+      {
+        "category_index": 13,
+        "source_name": "化學",
+        "display_name": "化学",
+        "marked_count": 0,
+        "unmarked_count": 2,
+        "unknown_count": 0,
+        "record_count": 2,
+        "status": "unmarked",
+        "has_unknown": false,
+        "marked_source_ids": [],
+        "unmarked_source_ids": [
+          "p201_t01_r05",
+          "p335_t03_r10"
+        ],
+        "unknown_source_ids": []
+      }
+    ],
+    "source_records": [
+      {
+        "id": "p201_t01_r05",
+        "tableId": "p201_t01",
+        "pdfPage": 201,
+        "bookPage": 198,
+        "role": "pairing",
+        "name": "紅椒粉",
+        "rawName": "紅椒粉",
+        "displayName": "红椒粉",
+        "presence": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "sharedWithMain": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "mainIngredientId": "ing-9ddac4c4f0c3",
+        "reviewStatus": "machine_reconstructed",
+        "nameReviewStatus": "source_OCR_not_letter_by_letter_reviewed",
+        "originalNameReviewStatus": "source_OCR_not_letter_by_letter_reviewed",
+        "nameNeedsReview": false,
+        "identityEligible": true,
+        "sourceRef": {
+          "tableId": "p201_t01",
+          "rowId": "p201_t01_r05",
+          "pdfPage": 201,
+          "bookPage": 198
+        },
+        "isExample": false
+      },
+      {
+        "id": "p335_t03_r10",
+        "tableId": "p335_t03",
+        "pdfPage": 335,
+        "bookPage": 332,
+        "role": "pairing",
+        "name": "紅椒粉",
+        "rawName": "紅椒粉",
+        "displayName": "红椒粉",
+        "presence": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "sharedWithMain": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "mainIngredientId": "ing-b3026894ba1a",
+        "reviewStatus": "machine_reconstructed",
+        "nameReviewStatus": "source_OCR_not_letter_by_letter_reviewed",
+        "originalNameReviewStatus": "source_OCR_not_letter_by_letter_reviewed",
+        "nameNeedsReview": false,
+        "identityEligible": true,
+        "sourceRef": {
+          "tableId": "p335_t03",
+          "rowId": "p335_t03_r10",
+          "pdfPage": 335,
+          "bookPage": 332
+        },
+        "isExample": false
+      }
+    ],
+    "basis": "all_selected_source_rows_without_canonical_fallback",
+    "semantics": "Source dots encode source markings only: 1=marked, 0=unmarked, null=unknown. They are not concentration, sensory intensity, chemical absence, preference, or a recipe outcome. Large dots/shared_with_main apply only to that source table's ingredient pair. Name/context links do not authorize transferring measurements or process effects."
+  },
+  "evidence_links": [
+    {
+      "evidence": {
+        "id": "E0048",
+        "ingredient_name": "紅椒粉",
+        "display_ingredient": "红椒粉",
+        "state": "成熟甜椒经干燥磨粉",
+        "attribute_type": "state_change",
+        "pdf_page": 109,
+        "book_page": 106
+      },
+      "link": {
+        "ingredientId": "ing-caa0589cc5be",
+        "kind": "related_context",
+        "reason": "原始食材名称完全一致；目标名称未编码证据状态：干燥、成熟",
+        "nameMatchBasis": "exact_name",
+        "matchedAliases": [
+          "紅椒粉",
+          "红椒粉"
+        ],
+        "contextScope": {
+          "status": "requires_context_review",
+          "reasons": [
+            "目标名称未编码证据状态：干燥、成熟"
+          ],
+          "sourceState": "成熟甜椒经干燥磨粉",
+          "sourceIngredient": "紅椒粉",
+          "targetDisplayName": "红椒粉",
+          "quantitativeTransferAllowed": false,
+          "note": "即使名称相同，也必须保留原文的品种、部位、加工、分母和测定语境；此索引不授权转移数值。"
+        },
+        "quantitativeTransferAllowed": false
+      }
+    },
+    {
+      "evidence": {
+        "id": "E0190",
+        "ingredient_name": "西班牙喬利佐香腸",
+        "display_ingredient": "西班牙乔利佐香肠",
+        "state": "煙燻紅椒粉與發酵製品",
+        "attribute_type": "compound_class_aroma",
+        "pdf_page": 290,
+        "book_page": 287
+      },
+      "link": {
+        "ingredientId": "ing-caa0589cc5be",
+        "kind": "related_context",
+        "reason": "名称在条件/比较状态中被提及，未认定为原属性主体",
+        "nameMatchBasis": "substring_or_state_mention",
+        "matchedAliases": [
+          "紅椒粉",
+          "红椒粉"
+        ],
+        "contextScope": {
+          "status": "related_only",
+          "sourceState": "煙燻紅椒粉與發酵製品",
+          "quantitativeTransferAllowed": false
+        },
+        "quantitativeTransferAllowed": false
+      }
+    }
+  ],
+  "processing_links": [
+    {
+      "processing": {
+        "id": "PB-E0048",
+        "title": "红椒粉 · 干燥磨粉红椒粉",
+        "record_kind": "change",
+        "source_kind": "book"
+      },
+      "link": {
+        "ingredientId": "ing-caa0589cc5be",
+        "kind": "related_context",
+        "reason": "原始食材名称完全一致；目标名称未编码证据状态：干燥、成熟",
+        "nameMatchBasis": "exact_name",
+        "matchedAliases": [
+          "紅椒粉",
+          "红椒粉"
+        ],
+        "contextScope": {
+          "status": "requires_context_review",
+          "reasons": [
+            "目标名称未编码证据状态：干燥、成熟"
+          ],
+          "sourceState": "成熟甜椒经干燥磨粉",
+          "sourceIngredient": "紅椒粉",
+          "targetDisplayName": "红椒粉",
+          "quantitativeTransferAllowed": false,
+          "note": "即使名称相同，也必须保留原文的品种、部位、加工、分母和测定语境；此索引不授权转移数值。"
+        },
+        "quantitativeTransferAllowed": false,
+        "sourceEvidenceId": "E0048"
+      }
+    },
+    {
+      "processing": {
+        "id": "PB-E0048",
+        "title": "红椒粉 · 干燥磨粉红椒粉",
+        "record_kind": "change",
+        "source_kind": "book"
+      },
+      "link": {
+        "ingredientId": "ing-caa0589cc5be",
+        "kind": "exact_name",
+        "reason": "食材原名或显示名称完全匹配（仅简繁及字符形式规范）；加工条件仍须逐条核对",
+        "matchedName": "红椒粉",
+        "nameMatchBasis": "exact_original_or_display_name",
+        "quantitativeTransferAllowed": false
+      }
+    },
+    {
+      "processing": {
+        "id": "PB-E0190",
+        "title": "西班牙乔利佐香肠 · 西班牙乔利佐香肠",
+        "record_kind": "condition_dependency",
+        "source_kind": "book"
+      },
+      "link": {
+        "ingredientId": "ing-caa0589cc5be",
+        "kind": "related_context",
+        "reason": "名称在条件/比较状态中被提及，未认定为原属性主体",
+        "nameMatchBasis": "substring_or_state_mention",
+        "matchedAliases": [
+          "紅椒粉",
+          "红椒粉"
+        ],
+        "contextScope": {
+          "status": "related_only",
+          "sourceState": "煙燻紅椒粉與發酵製品",
+          "quantitativeTransferAllowed": false
+        },
+        "quantitativeTransferAllowed": false,
+        "sourceEvidenceId": "E0190"
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "ing-caa0589cc5be",
+      "ingredient_id": "ing-caa0589cc5be",
+      "relative_path": "flavor-studio/assets/ingredients/ing-caa0589cc5be.svg",
+      "status": "illustrated",
+      "sha256": "7bbbdc5713210a4a454cac73dab5e28165f7ab15c4330d3e4c8e2e915e7e5734",
+      "mime_type": "image/svg+xml",
+      "byte_size": 30202,
+      "width": 480,
+      "height": 480,
+      "source_metadata": {
+        "id": "ing-caa0589cc5be",
+        "rawName": "紅椒粉",
+        "displayName": "红椒粉",
+        "status": "illustrated",
+        "motif": "powder",
+        "style": "original_native_svg_editorial_botanical_v1",
+        "source": "Original procedural SVG drawing, created locally; no external images.",
+        "identityBasis": "catalog displayName; nameNeedsReview gates identifiable food depictions",
+        "isPhotograph": false,
+        "isSensoryMeasurement": false,
+        "cultivarExactness": "stylized representation; not verified botanical reference",
+        "preparationHints": [
+          "粉"
+        ],
+        "path": "assets/ingredients/ing-caa0589cc5be.svg",
+        "width": 480,
+        "height": 480,
+        "bytes": 30202,
+        "sha256": "7bbbdc5713210a4a454cac73dab5e28165f7ab15c4330d3e4c8e2e915e7e5734"
+      }
+    }
+  ],
+  "semantics": "Source dots encode source markings only: 1=marked, 0=unmarked, null=unknown. They are not concentration, sensory intensity, chemical absence, preference, or a recipe outcome. Large dots/shared_with_main apply only to that source table's ingredient pair. Name/context links do not authorize transferring measurements or process effects."
+}

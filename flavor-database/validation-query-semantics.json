@@ -1,0 +1,18 @@
+{
+  "suite": "public API source semantics and portability",
+  "tests_run": 8,
+  "failures": 0,
+  "errors": 0,
+  "success": true,
+  "checks": [
+    "test_01_every_ingredient_profile_preserves_all_variants",
+    "test_02_full_evidence_and_processing_are_unchanged",
+    "test_03_every_effect_group_jointly_matches_one_effect",
+    "test_04_every_method_and_ingredient_name_group",
+    "test_05_all_stable_identity_link_kinds_remain_separate",
+    "test_06_three_indexes_count_distinct_records_within_filtered_population",
+    "test_07_same_display_names_never_merge_in_search",
+    "test_08_portable_database_and_module_work_without_sources"
+  ],
+  "database_sha256": "1db2c4700ce4e2fc4a05a51885f6efd0c5089be2a3655df9cdb685db296e9a6a"
+}

@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "case_id": "TRANSFER-SYNTHETIC-001",
+  "revision": "fixture-v1",
+  "request_text": "synthetic_spec_not_recipe_not_tasted：草莓/柠檬与酸奶基质的软件迁移测试。仅检验新基质、新键、新剂量和模板不会继承猕猴桃肉干设置，不提供可食用配方。",
+  "product": {
+    "name": "草莓酸奶迁移测试夹具（非配方）",
+    "matrix": "synthetic_yogurt_fixture",
+    "development_stage": "synthetic_spec_not_recipe_not_tasted",
+    "intended_use": "仅软件回归，不执行制作或试吃",
+    "storage_requirement": null
+  },
+  "targets": [
+    {
+      "dimension": "strawberry_identity",
+      "intent": "检验非猕猴桃感官维度模板",
+      "reference": null,
+      "acceptance": null
+    },
+    {
+      "dimension": "sourness",
+      "intent": "检验独立维度保留空值",
+      "reference": null,
+      "acceptance": null
+    }
+  ],
+  "constraints": [
+    {
+      "id": "software-only",
+      "kind": "hard",
+      "text": "所有剂量只是软件测试输入，不是推荐，不记录为真实经验。",
+      "status": "confirmed"
+    }
+  ],
+  "ingredients": [
+    {
+      "key": "yogurt",
+      "label": "牛奶优格（测试材料）",
+      "query": "牛奶优格",
+      "requested_state": "未采购原味牛奶优格测试占位",
+      "role": "base",
+      "reference_id": "ing-6815b1bac023",
+      "identity_relation": "unresolved"
+    },
+    {
+      "key": "strawberry",
+      "label": "草莓粉（测试材料）",
+      "query": "草莓",
+      "requested_state": "草莓粉测试占位",
+      "role": "flavor_factor",
+      "reference_id": "ing-c76f6a79f6db",
+      "identity_relation": "different_state"
+    },
+    {
+      "key": "lemon",
+      "label": "柠檬汁（测试材料）",
+      "query": "柠檬汁",
+      "requested_state": "未采购柠檬汁测试占位",
+      "role": "second_factor",
+      "reference_id": "ing-6f483bcea699",
+      "identity_relation": "unresolved"
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "not-a-recipe",
+      "text": "以下克数由软件测试独立设定；没有从肉干或原书推导。",
+      "status": "confirmed",
+      "consequence": "不得将运行成功解释为配方可行、风味成功或食品处理建议。"
+    }
+  ],
+  "routes": [
+    {
+      "id": "synthetic-yogurt-fixture",
+      "title": "软件组合测试",
+      "status": "selected_for_screening",
+      "rationale": "测试harness处理不同基质、无水常量、不同剂量与不同评分维度。",
+      "advantages": [
+        "可发现硬编码食材名、质量比例和感官维度。"
+      ],
+      "limitations": [
+        "没有实际材料或任何感官验证。"
+      ],
+      "evidence_refs": [],
+      "parameters": [
+        {
+          "name": "levels",
+          "value": "independently_defined_test_values",
+          "unit": "g/test basis",
+          "origin": "hypothesis",
+          "basis": "软件夹具，不是肉干配方迁移。"
+        }
+      ]
+    }
+  ],
+  "design": {
+    "basis_g": 200,
+    "base_key": "yogurt",
+    "sample_base_g": 25,
+    "factors": [
+      {
+        "key": "strawberry",
+        "levels_g": [
+          0,
+          0.8
+        ],
+        "origin": "hypothesis",
+        "rationale": "软件覆盖值，不用于制样。"
+      },
+      {
+        "key": "lemon",
+        "levels_g": [
+          0,
+          0.4
+        ],
+        "origin": "hypothesis",
+        "rationale": "软件覆盖值，不用于制样。"
+      }
+    ],
+    "constants": [],
+    "native_control": false,
+    "planned_batches": 2,
+    "seed": 17,
+    "wait_minutes": 0,
+    "dimensions": [
+      "strawberry_identity",
+      "sourness",
+      "overall_fit"
+    ],
+    "preparation_notes": [
+      "仅测试质量换算、完整因子、未知值与复现；禁止作为试吃结果写入正式经验库。"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "tests": 12,
+  "testNames": [
+    "effects retain domain and direction boundaries, including emergence and null effects",
+    "multi-membership indexes deduplicate each source record within a group",
+    "all index views and selection use the same filtered population",
+    "ingredient context retains all link kinds without multiplying records",
+    "unknown measurements remain null and indexes never mutate source records",
+    "every merged source record retains every original field exactly",
+    "the processing audit covers all 253 original evidence records once",
+    "all processing records carry conditions, provenance, complete effects and safe links",
+    "real three-way indexes account for each association without dropping records",
+    "research null-effect results and temperatures remain searchable without fabrication",
+    "the complete original attribute and dot objects still match their source files",
+    "coverage metrics are source counts and not association sums"
+  ],
+  "metrics": {
+    "records": 176,
+    "sourceRecords": 176,
+    "bookRecords": 163,
+    "researchRecords": 13,
+    "bookOriginalEvidenceUsed": 147,
+    "bookSupplementCount": 11,
+    "researchStudyCount": 7,
+    "originalAuditCount": 253,
+    "methodGroups": 55,
+    "effectGroups": 293,
+    "ingredientGroups": 154
+  },
+  "sourceRecordsPreserved": true,
+  "audit253Complete": true,
+  "allIngredientLinksForbidQuantitativeTransfer": true,
+  "originalAttributeSourceUnchanged": true,
+  "originalAttributeSourceSha256": "148a790a1bd83a73b9d4cf2f41fcbd4764a81b062507b8fad2b4a0045ee5e688",
+  "originalDotSourceUnchanged": true,
+  "originalDotSourceSha256": "94835e357f3b1e208b85a60901070664a15e5f70cf49f74074d96d1283726cfc"
+}

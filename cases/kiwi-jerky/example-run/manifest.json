@@ -1,0 +1,32 @@
+{
+  "artifacts": {
+    "aliases.json": "d1fcbddc5ed3ef9508c76e218264b48be80670ac049c76daf43842cdd6a81325",
+    "brief.json": "a9a1d2de8e907a1de2790feaf18da9c60c2a78491e0c8c56ade979e20655a51f",
+    "design.json": "ed6cdc757fbb9618abedaaffc54b72c538004b19e7cfcd00ecab759f04447527",
+    "events.jsonl": "b3527aa08d009269cade1d6bd6876fd0e6295d6d915e604216eb48ea3d467b49",
+    "evidence.json": "68ed416c4fbdffbec39bc8e2f005a4c6a91115b9f8b2413fdf01af242b3f6a14",
+    "observation-template.json": "ddc9f1d1c5403ccab9f684811e22d70331cdebe6419fd5a48f0ee0b9e7f614da",
+    "report.md": "340da9dc2530e71fa12ea34965e5aa7b2c69860d00f0c86d7e6751546fb62c4f",
+    "tasting-sheet.md": "7244ea0db61bf813a959b3ea261e85c28f267febffb6cbb2d7f12af09ae55e5e",
+    "validation.json": "eb61aa4682f3dfdf07eef3c850fc553224035f96cd4bef306b515cd6a6a7bcb4"
+  },
+  "brief_sha256": "a9a1d2de8e907a1de2790feaf18da9c60c2a78491e0c8c56ade979e20655a51f",
+  "case_id": "KJ-001",
+  "claims": {
+    "sensory_validated": false,
+    "shelf_life_validated": false
+  },
+  "config_sha256": "d1fcbddc5ed3ef9508c76e218264b48be80670ac049c76daf43842cdd6a81325",
+  "database_sha256": "1db2c4700ce4e2fc4a05a51885f6efd0c5089be2a3655df9cdb685db296e9a6a",
+  "input_paths": {
+    "aliases": "aliases.json",
+    "brief": "brief.json",
+    "database": "flavor-database/flavor.sqlite"
+  },
+  "revision": "R2",
+  "run_id": "run-33a8e8e2396889dc9fc101a0",
+  "schema_version": "1.0",
+  "status": "awaiting_real_observations",
+  "workflow_fingerprint": "fefc8b76d7e69489a366e606618e5e9010a851f05bafb876660a6fda8a5b6a71",
+  "workflow_version": "0.1.0"
+}

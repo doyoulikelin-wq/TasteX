@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f5ef">
+  <meta name="description" content="从食材香气出发，寻找替代原料，构想新的风味组合。每一个灵感都可以查看搭配依据。">
+  <title>风味创作室 · Flavour Atelier</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="data/data.js"></script>
+  <script defer src="data/art-meta.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body data-mode="target">
+  <a class="skip-link" href="#studio">跳到风味工作台</a>
+  <div class="app-shell">
+    <header class="site-header">
+      <a class="brand" href="#studio" aria-label="风味创作室首页">
+        <span class="brand-symbol" aria-hidden="true">f<span>·</span>a</span>
+        <span class="brand-copy"><span class="brand-en">FLAVOUR ATELIER</span><span class="brand-cn">风味创作室</span></span>
+      </a>
+      <div class="header-right">
+        <span class="library-status"><i aria-hidden="true"></i> <span id="ingredientTotal">食材香气图谱</span></span>
+        <button id="savedButton" class="source-button saved-button" type="button" aria-haspopup="dialog" aria-controls="savedRecipesDialog"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M5 3h10v14l-5-3-5 3z" stroke="currentColor" stroke-width="1.2"/></svg>我的灵感</button>
+        <button id="sourceButton" class="source-button" type="button" aria-haspopup="dialog" aria-controls="sourceDialog">数据与方法 <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M6 14 14 6M6 6h8v8" stroke="currentColor" stroke-width="1.35"/></svg></button>
+      </div>
+    </header>
+
+    <main id="studio">
+      <section class="intro" aria-labelledby="pageTitle">
+        <div class="intro-copy"><div class="eyebrow"><span class="short-rule"></span> AN EXPLORATION OF FLAVOUR</div><h1 id="pageTitle">让风味，<em>有迹可循。</em></h1><p>从一个想法、一种食材，开始下一次风味实验。</p></div>
+        <div class="intro-note"><img class="intro-fruit" src="assets/generated/strawberry-editorial.png" width="116" height="116" alt="草莓的植物学风格插画"><p>找到值得尝试的组合<br><span>用实际品尝，完成最后一步。</span></p></div>
+      </section>
+
+      <nav class="mode-tabs" aria-label="选择创作方式">
+        <button id="modeTarget" class="mode-tab is-active" data-mode="target" type="button" aria-pressed="true"><span class="mode-number">01</span><span class="mode-label">按目标找原料<small>我想要一种风味</small></span><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg></button>
+        <button id="modeReplace" class="mode-tab" data-mode="replace" type="button" aria-pressed="false"><span class="mode-number">02</span><span class="mode-label">替换一种食材<small>换个角度，保留灵感</small></span><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 8h15m-4-4 4 4-4 4M20 16H5m4-4-4 4 4 4"/></svg></button>
+        <button id="modeCompose" class="mode-tab" data-mode="compose" type="button" aria-pressed="false"><span class="mode-number">03</span><span class="mode-label">组合新配方<small>让食材发生新的联结</small></span><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="8" cy="9" r="5"/><circle cx="16" cy="9" r="5"/><circle cx="12" cy="16" r="5"/></svg></button>
+      </nav>
+
+      <div class="workspace">
+        <div class="discovery-column">
+          <section class="control-panel panel" aria-labelledby="modeTitle">
+            <div class="section-heading"><div><div class="eyebrow">YOUR STARTING POINT</div><h2 id="modeTitle">你想寻找什么风味？</h2></div><span class="section-index" aria-hidden="true">01—03</span></div>
+            <p id="modeDescription" class="section-description">选择感兴趣的香气方向，探索有依据的原料候选。</p>
+
+            <div id="targetControls" class="mode-controls">
+              <div class="control-label-row"><label id="targetLabel">目标香气</label><span class="control-hint">可多选</span></div>
+              <div id="targetCategories" class="aroma-chips" role="group" aria-labelledby="targetLabel"></div>
+            </div>
+            <div id="replaceControls" class="mode-controls" hidden><p class="inline-hint">选中要替换的食材，按香气标示寻找近似原料。品种和加工状态会保留在名称中。</p><label class="toggle-control" for="crossFamilyToggle"><span><strong>探索跨类别替代</strong><small>让谷物、果蔬与香料带来新的可能</small></span><input id="crossFamilyToggle" type="checkbox" role="switch"><i class="toggle-track" aria-hidden="true"></i></label><div id="replacementProfile" class="replacement-profile"></div></div>
+            <div id="composeControls" class="mode-controls" hidden><p class="inline-hint">先选一种主食材，再加入你想探索的搭配。组合建议会标明已有依据和待试验部分。</p></div>
+
+            <div class="search-field-group">
+              <div class="control-label-row"><label for="ingredientSearch" id="searchLabel">从一种食材出发</label><span class="control-hint" id="searchHint">搜索食材库</span></div>
+              <div class="search-wrap">
+                <svg class="search-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+                <input id="ingredientSearch" type="search" placeholder="例如：草莓、罗勒、烤杏仁" autocomplete="off" role="combobox" aria-autocomplete="list" aria-controls="searchResults" aria-expanded="false" aria-describedby="searchHint">
+                <kbd class="search-key" aria-hidden="true">⌕</kbd>
+                <div id="searchPopover" class="search-popover" hidden><div class="popover-caption"><span>食材与加工状态</span><span>点击选择</span></div><div id="searchResults" class="search-results" role="listbox" aria-label="食材搜索结果"></div></div>
+              </div>
+              <div id="selectedIngredients" class="selected-ingredients" aria-label="已选食材" aria-live="polite"></div>
+            </div>
+
+            <div class="control-actions"><button id="suggestButton" class="button button-primary" type="button"><span id="suggestButtonLabel">寻找风味灵感</span><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 10h13m-5-5 5 5-5 5"/></svg></button><button id="resetButton" class="button button-quiet" type="button">重置</button></div>
+          </section>
+
+          <section class="candidates-section" aria-labelledby="candidateHeading">
+            <div class="candidate-heading"><div><div class="eyebrow">THE INGREDIENT EDIT</div><h2 id="candidateHeading">值得探索的食材 <span id="candidateCount" class="count-badge"></span></h2></div><button id="shuffleButton" class="text-button" type="button"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M15.5 7a6 6 0 1 0 .3 5M15.5 3.5V7H12"/></svg>换一组</button></div>
+            <div class="candidate-filter-row"><p id="candidateSummary" class="candidate-summary">依香气标示与原书搭配信息排序。</p><label class="filter-label" for="categoryFilter"><span class="sr-only">筛选食材类别</span><select id="categoryFilter"><option value="all">全部食材</option></select></label></div>
+            <div id="candidateGrid" class="candidate-grid" aria-live="polite"><div class="loading-card"><span class="loading-orbit" aria-hidden="true"></span><p>正在展开食材图谱…</p></div></div>
+            <div id="candidatePagination" class="candidate-pagination"></div>
+          </section>
+        </div>
+
+        <div class="creation-column">
+          <section class="recipe-panel panel" aria-labelledby="recipeTitle">
+            <div class="recipe-heading"><span id="recipeEyebrow" class="eyebrow">A FLAVOUR IN THE MAKING</span><span id="recipeStatus" class="status-tag"><span aria-hidden="true"></span>探索草案</span></div>
+            <h2 id="recipeTitle">从草莓开始，<br>想象下一种可能。</h2>
+            <p id="recipeDescription" class="recipe-description">选择食材，观察香气之间的联系，把一个想法变成可试做的方向。</p>
+            <div class="recipe-name-field"><label for="recipeName">给这份灵感起个名字</label><input id="recipeName" type="text" maxlength="64" placeholder="例如：草莓的烘烤回声" autocomplete="off"></div>
+            <div id="recipeIngredients" class="recipe-ingredients" aria-label="当前风味组合"><div class="recipe-empty"><span class="empty-symbol" aria-hidden="true">＋</span><p>你的食材将在这里相遇</p></div></div>
+            <div id="recipeMeta" class="recipe-meta"><span class="micro-label">标示覆盖用于探索；克数用于记录试做配方，不代表风味强度。</span></div>
+          </section>
+
+          <section class="profile-panel panel" aria-labelledby="profileTitle">
+            <div class="profile-heading"><div><div class="eyebrow">AROMA LANDSCAPE</div><h2 id="profileTitle">香气轮廓</h2></div><div class="chart-heading-controls"><span class="chart-unit">香气标示覆盖</span><div id="chartTabs" class="chart-tabs" role="group" aria-label="图表形式"><button type="button" data-chart="bars" class="is-active" aria-pressed="true" title="查看各类标示覆盖"><svg viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M3 4h10M3 9h7M3 14h12"/></svg><span>分布</span></button><button type="button" data-chart="donut" aria-pressed="false" title="查看各类标示次数构成"><svg viewBox="0 0 18 18" fill="none" aria-hidden="true"><circle cx="9" cy="9" r="5.5"/><path d="M9 3.5V9l4 4"/></svg><span>圆环</span></button></div></div></div>
+            <div id="aromaChart" class="aroma-chart" role="img" aria-label="所选食材的十四类香气标示图"></div>
+            <div id="chartLegend" class="chart-legend"></div>
+            <p id="profileNote" class="chart-note">图中展示原书标示的香气类别；覆盖更多类别，不代表强度更高或搭配更好。</p>
+          </section>
+
+          <section class="evidence-panel panel" aria-labelledby="evidenceTitle">
+            <div class="evidence-heading"><div><div class="eyebrow">WHY THIS COMBINATION</div><h2 id="evidenceTitle">搭配的线索</h2></div><span class="evidence-stamp" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M5 4h10l4 4v12H5zM14 4v5h5M8 13h8M8 16h5"/></svg></span></div>
+            <div id="evidenceList" class="evidence-list"><p class="empty-evidence">选择食材后，可以在这里查看对应的香气与配对依据。</p></div>
+            <div class="recipe-footer"><p><span class="tiny-star" aria-hidden="true">✳</span> 作为试做起点，保持好奇。</p><button id="saveRecipeButton" class="button button-outline" type="button"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v9m-3-3 3 3 3-3M4 13v4h12v-4"/></svg>保存灵感</button></div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer"><span class="footer-brand">FLAVOUR ATELIER</span><p>一点依据，一点想象，一次新的尝试。</p><span class="footer-edition">THE INGREDIENT COLLECTION · 01</span></footer>
+  </div>
+
+  <dialog id="sourceDialog" class="source-dialog" aria-labelledby="sourceDialogTitle">
+    <form method="dialog" id="sourceDialogForm"><button id="sourceDialogClose" class="dialog-close" type="submit" aria-label="关闭数据与方法"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></form>
+    <div id="sourceDialogContent"><h2 id="sourceDialogTitle">数据与来源</h2></div>
+  </dialog>
+  <dialog id="savedRecipesDialog" class="source-dialog saved-dialog" aria-labelledby="savedRecipesTitle"><form method="dialog"><button id="savedRecipesClose" class="dialog-close" type="submit" aria-label="关闭我的灵感"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></form><div class="eyebrow">YOUR FLAVOUR NOTEBOOK</div><h2 id="savedRecipesTitle">把灵感，<br>留给下一次试做。</h2><p class="saved-note">配方保存在当前浏览器中。也可以导出，留下自己的风味笔记。</p><div id="savedRecipesList" class="saved-recipes-list"><div class="empty-state"><h3>第一份灵感，等你落笔。</h3><p>在工作台选择食材并保存，它就会出现在这里。</p></div></div></dialog>
+  <dialog id="exportDialog" class="source-dialog export-dialog" aria-labelledby="exportTitle"><form method="dialog"><button class="dialog-close" type="submit" aria-label="关闭提案导出">×</button></form><p class="eyebrow">TAKE YOUR IDEA WITH YOU</p><h2 id="exportTitle">带走这份灵感。</h2><p class="source-note">食材、试做克数和来源依据，一起保存。</p><textarea id="exportText" readonly aria-label="配方提案 JSON"></textarea><div class="control-actions"><button id="downloadExportButton" class="button button-primary" type="button">下载提案</button><button id="copyExportButton" class="button button-quiet" type="button">复制内容</button></div></dialog>
+  <a class="mobile-proposal-jump" href="#recipeTitle">查看风味提案 <span>↗</span></a>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

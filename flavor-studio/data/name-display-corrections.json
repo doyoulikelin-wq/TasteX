@@ -1,0 +1,2661 @@
+{
+  "corrections": [
+    {
+      "id": "ing-f26348b706a9",
+      "recordId": "p289_t01_r00",
+      "originalName": "(喬利佐香腸抹醬)",
+      "sourceRef": {
+        "tableId": "p289_t01",
+        "rowId": "p289_t01_r00",
+        "pdfPage": 289,
+        "bookPage": 286
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_000_p289_t01_r00.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p289_t01.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 0,
+      "correctedName": "索布拉薩達（喬利佐香腸抹醬）",
+      "note": "主食材名在源图分两行：「索布拉薩達」及「（喬利佐香腸抹醬）」。原OCR只保留第二行；已看整页及主行两行，不改变食材向量。",
+      "reviewStatus": "source_text_corrected",
+      "additionalSourceImagesViewed": [
+        "/Users/linlin/Desktop/IACDTT/tmp/flavor_name_review/page_289.png"
+      ]
+    },
+    {
+      "id": "ing-ef1e36d8a669",
+      "recordId": "p342_t01_r04",
+      "originalName": "丁烘烤小牛肉",
+      "sourceRef": {
+        "tableId": "p342_t01",
+        "rowId": "p342_t01_r04",
+        "pdfPage": 342,
+        "bookPage": 339
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_002_p342_t01_r04.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p342_t01.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 2,
+      "correctedName": "烘烤小牛肉",
+      "note": "目标行字样为「烘烤小牛肉」；左侧「丁」属于邻近版面混入字符，不在此行名区域内。",
+      "reviewStatus": "source_text_corrected",
+      "additionalSourceImagesViewed": [
+        "/Users/linlin/Desktop/IACDTT/tmp/flavor_name_review/page_342.png",
+        "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p342_t01.png"
+      ]
+    },
+    {
+      "id": "ing-f84fb4d4868b",
+      "recordId": "p085_t02_r05",
+      "originalName": "乾嚎菇",
+      "sourceRef": {
+        "tableId": "p085_t02",
+        "rowId": "p085_t02_r05",
+        "pdfPage": 85,
+        "bookPage": 82
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_003_p085_t02_r05.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p085_t02.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 3,
+      "correctedName": "乾蠔菇",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-207691262b13",
+      "recordId": "p213_t05_r00",
+      "originalName": "乾壊菇",
+      "sourceRef": {
+        "tableId": "p213_t05",
+        "rowId": "p213_t05_r00",
+        "pdfPage": 213,
+        "bookPage": 210
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_004_p213_t05_r00.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p213_t05.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 4,
+      "correctedName": "乾蠔菇",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-18cc8da28477",
+      "recordId": "p086_t01_r09",
+      "originalName": "乾小槩",
+      "sourceRef": {
+        "tableId": "p086_t01",
+        "rowId": "p086_t01_r09",
+        "pdfPage": 86,
+        "bookPage": 83
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_005_p086_t01_r09.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p086_t01.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 5,
+      "correctedName": "乾小檗",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-87eb344212c3",
+      "recordId": "p122_t06_r00",
+      "originalName": "乾小樂",
+      "sourceRef": {
+        "tableId": "p122_t06",
+        "rowId": "p122_t06_r00",
+        "pdfPage": 122,
+        "bookPage": 119
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_006_p122_t06_r00.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p122_t06.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 6,
+      "correctedName": "乾小檗",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-a03f952c7bde",
+      "recordId": "p126_t01_r10",
+      "originalName": "乾小薬",
+      "sourceRef": {
+        "tableId": "p126_t01",
+        "rowId": "p126_t01_r10",
+        "pdfPage": 126,
+        "bookPage": 123
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_007_p126_t01_r10.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p126_t01.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 7,
+      "correctedName": "乾小檗",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-ee2f34a50365",
+      "recordId": "p085_t02_r04",
+      "originalName": "乾小藥",
+      "sourceRef": {
+        "tableId": "p085_t02",
+        "rowId": "p085_t02_r04",
+        "pdfPage": 85,
+        "bookPage": 82
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_008_p085_t02_r04.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p085_t02.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 8,
+      "correctedName": "乾小檗",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-834a57fc29f2",
+      "recordId": "p207_t06_r00",
+      "originalName": "乾枝葉",
+      "sourceRef": {
+        "tableId": "p207_t06",
+        "rowId": "p207_t06_r00",
+        "pdfPage": 207,
+        "bookPage": 204
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_009_p207_t06_r00.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p207_t06.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 9,
+      "correctedName": "乾桉葉",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-2985e6e13882",
+      "recordId": "p055_t02_r08",
+      "originalName": "乾校葉",
+      "sourceRef": {
+        "tableId": "p055_t02",
+        "rowId": "p055_t02_r08",
+        "pdfPage": 55,
+        "bookPage": 52
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_010_p055_t02_r08.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p055_t02.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 10,
+      "correctedName": "乾桉葉",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-6be947258ce5",
+      "recordId": "p129_t05_r10",
+      "originalName": "乾螺菇",
+      "sourceRef": {
+        "tableId": "p129_t05",
+        "rowId": "p129_t05_r10",
+        "pdfPage": 129,
+        "bookPage": 126
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_011_p129_t05_r10.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p129_t05.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 11,
+      "correctedName": "乾蠔菇",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-7fb0608a5740",
+      "recordId": "p145_t02_r05",
+      "originalName": "則能鳥肉",
+      "sourceRef": {
+        "tableId": "p145_t02",
+        "rowId": "p145_t02_r05",
+        "pdfPage": 145,
+        "bookPage": 142
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_013_p145_t02_r05.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p145_t02.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 13,
+      "correctedName": "煎鴕鳥肉",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-ec78c84206fc",
+      "recordId": "p258_t01_r03",
+      "originalName": "則餅",
+      "sourceRef": {
+        "tableId": "p258_t01",
+        "rowId": "p258_t01_r03",
+        "pdfPage": 258,
+        "bookPage": 255
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_014_p258_t01_r03.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p258_t01.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 14,
+      "correctedName": "煎餅",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-84671380db34",
+      "recordId": "p263_t01_r04",
+      "originalName": "則駝鳥肉",
+      "sourceRef": {
+        "tableId": "p263_t01",
+        "rowId": "p263_t01_r04",
+        "pdfPage": 263,
+        "bookPage": 260
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_015_p263_t01_r04.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p263_t01.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 15,
+      "correctedName": "煎鴕鳥肉",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-0e43381e9ebb",
+      "recordId": "p179_t04_r00",
+      "originalName": "助眼牛排",
+      "sourceRef": {
+        "tableId": "p179_t04",
+        "rowId": "p179_t04_r00",
+        "pdfPage": 179,
+        "bookPage": 176
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_016_p179_t04_r00.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p179_t04.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 16,
+      "correctedName": "肋眼牛排",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-62b039193522",
+      "recordId": "p098_t05_r03",
+      "originalName": "同鳩它鳥肉",
+      "sourceRef": {
+        "tableId": "p098_t05",
+        "rowId": "p098_t05_r03",
+        "pdfPage": 98,
+        "bookPage": 95
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_017_p098_t05_r03.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p098_t05.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 17,
+      "correctedName": "煎鴕鳥肉",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-3dc06afd9c10",
+      "recordId": "p240_t05_r07",
+      "originalName": "味酥",
+      "sourceRef": {
+        "tableId": "p240_t05",
+        "rowId": "p240_t05_r07",
+        "pdfPage": 240,
+        "bookPage": 237
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_018_p240_t05_r07.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p240_t05.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 18,
+      "correctedName": "味醂",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-55abf20eb2af",
+      "recordId": "p171_t01_r01",
+      "originalName": "味酬",
+      "sourceRef": {
+        "tableId": "p171_t01",
+        "rowId": "p171_t01_r01",
+        "pdfPage": 171,
+        "bookPage": 168
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_019_p171_t01_r01.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p171_t01.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 19,
+      "correctedName": "味醂",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-ce8ebcbebc8c",
+      "recordId": "p059_t03_r01",
+      "originalName": "味酬日本甜米酒",
+      "sourceRef": {
+        "tableId": "p059_t03",
+        "rowId": "p059_t03_r01",
+        "pdfPage": 59,
+        "bookPage": 56
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_020_p059_t03_r01.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p059_t03.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 20,
+      "correctedName": "味醂（日本甜米酒）",
+      "note": "源图括号与「日本甜米酒」完整可见，按源图保留括号。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-9676b931e723",
+      "recordId": "p354_t02_r09",
+      "originalName": "味醋",
+      "sourceRef": {
+        "tableId": "p354_t02",
+        "rowId": "p354_t02_r09",
+        "pdfPage": 354,
+        "bookPage": 351
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_021_p354_t02_r09.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p354_t02.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 21,
+      "correctedName": "味醂",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-1d0e03f6a7ec",
+      "recordId": "p369_t01_r06",
+      "originalName": "味醐",
+      "sourceRef": {
+        "tableId": "p369_t01",
+        "rowId": "p369_t01_r06",
+        "pdfPage": 369,
+        "bookPage": 366
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_022_p369_t01_r06.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p369_t01.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 22,
+      "correctedName": "味醂",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-961959c43a77",
+      "recordId": "p046_t03_r03",
+      "originalName": "味醐日本甜米酒",
+      "sourceRef": {
+        "tableId": "p046_t03",
+        "rowId": "p046_t03_r03",
+        "pdfPage": 46,
+        "bookPage": 43
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_023_p046_t03_r03.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p046_t03.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 23,
+      "correctedName": "味醂（日本甜米酒）",
+      "note": "源图括号与「日本甜米酒」完整可见，按源图保留括号。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-367bf59bac7d",
+      "recordId": "p218_t02_r01",
+      "originalName": "味醜",
+      "sourceRef": {
+        "tableId": "p218_t02",
+        "rowId": "p218_t02_r01",
+        "pdfPage": 218,
+        "bookPage": 215
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_024_p218_t02_r01.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p218_t02.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 24,
+      "correctedName": "味醂",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-4fa2c311415a",
+      "recordId": "p059_t01_r04",
+      "originalName": "嚎油",
+      "sourceRef": {
+        "tableId": "p059_t01",
+        "rowId": "p059_t01_r04",
+        "pdfPage": 59,
+        "bookPage": 56
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_025_p059_t01_r04.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p059_t01.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 25,
+      "correctedName": "蠔油",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-3ef660b6ce29",
+      "recordId": "p196_t06_r02",
+      "originalName": "嚎菇",
+      "sourceRef": {
+        "tableId": "p196_t06",
+        "rowId": "p196_t06_r02",
+        "pdfPage": 196,
+        "bookPage": 193
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_026_p196_t06_r02.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p196_t06.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 26,
+      "correctedName": "蠔菇",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-e273e83b37cf",
+      "recordId": "p278_t02_r07",
+      "originalName": "圖葉當歸葉",
+      "sourceRef": {
+        "tableId": "p278_t02",
+        "rowId": "p278_t02_r07",
+        "pdfPage": 278,
+        "bookPage": 275
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_027_p278_t02_r07.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p278_t02.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 27,
+      "correctedName": "圓葉當歸葉",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-d0a77f9d5546",
+      "recordId": "p154_t02_r03",
+      "originalName": "墓香花",
+      "sourceRef": {
+        "tableId": "p154_t02",
+        "rowId": "p154_t02_r03",
+        "pdfPage": 154,
+        "bookPage": 151
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_028_p154_t02_r03.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p154_t02.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 28,
+      "correctedName": "藿香花",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-0cd0336e7ce2",
+      "recordId": "p292_t06_r05",
+      "originalName": "奶油菖苣",
+      "sourceRef": {
+        "tableId": "p292_t06",
+        "rowId": "p292_t06_r05",
+        "pdfPage": 292,
+        "bookPage": 289
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_029_p292_t06_r05.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p292_t06.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 29,
+      "correctedName": "奶油萵苣",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-6842a69ac5a4",
+      "recordId": "p286_t03_r00",
+      "originalName": "奶油萬苣",
+      "sourceRef": {
+        "tableId": "p286_t03",
+        "rowId": "p286_t03_r00",
+        "pdfPage": 286,
+        "bookPage": 283
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_030_p286_t03_r00.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p286_t03.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 30,
+      "correctedName": "奶油萵苣",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-8e1a8c1390d4",
+      "recordId": "p213_t01_r02",
+      "originalName": "奶油蒿苣",
+      "sourceRef": {
+        "tableId": "p213_t01",
+        "rowId": "p213_t01_r02",
+        "pdfPage": 213,
+        "bookPage": 210
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_031_p213_t01_r02.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p213_t01.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 31,
+      "correctedName": "奶油萵苣",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-ce49624b2865",
+      "recordId": "p324_t02_r04",
+      "originalName": "奶油髙苣",
+      "sourceRef": {
+        "tableId": "p324_t02",
+        "rowId": "p324_t02_r04",
+        "pdfPage": 324,
+        "bookPage": 321
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_032_p324_t02_r04.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p324_t02.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 32,
+      "correctedName": "奶油萵苣",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-2c528f41d923",
+      "recordId": "p282_t06_r06",
+      "originalName": "奶油黄苣",
+      "sourceRef": {
+        "tableId": "p282_t06",
+        "rowId": "p282_t06_r06",
+        "pdfPage": 282,
+        "bookPage": 279
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_033_p282_t06_r06.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p282_t06.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 33,
+      "correctedName": "奶油萵苣",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-cd301577e6fd",
+      "recordId": "p374_t02_r01",
+      "originalName": "小寶石芮苣",
+      "sourceRef": {
+        "tableId": "p374_t02",
+        "rowId": "p374_t02_r01",
+        "pdfPage": 374,
+        "bookPage": 371
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_034_p374_t02_r01.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p374_t02.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 34,
+      "correctedName": "小寶石萵苣",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-456d4099ded7",
+      "recordId": "p291_t03_r00",
+      "originalName": "小寶石萬苣",
+      "sourceRef": {
+        "tableId": "p291_t03",
+        "rowId": "p291_t03_r00",
+        "pdfPage": 291,
+        "bookPage": 288
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_035_p291_t03_r00.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p291_t03.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 35,
+      "correctedName": "小寶石萵苣",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-719d65142685",
+      "recordId": "p106_t01_r03",
+      "originalName": "小寶石蒿苣",
+      "sourceRef": {
+        "tableId": "p106_t01",
+        "rowId": "p106_t01_r03",
+        "pdfPage": 106,
+        "bookPage": 103
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_036_p106_t01_r03.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p106_t01.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 36,
+      "correctedName": "小寶石萵苣",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-18c936c00a7f",
+      "recordId": "p170_t01_r01",
+      "originalName": "小寶石高苣",
+      "sourceRef": {
+        "tableId": "p170_t01",
+        "rowId": "p170_t01_r01",
+        "pdfPage": 170,
+        "bookPage": 167
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_037_p170_t01_r01.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p170_t01.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 37,
+      "correctedName": "小寶石萵苣",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-296dab510d9d",
+      "recordId": "p249_t02_r09",
+      "originalName": "小寶石髙苣",
+      "sourceRef": {
+        "tableId": "p249_t02",
+        "rowId": "p249_t02_r09",
+        "pdfPage": 249,
+        "bookPage": 246
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_038_p249_t02_r09.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p249_t02.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 38,
+      "correctedName": "小寶石萵苣",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-db3f15838005",
+      "recordId": "p318_t01_r09",
+      "originalName": "成熟切建乳酪",
+      "sourceRef": {
+        "tableId": "p318_t01",
+        "rowId": "p318_t01_r09",
+        "pdfPage": 318,
+        "bookPage": 315
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_041_p318_t01_r09.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p318_t01.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 41,
+      "correctedName": "成熟切達乳酪",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-fe70c1ad19f8",
+      "recordId": "p235_t02_r10",
+      "originalName": "期甜菜",
+      "sourceRef": {
+        "tableId": "p235_t02",
+        "rowId": "p235_t02_r10",
+        "pdfPage": 235,
+        "bookPage": 232
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_042_p235_t02_r10.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p235_t02.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 42,
+      "correctedName": "煎甜菜",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-fde640f0bf57",
+      "recordId": "p328_t04_r00",
+      "originalName": "枝樹蜜",
+      "sourceRef": {
+        "tableId": "p328_t04",
+        "rowId": "p328_t04_r00",
+        "pdfPage": 328,
+        "bookPage": 325
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_043_p328_t04_r00.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p328_t04.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 43,
+      "correctedName": "桉樹蜜",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-c93258672256",
+      "recordId": "p316_t03_r04",
+      "originalName": "枝葉茶",
+      "sourceRef": {
+        "tableId": "p316_t03",
+        "rowId": "p316_t03_r04",
+        "pdfPage": 316,
+        "bookPage": 313
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_044_p316_t03_r04.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p316_t03.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 44,
+      "correctedName": "桉葉茶",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-1e83197166dd",
+      "recordId": "p192_t05_r10",
+      "originalName": "校樹",
+      "sourceRef": {
+        "tableId": "p192_t05",
+        "rowId": "p192_t05_r10",
+        "pdfPage": 192,
+        "bookPage": 189
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_045_p192_t05_r10.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p192_t05.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 45,
+      "correctedName": "桉樹",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-c449bc4f1ee3",
+      "recordId": "p086_t04_r08",
+      "originalName": "校樹蜜",
+      "sourceRef": {
+        "tableId": "p086_t04",
+        "rowId": "p086_t04_r08",
+        "pdfPage": 86,
+        "bookPage": 83
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_046_p086_t04_r08.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p086_t04.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 46,
+      "correctedName": "桉樹蜜",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-2f47ad0df57b",
+      "recordId": "p345_t05_r00",
+      "originalName": "桑植",
+      "sourceRef": {
+        "tableId": "p345_t05",
+        "rowId": "p345_t05_r00",
+        "pdfPage": 345,
+        "bookPage": 342
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_047_p345_t05_r00.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p345_t05.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 47,
+      "correctedName": "桑椹",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-2b0c1756d7b2",
+      "recordId": "p164_t02_r09",
+      "originalName": "桑樞",
+      "sourceRef": {
+        "tableId": "p164_t02",
+        "rowId": "p164_t02_r09",
+        "pdfPage": 164,
+        "bookPage": 161
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_048_p164_t02_r09.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p164_t02.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 48,
+      "correctedName": "桑椹",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-a70239a73e26",
+      "recordId": "p250_t02_r00",
+      "originalName": "榴樋蜜",
+      "sourceRef": {
+        "tableId": "p250_t02",
+        "rowId": "p250_t02_r00",
+        "pdfPage": 250,
+        "bookPage": 247
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_049_p250_t02_r00.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p250_t02.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 49,
+      "correctedName": "榴槤蜜",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-6da7c5eaf986",
+      "recordId": "p280_t01_r05",
+      "originalName": "樋柑",
+      "sourceRef": {
+        "tableId": "p280_t01",
+        "rowId": "p280_t01_r05",
+        "pdfPage": 280,
+        "bookPage": 277
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_050_p280_t01_r05.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p280_t01.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 50,
+      "correctedName": "椪柑",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-ed9758f47106",
+      "recordId": "p254_t02_r06",
+      "originalName": "檸橡皮",
+      "sourceRef": {
+        "tableId": "p254_t02",
+        "rowId": "p254_t02_r06",
+        "pdfPage": 254,
+        "bookPage": 251
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_052_p254_t02_r06.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p254_t02.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 52,
+      "correctedName": "檸檬皮",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-948f7fb7853d",
+      "recordId": "p246_t01_r00",
+      "originalName": "清燉根椁",
+      "sourceRef": {
+        "tableId": "p246_t01",
+        "rowId": "p246_t01_r00",
+        "pdfPage": 246,
+        "bookPage": 243
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_053_p246_t01_r00.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p246_t01.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 53,
+      "correctedName": "清燉榅桲",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-34d1cb8d05e2",
+      "recordId": "p117_t01_r08",
+      "originalName": "清燉棍椁",
+      "sourceRef": {
+        "tableId": "p117_t01",
+        "rowId": "p117_t01_r08",
+        "pdfPage": 117,
+        "bookPage": 114
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_054_p117_t01_r08.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p117_t01.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 54,
+      "correctedName": "清燉榅桲",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-de51270e8a49",
+      "recordId": "p327_t01_r00",
+      "originalName": "清燉檸檬螺",
+      "sourceRef": {
+        "tableId": "p327_t01",
+        "rowId": "p327_t01_r00",
+        "pdfPage": 327,
+        "bookPage": 324
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_056_p327_t01_r00.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p327_t01.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 56,
+      "correctedName": "清燉檸檬鰈",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-756c048e8c9d",
+      "recordId": "p286_t03_r05",
+      "originalName": "清燉檸檬鰻",
+      "sourceRef": {
+        "tableId": "p286_t03",
+        "rowId": "p286_t03_r05",
+        "pdfPage": 286,
+        "bookPage": 283
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_057_p286_t03_r05.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p286_t03.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 57,
+      "correctedName": "清燉檸檬鰈",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-2216621bb410",
+      "recordId": "p210_t01_r01",
+      "originalName": "清燉福椁",
+      "sourceRef": {
+        "tableId": "p210_t01",
+        "rowId": "p210_t01_r01",
+        "pdfPage": 210,
+        "bookPage": 207
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_058_p210_t01_r01.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p210_t01.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 58,
+      "correctedName": "清燉榅桲",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-2b8ae0a8fd9e",
+      "recordId": "p332_t01_r00",
+      "originalName": "清燉缸魚翅",
+      "sourceRef": {
+        "tableId": "p332_t01",
+        "rowId": "p332_t01_r00",
+        "pdfPage": 332,
+        "bookPage": 329
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_060_p332_t01_r00.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p332_t01.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 60,
+      "correctedName": "清燉紅魚翅",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-7a5fc11ad06e",
+      "recordId": "p226_t01_r05",
+      "originalName": "漣膚木",
+      "sourceRef": {
+        "tableId": "p226_t01",
+        "rowId": "p226_t01_r05",
+        "pdfPage": 226,
+        "bookPage": 223
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_061_p226_t01_r05.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p226_t01.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 61,
+      "correctedName": "鹽膚木",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-fe9cf523ea13",
+      "recordId": "p056_t03_r05",
+      "originalName": "烘烤牒魚",
+      "sourceRef": {
+        "tableId": "p056_t03",
+        "rowId": "p056_t03_r05",
+        "pdfPage": 56,
+        "bookPage": 53
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_062_p056_t03_r05.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p056_t03.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 62,
+      "correctedName": "烘烤鰈魚",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-23a43f6f57a5",
+      "recordId": "p243_t01_r01",
+      "originalName": "烘烤縹魚",
+      "sourceRef": {
+        "tableId": "p243_t01",
+        "rowId": "p243_t01_r01",
+        "pdfPage": 243,
+        "bookPage": 240
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_064_p243_t01_r01.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p243_t01.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 64,
+      "correctedName": "烘烤鰈魚",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-8db71962ed0a",
+      "recordId": "p346_t04_r00",
+      "originalName": "烘烤繰魚",
+      "sourceRef": {
+        "tableId": "p346_t04",
+        "rowId": "p346_t04_r00",
+        "pdfPage": 346,
+        "bookPage": 343
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_065_p346_t04_r00.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p346_t04.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 65,
+      "correctedName": "烘烤鰈魚",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-e4025153c372",
+      "recordId": "p134_t06_r04",
+      "originalName": "烘烤臊魚",
+      "sourceRef": {
+        "tableId": "p134_t06",
+        "rowId": "p134_t06_r04",
+        "pdfPage": 134,
+        "bookPage": 131
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_066_p134_t06_r04.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p134_t06.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 66,
+      "correctedName": "烘烤鰈魚",
+      "note": "逐字对照当前 sourceRef 对应行的源图裁切；只修正这一记录的显示名称。",
+      "reviewStatus": "source_text_corrected"
+    },
+    {
+      "id": "ing-fa0934fe2e83",
+      "recordId": "p059_t05_r09",
+      "sourceRef": {
+        "tableId": "p059_t05",
+        "rowId": "p059_t05_r09",
+        "pdfPage": 59,
+        "bookPage": 56
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/068-p059_t05_r09.png",
+      "correctedName": "烘烤菱鮃",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「烘烤菱辭」修正为「烘烤菱鮃」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "烘烤菱辭",
+      "reviewIndex": 68,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p059_t05.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-d307768caf51",
+      "recordId": "p098_t03_r09",
+      "sourceRef": {
+        "tableId": "p098_t03",
+        "rowId": "p098_t03_r09",
+        "pdfPage": 98,
+        "bookPage": 95
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/069-p098_t03_r09.png",
+      "correctedName": "烘烤菱鮃",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「烘烤菱鮮」修正为「烘烤菱鮃」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "烘烤菱鮮",
+      "reviewIndex": 69,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p098_t03.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-87ffdca93f3d",
+      "recordId": "p106_t02_r07",
+      "sourceRef": {
+        "tableId": "p106_t02",
+        "rowId": "p106_t02_r07",
+        "pdfPage": 106,
+        "bookPage": 103
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/070-p106_t02_r07.png",
+      "correctedName": "烘烤菱鮃",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「烘烤菱鯉」修正为「烘烤菱鮃」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "烘烤菱鯉",
+      "reviewIndex": 70,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p106_t02.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-b25880c8209a",
+      "recordId": "p336_t05_r10",
+      "sourceRef": {
+        "tableId": "p336_t05",
+        "rowId": "p336_t05_r10",
+        "pdfPage": 336,
+        "bookPage": 333
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/071-p336_t05_r10-hi.png",
+      "correctedName": "烘烤鰈魚",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「烘烤螺魚」修正为「烘烤鰈魚」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "烘烤螺魚",
+      "reviewIndex": 71,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p336_t05.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-f9cd6a0e18aa",
+      "recordId": "p310_t01_r08",
+      "sourceRef": {
+        "tableId": "p310_t01",
+        "rowId": "p310_t01_r08",
+        "pdfPage": 310,
+        "bookPage": 307
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/072-p310_t01_r08.png",
+      "correctedName": "烘烤鰈魚",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「烘烤驟魚」修正为「烘烤鰈魚」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "烘烤驟魚",
+      "reviewIndex": 72,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p310_t01.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-597497204026",
+      "recordId": "p353_t01_r10",
+      "sourceRef": {
+        "tableId": "p353_t01",
+        "rowId": "p353_t01_r10",
+        "pdfPage": 353,
+        "bookPage": 350
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/073-p353_t01_r10.png",
+      "correctedName": "烘烤鰈魚",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「烘烤鳏魚」修正为「烘烤鰈魚」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "烘烤鳏魚",
+      "reviewIndex": 73,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p353_t01.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-2b6ab9378f5d",
+      "recordId": "p198_t01_r09",
+      "sourceRef": {
+        "tableId": "p198_t01",
+        "rowId": "p198_t01_r09",
+        "pdfPage": 198,
+        "bookPage": 195
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/074-p198_t01_r09.png",
+      "correctedName": "煎雉雞",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「煎撃」修正为「煎雉雞」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "煎撃",
+      "reviewIndex": 74,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p198_t01.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-79c03e4dd0d5",
+      "recordId": "p214_t04_r08",
+      "sourceRef": {
+        "tableId": "p214_t04",
+        "rowId": "p214_t04_r08",
+        "pdfPage": 214,
+        "bookPage": 211
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/075-p214_t04_r08-hi.png",
+      "correctedName": "煎鵪鶉",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「煎鴨鶉」修正为「煎鵪鶉」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "煎鴨鶉",
+      "reviewIndex": 75,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p214_t04.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-3b5cdec42259",
+      "recordId": "p098_t03_r06",
+      "sourceRef": {
+        "tableId": "p098_t03",
+        "rowId": "p098_t03_r06",
+        "pdfPage": 98,
+        "bookPage": 95
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/076-p098_t03_r06.png",
+      "correctedName": "煎鵪鶉",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「煎鵝鶉」修正为「煎鵪鶉」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "煎鵝鶉",
+      "reviewIndex": 76,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p098_t03.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-028cf0c17ad0",
+      "recordId": "p046_t02_r00",
+      "sourceRef": {
+        "tableId": "p046_t02",
+        "rowId": "p046_t02_r00",
+        "pdfPage": 46,
+        "bookPage": 43
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/077-p046_t02_r00.png",
+      "correctedName": "煎鵪鶉",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「煎鶴鶉」修正为「煎鵪鶉」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "煎鶴鶉",
+      "reviewIndex": 77,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p046_t02.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-856d22efdbb9",
+      "recordId": "p046_t01_r08",
+      "sourceRef": {
+        "tableId": "p046_t01",
+        "rowId": "p046_t01_r08",
+        "pdfPage": 46,
+        "bookPage": 43
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/078-p046_t01_r08.png",
+      "correctedName": "焗烤大頭菜",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「煽烤大頭菜」修正为「焗烤大頭菜」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "煽烤大頭菜",
+      "reviewIndex": 78,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p046_t01.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-2f4ae269d505",
+      "recordId": "p282_t04_r00",
+      "sourceRef": {
+        "tableId": "p282_t04",
+        "rowId": "p282_t04_r00",
+        "pdfPage": 282,
+        "bookPage": 279
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/079-p282_t04_r00-hi.png",
+      "correctedName": "熟奶油萵苣",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「熟奶油菌苣」修正为「熟奶油萵苣」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "熟奶油菌苣",
+      "reviewIndex": 79,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p282_t04.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-625efa077862",
+      "recordId": "p291_t01_r03",
+      "sourceRef": {
+        "tableId": "p291_t01",
+        "rowId": "p291_t01_r03",
+        "pdfPage": 291,
+        "bookPage": 288
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/080-p291_t01_r03.png",
+      "correctedName": "熟奶油萵苣",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「熟奶油高苣」修正为「熟奶油萵苣」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "熟奶油高苣",
+      "reviewIndex": 80,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p291_t01.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-63fd86388c0d",
+      "recordId": "p223_t01_r04",
+      "sourceRef": {
+        "tableId": "p223_t01",
+        "rowId": "p223_t01_r04",
+        "pdfPage": 223,
+        "bookPage": 220
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/081-p223_t01_r04.png",
+      "correctedName": "熟莧菜粒",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「熟竟菜粒」修正为「熟莧菜粒」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "熟竟菜粒",
+      "reviewIndex": 81,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p223_t01.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-fa8c5fe12904",
+      "recordId": "p257_t01_r02",
+      "sourceRef": {
+        "tableId": "p257_t01",
+        "rowId": "p257_t01_r02",
+        "pdfPage": 257,
+        "bookPage": 254
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/082-p257_t01_r02.png",
+      "correctedName": "熟綠扁豆",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「熟綠扁显」修正为「熟綠扁豆」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "熟綠扁显",
+      "reviewIndex": 82,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p257_t01.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-ef5539ac92dc",
+      "recordId": "p138_t01_r08",
+      "sourceRef": {
+        "tableId": "p138_t01",
+        "rowId": "p138_t01_r08",
+        "pdfPage": 138,
+        "bookPage": 135
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/083-p138_t01_r08-hi.png",
+      "correctedName": "熟苦蕎",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「熟苔数」修正为「熟苦蕎」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "熟苔数",
+      "reviewIndex": 83,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p138_t01.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-6b284fc3edce",
+      "recordId": "p091_t01_r06",
+      "sourceRef": {
+        "tableId": "p091_t01",
+        "rowId": "p091_t01_r06",
+        "pdfPage": 91,
+        "bookPage": 88
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/084-p091_t01_r06.png",
+      "correctedName": "熟苦蕎",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「熟苔番」修正为「熟苦蕎」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "熟苔番",
+      "reviewIndex": 84,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p091_t01.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-8f4f8e445d2c",
+      "recordId": "p347_t01_r07",
+      "sourceRef": {
+        "tableId": "p347_t01",
+        "rowId": "p347_t01_r07",
+        "pdfPage": 347,
+        "bookPage": 344
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/085-p347_t01_r07.png",
+      "correctedName": "熟苦蕎",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「熟苔豔」修正为「熟苦蕎」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "熟苔豔",
+      "reviewIndex": 85,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p347_t01.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-685da0f00294",
+      "recordId": "p328_t02_r00",
+      "sourceRef": {
+        "tableId": "p328_t02",
+        "rowId": "p328_t02_r00",
+        "pdfPage": 328,
+        "bookPage": 325
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/086-p328_t02_r00.png",
+      "correctedName": "熟蛤蜊",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「熟蛤蝌」修正为「熟蛤蜊」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "熟蛤蝌",
+      "reviewIndex": 86,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p328_t02.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-2338630db0e0",
+      "recordId": "p227_t04_r08",
+      "sourceRef": {
+        "tableId": "p227_t04",
+        "rowId": "p227_t04_r08",
+        "pdfPage": 227,
+        "bookPage": 224
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/087-p227_t04_r08.png",
+      "correctedName": "熟蛤蜊",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「熟蛤蝴」修正为「熟蛤蜊」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "熟蛤蝴",
+      "reviewIndex": 87,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p227_t04.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-00d802460516",
+      "recordId": "p207_t03_r00",
+      "sourceRef": {
+        "tableId": "p207_t03",
+        "rowId": "p207_t03_r00",
+        "pdfPage": 207,
+        "bookPage": 204
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/088-p207_t03_r00.png",
+      "correctedName": "熟豇豆",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「熟豆豆」修正为「熟豇豆」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "熟豆豆",
+      "reviewIndex": 88,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p207_t03.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-04ab968812dd",
+      "recordId": "p214_t03_r10",
+      "sourceRef": {
+        "tableId": "p214_t03",
+        "rowId": "p214_t03_r10",
+        "pdfPage": 214,
+        "bookPage": 211
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/089-p214_t03_r10.png",
+      "correctedName": "燉檸檬鰈",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「燉檸檬縹」修正为「燉檸檬鰈」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "燉檸檬縹",
+      "reviewIndex": 89,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p214_t03.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-53cb1529d4d1",
+      "recordId": "p112_t01_r08",
+      "sourceRef": {
+        "tableId": "p112_t01",
+        "rowId": "p112_t01_r08",
+        "pdfPage": 112,
+        "bookPage": 109
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/090-p112_t01_r08.png",
+      "correctedName": "燉檸檬鰈",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「燉檸檬繰」修正为「燉檸檬鰈」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "燉檸檬繰",
+      "reviewIndex": 90,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p112_t01.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-1dfb92177bc7",
+      "recordId": "p051_t05_r10",
+      "sourceRef": {
+        "tableId": "p051_t05",
+        "rowId": "p051_t05_r10",
+        "pdfPage": 51,
+        "bookPage": 48
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/091-p051_t05_r10.png",
+      "correctedName": "燉檸檬鰈",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「燉檸檬螺」修正为「燉檸檬鰈」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "燉檸檬螺",
+      "reviewIndex": 91,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p051_t05.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-c56cca1a7c66",
+      "recordId": "p180_t06_r00",
+      "sourceRef": {
+        "tableId": "p180_t06",
+        "rowId": "p180_t06_r00",
+        "pdfPage": 180,
+        "bookPage": 177
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/092-p180_t06_r00.png",
+      "correctedName": "燉檸檬鰈",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「燉檸檬骤」修正为「燉檸檬鰈」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "燉檸檬骤",
+      "reviewIndex": 92,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p180_t06.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-6e8dd061dfc5",
+      "recordId": "p176_t04_r06",
+      "sourceRef": {
+        "tableId": "p176_t04",
+        "rowId": "p176_t04_r06",
+        "pdfPage": 176,
+        "bookPage": 173
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/093-p176_t04_r06.png",
+      "correctedName": "燉長身鱈",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「燉長身鰭」修正为「燉長身鱈」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "燉長身鰭",
+      "reviewIndex": 93,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p176_t04.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-f3d727ae8af7",
+      "recordId": "p078_t02_r07",
+      "sourceRef": {
+        "tableId": "p078_t02",
+        "rowId": "p078_t02_r07",
+        "pdfPage": 78,
+        "bookPage": 75
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/094-p078_t02_r07.png",
+      "correctedName": "牡蠣",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「牡螭」修正为「牡蠣」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "牡螭",
+      "reviewIndex": 94,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p078_t02.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-5be5c1e14726",
+      "recordId": "p046_t02_r09",
+      "sourceRef": {
+        "tableId": "p046_t02",
+        "rowId": "p046_t02_r09",
+        "pdfPage": 46,
+        "bookPage": 43
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/096-p046_t02_r09.png",
+      "correctedName": "生蠔葉",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「生嚎葉」修正为「生蠔葉」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "生嚎葉",
+      "reviewIndex": 96,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p046_t02.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-42a640b7ad95",
+      "recordId": "p108_t01_r03",
+      "sourceRef": {
+        "tableId": "p108_t01",
+        "rowId": "p108_t01_r03",
+        "pdfPage": 108,
+        "bookPage": 105
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/098-p108_t01_r03.png",
+      "correctedName": "生蠔葉",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「生獴葉」修正为「生蠔葉」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "生獴葉",
+      "reviewIndex": 98,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p108_t01.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-64958aa0cf35",
+      "recordId": "p078_t04_r00",
+      "sourceRef": {
+        "tableId": "p078_t04",
+        "rowId": "p078_t04_r00",
+        "pdfPage": 78,
+        "bookPage": 75
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/099-p078_t04_r00.png",
+      "correctedName": "豇豆",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「用豆」修正为「豇豆」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "用豆",
+      "reviewIndex": 99,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p078_t04.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-2d0edd9969a1",
+      "recordId": "p362_t03_r00",
+      "sourceRef": {
+        "tableId": "p362_t03",
+        "rowId": "p362_t03_r00",
+        "pdfPage": 362,
+        "bookPage": 359
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/101-p362_t03_r00.png",
+      "correctedName": "莧菜籽",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「竟菜籽」修正为「莧菜籽」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "竟菜籽",
+      "reviewIndex": 101,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p362_t03.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-ab1e39041347",
+      "recordId": "p050_t01_r01",
+      "sourceRef": {
+        "tableId": "p050_t01",
+        "rowId": "p050_t01_r01",
+        "pdfPage": 50,
+        "bookPage": 47
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/102-p050_t01_r01-hi.png",
+      "correctedName": "竹筴魚",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「竹災魚」修正为「竹筴魚」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "竹災魚",
+      "reviewIndex": 102,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p050_t01.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-f242e68dfefe",
+      "recordId": "p102_t03_r10",
+      "sourceRef": {
+        "tableId": "p102_t03",
+        "rowId": "p102_t03_r10",
+        "pdfPage": 102,
+        "bookPage": 99
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/103-p102_t03_r10.png",
+      "correctedName": "竹筴魚",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「竹熒魚」修正为「竹筴魚」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "竹熒魚",
+      "reviewIndex": 103,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p102_t03.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-5459d32e588c",
+      "recordId": "p105_t01_r00",
+      "sourceRef": {
+        "tableId": "p105_t01",
+        "rowId": "p105_t01_r00",
+        "pdfPage": 105,
+        "bookPage": 102
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/104-p105_t01_r00.png",
+      "correctedName": "竹筴魚",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「竹英魚」修正为「竹筴魚」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "竹英魚",
+      "reviewIndex": 104,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p105_t01.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-1143c91504d2",
+      "recordId": "p269_t01_r07",
+      "sourceRef": {
+        "tableId": "p269_t01",
+        "rowId": "p269_t01_r07",
+        "pdfPage": 269,
+        "bookPage": 266
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/105-p269_t01_r07.png",
+      "correctedName": "羊萵苣(野苣)",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「羊萬苣(野苣)」修正为「羊萵苣(野苣)」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "羊萬苣(野苣)",
+      "reviewIndex": 105,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p269_t01.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-e3bd80770c90",
+      "recordId": "p210_t01_r02",
+      "sourceRef": {
+        "tableId": "p210_t01",
+        "rowId": "p210_t01_r02",
+        "pdfPage": 210,
+        "bookPage": 207
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/106-p210_t01_r02.png",
+      "correctedName": "羊萵苣(野苣)",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「羊萬苣野苣」修正为「羊萵苣(野苣)」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "羊萬苣野苣",
+      "reviewIndex": 106,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p210_t01.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-9157e32f0a7e",
+      "recordId": "p063_t01_r04",
+      "sourceRef": {
+        "tableId": "p063_t01",
+        "rowId": "p063_t01_r04",
+        "pdfPage": 63,
+        "bookPage": 60
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/107-p063_t01_r04.png",
+      "correctedName": "羊萵苣(野苣)",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「羊蒿苣野苣」修正为「羊萵苣(野苣)」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "羊蒿苣野苣",
+      "reviewIndex": 107,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p063_t01.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-ded1b4f11dfb",
+      "recordId": "p190_t05_r00",
+      "sourceRef": {
+        "tableId": "p190_t05",
+        "rowId": "p190_t05_r00",
+        "pdfPage": 190,
+        "bookPage": 187
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/108-p190_t05_r00.png",
+      "correctedName": "羊萵苣(野苣)",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「羊高苣野苣」修正为「羊萵苣(野苣)」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "羊高苣野苣",
+      "reviewIndex": 108,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p190_t05.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-cd1023cd83c4",
+      "recordId": "p101_t05_r02",
+      "sourceRef": {
+        "tableId": "p101_t05",
+        "rowId": "p101_t05_r02",
+        "pdfPage": 101,
+        "bookPage": 98
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/109-p101_t05_r02.png",
+      "correctedName": "羊萵苣(野苣)",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「羊髙苣(野苣)」修正为「羊萵苣(野苣)」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "羊髙苣(野苣)",
+      "reviewIndex": 109,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p101_t05.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-e3e680e37cdb",
+      "recordId": "p307_t01_r06",
+      "sourceRef": {
+        "tableId": "p307_t01",
+        "rowId": "p307_t01_r06",
+        "pdfPage": 307,
+        "bookPage": 304
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/110-p307_t01_r06.png",
+      "correctedName": "肯塔基純波本威士忌",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「肯塔基純波本威土忌」修正为「肯塔基純波本威士忌」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "肯塔基純波本威土忌",
+      "reviewIndex": 110,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p307_t01.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-25fc58490fa3",
+      "recordId": "p308_t01_r01",
+      "sourceRef": {
+        "tableId": "p308_t01",
+        "rowId": "p308_t01_r01",
+        "pdfPage": 308,
+        "bookPage": 305
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/111-p308_t01_r01-hi.png",
+      "correctedName": "茴藿香",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「茴菴香」修正为「茴藿香」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "茴菴香",
+      "reviewIndex": 111,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p308_t01.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-bedc8b6dea2b",
+      "recordId": "p291_t02_r00",
+      "sourceRef": {
+        "tableId": "p291_t02",
+        "rowId": "p291_t02_r00",
+        "pdfPage": 291,
+        "bookPage": 288
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/112-p291_t02_r00.png",
+      "correctedName": "茴藿香",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「茴蕾香」修正为「茴藿香」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "茴蕾香",
+      "reviewIndex": 112,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p291_t02.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-da5b6a1eccd1",
+      "recordId": "p190_t05_r05",
+      "sourceRef": {
+        "tableId": "p190_t05",
+        "rowId": "p190_t05_r05",
+        "pdfPage": 190,
+        "bookPage": 187
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/114-p190_t05_r05.png",
+      "correctedName": "蒔蘿",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「蒔薇」修正为「蒔蘿」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "蒔薇",
+      "reviewIndex": 114,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p190_t05.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-2a511f124fe9",
+      "recordId": "p239_t06_r00",
+      "sourceRef": {
+        "tableId": "p239_t06",
+        "rowId": "p239_t06_r00",
+        "pdfPage": 239,
+        "bookPage": 236
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/115-p239_t06_r00-hi.png",
+      "correctedName": "藿香花",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「蕾香花」修正为「藿香花」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "蕾香花",
+      "reviewIndex": 115,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p239_t06.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-ede11699a54a",
+      "recordId": "p276_t05_r00",
+      "sourceRef": {
+        "tableId": "p276_t05",
+        "rowId": "p276_t05_r00",
+        "pdfPage": 276,
+        "bookPage": 273
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/116-p276_t05_r00.png",
+      "correctedName": "蠔油",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「蝮油」修正为「蠔油」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "蝮油",
+      "reviewIndex": 116,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p276_t05.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-4367a42d0b63",
+      "recordId": "p175_t01_r00",
+      "sourceRef": {
+        "tableId": "p175_t01",
+        "rowId": "p175_t01_r00",
+        "pdfPage": 175,
+        "bookPage": 172
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/117-p175_t01_r00.png",
+      "correctedName": "蠔菇",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「蝮菇」修正为「蠔菇」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "蝮菇",
+      "reviewIndex": 117,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p175_t01.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-f6b538479f92",
+      "recordId": "p173_t03_r03",
+      "sourceRef": {
+        "tableId": "p173_t03",
+        "rowId": "p173_t03_r03",
+        "pdfPage": 173,
+        "bookPage": 170
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/118-p173_t03_r03.png",
+      "correctedName": "蠔菇",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「螺菇」修正为「蠔菇」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "螺菇",
+      "reviewIndex": 118,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p173_t03.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-47ff3c5dee6b",
+      "recordId": "p282_t02_r07",
+      "sourceRef": {
+        "tableId": "p282_t02",
+        "rowId": "p282_t02_r07",
+        "pdfPage": 282,
+        "bookPage": 279
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/119-p282_t02_r07.png",
+      "correctedName": "西班牙火腿(100%頂級伊比利橡實豬)",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「西班牙火服100%頂級伊比利橡實豬」修正为「西班牙火腿(100%頂級伊比利橡實豬)」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "西班牙火服100%頂級伊比利橡實豬",
+      "reviewIndex": 119,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p282_t02.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-4d44133cf501",
+      "recordId": "p224_t01_r04",
+      "sourceRef": {
+        "tableId": "p224_t01",
+        "rowId": "p224_t01_r04",
+        "pdfPage": 224,
+        "bookPage": 221
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/120-p224_t01_r04.png",
+      "correctedName": "西班牙火腿(100%頂級伊比利橡實豬)",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「西班牙火腋100%頂級伊比利橡實豬」修正为「西班牙火腿(100%頂級伊比利橡實豬)」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "西班牙火腋100%頂級伊比利橡實豬",
+      "reviewIndex": 120,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p224_t01.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-b6287f19f0d9",
+      "recordId": "p310_t01_r02",
+      "sourceRef": {
+        "tableId": "p310_t01",
+        "rowId": "p310_t01_r02",
+        "pdfPage": 310,
+        "bookPage": 307
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/121-p310_t01_r02.png",
+      "correctedName": "西班牙火腿(100%頂級伊比利橡實豬)",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「西班牙火腿100%頂級伊比^橡實豬」修正为「西班牙火腿(100%頂級伊比利橡實豬)」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "西班牙火腿100%頂級伊比^橡實豬",
+      "reviewIndex": 121,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p310_t01.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-d208908f53cc",
+      "recordId": "p281_t03_r10",
+      "sourceRef": {
+        "tableId": "p281_t03",
+        "rowId": "p281_t03_r10",
+        "pdfPage": 281,
+        "bookPage": 278
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/122-p281_t03_r10.png",
+      "correctedName": "西班牙火腿(100%頂級伊比利橡實豬)",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「西班牙火腿doo%頂級伊比利橡實豬」修正为「西班牙火腿(100%頂級伊比利橡實豬)」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "西班牙火腿doo%頂級伊比利橡實豬",
+      "reviewIndex": 122,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p281_t03.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-44b54f5ad98b",
+      "recordId": "p088_t01_r01",
+      "sourceRef": {
+        "tableId": "p088_t01",
+        "rowId": "p088_t01_r01",
+        "pdfPage": 88,
+        "bookPage": 85
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/123-p088_t01_r01.png",
+      "correctedName": "哈密瓜",
+      "note": "已查看完整p088_t01源表：该行圆点对应名称为「哈密瓜」；OCR的「見」来自左侧竖排正文，并非表格食材。只修正该rowId。",
+      "appliesToAllRecords": false,
+      "originalName": "見",
+      "reviewIndex": 123,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p088_t01.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-20f0705239e5",
+      "recordId": "p307_t01_r07",
+      "sourceRef": {
+        "tableId": "p307_t01",
+        "rowId": "p307_t01_r07",
+        "pdfPage": 307,
+        "bookPage": 304
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/124-p307_t01_r07-hi.png",
+      "correctedName": "煎鴕鳥肉",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「貝&鸵鳥肉」修正为「煎鴕鳥肉」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "貝&鸵鳥肉",
+      "reviewIndex": 124,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p307_t01.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-510c63d12543",
+      "recordId": "p243_t01_r05",
+      "sourceRef": {
+        "tableId": "p243_t01",
+        "rowId": "p243_t01_r05",
+        "pdfPage": 243,
+        "bookPage": 240
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/125-p243_t01_r05-hi.png",
+      "correctedName": "煎鴕鳥肉",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「貝n鳥它鳥肉」修正为「煎鴕鳥肉」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "貝n鳥它鳥肉",
+      "reviewIndex": 125,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p243_t01.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-35f19f6f1efc",
+      "recordId": "p112_t01_r09",
+      "sourceRef": {
+        "tableId": "p112_t01",
+        "rowId": "p112_t01_r09",
+        "pdfPage": 112,
+        "bookPage": 109
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/126-p112_t01_r09.png",
+      "correctedName": "鯷魚高湯",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「醍魚高湯」修正为「鯷魚高湯」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "醍魚高湯",
+      "reviewIndex": 126,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p112_t01.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-b6c78bf99a5c",
+      "recordId": "p090_t02_r01",
+      "sourceRef": {
+        "tableId": "p090_t02",
+        "rowId": "p090_t02_r01",
+        "pdfPage": 90,
+        "bookPage": 87
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/127-p090_t02_r01.png",
+      "correctedName": "金枕頭榴槤",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「金枕頭榴梗」修正为「金枕頭榴槤」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "金枕頭榴梗",
+      "reviewIndex": 127,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p090_t02.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-b7fcdc5560b6",
+      "recordId": "p296_t01_r00",
+      "sourceRef": {
+        "tableId": "p296_t01",
+        "rowId": "p296_t01_r00",
+        "pdfPage": 296,
+        "bookPage": 293
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/128-p296_t01_r00.png",
+      "correctedName": "金枕頭榴槤",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「金枕頭榴樋」修正为「金枕頭榴槤」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "金枕頭榴樋",
+      "reviewIndex": 128,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p296_t01.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-902356d8ad7d",
+      "recordId": "p295_t01_r01",
+      "sourceRef": {
+        "tableId": "p295_t01",
+        "rowId": "p295_t01_r01",
+        "pdfPage": 295,
+        "bookPage": 292
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/129-p295_t01_r01.png",
+      "correctedName": "金枕頭榴槤",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「金枕頭榴機」修正为「金枕頭榴槤」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "金枕頭榴機",
+      "reviewIndex": 129,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p295_t01.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-f791732f3f09",
+      "recordId": "p081_t04_r00",
+      "sourceRef": {
+        "tableId": "p081_t04",
+        "rowId": "p081_t04_r00",
+        "pdfPage": 81,
+        "bookPage": 78
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/130-p081_t04_r00.png",
+      "correctedName": "鴿高湯",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「鴿咼湯」修正为「鴿高湯」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "鴿咼湯",
+      "reviewIndex": 130,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p081_t04.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-0d845eeba9fa",
+      "recordId": "p192_t05_r07",
+      "sourceRef": {
+        "tableId": "p192_t05",
+        "rowId": "p192_t05_r07",
+        "pdfPage": 192,
+        "bookPage": 189
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/131-p192_t05_r07-hi.png",
+      "correctedName": "鹹鯷魚",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「鹹睚魚」修正为「鹹鯷魚」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "鹹睚魚",
+      "reviewIndex": 131,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p192_t05.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-7c1811075a0d",
+      "recordId": "p081_t02_r00",
+      "sourceRef": {
+        "tableId": "p081_t02",
+        "rowId": "p081_t02_r00",
+        "pdfPage": 81,
+        "bookPage": 78
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/132-p081_t02_r00.png",
+      "correctedName": "鹹鯷魚",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「鹹鯉魚」修正为「鹹鯷魚」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "鹹鯉魚",
+      "reviewIndex": 132,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p081_t02.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    },
+    {
+      "id": "ing-eeb49ce3ab2e",
+      "recordId": "p046_t04_r04",
+      "sourceRef": {
+        "tableId": "p046_t04",
+        "rowId": "p046_t04_r04",
+        "pdfPage": 46,
+        "bookPage": 43
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/133-p046_t04_r04.png",
+      "correctedName": "鹹鯷魚",
+      "note": "已逐字查看canonical sourceRef对应行的PDF源图；「鹹鰻魚」修正为「鹹鯷魚」。仅该recordId，不扩展到未看的同名记录；未复核圆点数值。",
+      "appliesToAllRecords": false,
+      "originalName": "鹹鰻魚",
+      "reviewIndex": 133,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p046_t04.png",
+      "reviewStatus": "source_text_corrected",
+      "reviewBatch": "second_half_source_image_review"
+    }
+  ],
+  "confirmedUnchanged": [
+    {
+      "id": "ing-08786d67ea6e",
+      "recordId": "p200_t01_r02",
+      "originalName": "100%頂級伊比利橡實豬",
+      "sourceRef": {
+        "tableId": "p200_t01",
+        "rowId": "p200_t01_r02",
+        "pdfPage": 200,
+        "bookPage": 197
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_001_p200_t01_r02.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p200_t01.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 1,
+      "correctedName": "100%頂級伊比利橡實豬",
+      "note": "疑似项与源图实际文字一致，保留原名称。未因名称看起来不常见而补词或改译。",
+      "reviewStatus": "confirmed_source_text_unchanged",
+      "additionalSourceImagesViewed": [
+        "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p200_t01.png"
+      ]
+    },
+    {
+      "id": "ing-16e0f35b714d",
+      "recordId": "p046_t04_r02",
+      "originalName": "帕爾馬",
+      "sourceRef": {
+        "tableId": "p046_t04",
+        "rowId": "p046_t04_r02",
+        "pdfPage": 46,
+        "bookPage": 43
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_039_p046_t04_r02.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p046_t04.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 39,
+      "correctedName": "帕爾馬",
+      "note": "疑似项与源图实际文字一致，保留原名称。未因名称看起来不常见而补词或改译。",
+      "reviewStatus": "confirmed_source_text_unchanged",
+      "additionalSourceImagesViewed": [
+        "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p046_t04.png"
+      ]
+    },
+    {
+      "id": "ing-8a5e1a4f9bd7",
+      "recordId": "p139_t03_r00",
+      "originalName": "年卜拉魚露",
+      "sourceRef": {
+        "tableId": "p139_t03",
+        "rowId": "p139_t03_r00",
+        "pdfPage": 139,
+        "bookPage": 136
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_040_p139_t03_r00.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p139_t03.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 40,
+      "correctedName": "年卜拉魚露",
+      "note": "疑似项与源图实际文字一致，保留原名称。未因名称看起来不常见而补词或改译。",
+      "reviewStatus": "confirmed_source_text_unchanged",
+      "additionalSourceImagesViewed": [
+        "/Users/linlin/Desktop/IACDTT/tmp/flavor_name_review/page_139.png"
+      ]
+    },
+    {
+      "id": "ing-6512fdb573aa",
+      "recordId": "p048_t01_r00",
+      "originalName": "橘蘋",
+      "sourceRef": {
+        "tableId": "p048_t01",
+        "rowId": "p048_t01_r00",
+        "pdfPage": 48,
+        "bookPage": 45
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_051_p048_t01_r00.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p048_t01.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 51,
+      "correctedName": "橘蘋",
+      "note": "疑似项与源图实际文字一致，保留原名称。未因名称看起来不常见而补词或改译。",
+      "reviewStatus": "confirmed_source_text_unchanged",
+      "additionalSourceImagesViewed": [
+        "/Users/linlin/Desktop/IACDTT/tmp/flavor_name_review/page_48.png",
+        "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p048_t01.png"
+      ]
+    },
+    {
+      "id": "ing-47e92324c535",
+      "recordId": "p055_t01_r09",
+      "originalName": "清燉紅魚翅",
+      "sourceRef": {
+        "tableId": "p055_t01",
+        "rowId": "p055_t01_r09",
+        "pdfPage": 55,
+        "bookPage": 52
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_059_p055_t01_r09.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p055_t01.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 59,
+      "correctedName": "清燉紅魚翅",
+      "note": "疑似项与源图实际文字一致，保留原名称。未因名称看起来不常见而补词或改译。",
+      "reviewStatus": "confirmed_source_text_unchanged"
+    },
+    {
+      "id": "ing-747e1d488579",
+      "recordId": "p086_t05_r00",
+      "originalName": "烘烤紅魚翅",
+      "sourceRef": {
+        "tableId": "p086_t05",
+        "rowId": "p086_t05_r00",
+        "pdfPage": 86,
+        "bookPage": 83
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_063_p086_t05_r00.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p086_t05.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 63,
+      "correctedName": "烘烤紅魚翅",
+      "note": "疑似项与源图实际文字一致，保留原名称。未因名称看起来不常见而补词或改译。",
+      "reviewStatus": "confirmed_source_text_unchanged"
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "ing-b2369392a8ff",
+      "recordId": "p102_t03_r01",
+      "originalName": "乾革澄茄",
+      "sourceRef": {
+        "tableId": "p102_t03",
+        "rowId": "p102_t03_r01",
+        "pdfPage": 102,
+        "bookPage": 99
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_012_p102_t03_r01.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p102_t03.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 12,
+      "note": "第二字在扫描字形中不够清楚，不能可靠逐字确认；未用常见食材名补写。",
+      "readableText": "乾□澄茄",
+      "reviewStatus": "unresolved_source_text"
+    },
+    {
+      "id": "ing-dcd0602cc812",
+      "recordId": "p051_t03_r08",
+      "originalName": "清燉椁",
+      "sourceRef": {
+        "tableId": "p051_t03",
+        "rowId": "p051_t03_r08",
+        "pdfPage": 51,
+        "bookPage": 48
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/name_055_p051_t03_r08.png",
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p051_t03.png",
+      "appliesToAllRecords": false,
+      "reviewIndex": 55,
+      "note": "已查看完整表及放大行名；原图为「清燉　桲」，中间字缺印或图像缺失，未从其他表补字。",
+      "readableText": "清燉□桲",
+      "reviewStatus": "unresolved_source_text",
+      "additionalSourceImagesViewed": [
+        "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p051_t03.png"
+      ]
+    },
+    {
+      "id": "ing-d6aa4986adc5",
+      "recordId": "p108_t06_r00",
+      "sourceRef": {
+        "tableId": "p108_t06",
+        "rowId": "p108_t06_r00",
+        "pdfPage": 108,
+        "bookPage": 105
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/067-p108_t06_r00-hi.png",
+      "originalName": "烘烤菱",
+      "note": "已查看整表和8倍源图：主行只显示「烘烤菱」，右侧为空白；无法从该记录源图补出完整食材名，禁止按其他相似记录补字。",
+      "appliesToAllRecords": false,
+      "reviewIndex": 67,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p108_t06.png",
+      "reviewStatus": "unresolved_source_text",
+      "reviewBatch": "second_half_source_image_review",
+      "independentSecondImageReview": true
+    },
+    {
+      "id": "ing-c5921e8441bc",
+      "recordId": "p146_t03_r07",
+      "sourceRef": {
+        "tableId": "p146_t03",
+        "rowId": "p146_t03_r07",
+        "pdfPage": 146,
+        "bookPage": 143
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/095-p146_t03_r07-hi.png",
+      "originalName": "生",
+      "note": "已查看对应源图和8倍裁图：首字为「生」，第二字扫描笔画糊成深色块，疑似薑但无法逐字确定；继续待核，不用猜测作修正。",
+      "appliesToAllRecords": false,
+      "reviewIndex": 95,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p146_t03.png",
+      "reviewStatus": "unresolved_source_text",
+      "reviewBatch": "second_half_source_image_review",
+      "independentSecondImageReview": true
+    },
+    {
+      "id": "ing-0df1d5be062f",
+      "recordId": "p184_t01_r03",
+      "sourceRef": {
+        "tableId": "p184_t01",
+        "rowId": "p184_t01_r03",
+        "pdfPage": 184,
+        "bookPage": 181
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/097-p184_t01_r03.png",
+      "originalName": "生墓",
+      "note": "已查看对应源图：首字为「生」，第二字扫描笔画糊成深色块，疑似薑但无法逐字确定；继续待核，不用猜测作修正。",
+      "appliesToAllRecords": false,
+      "reviewIndex": 97,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p184_t01.png",
+      "reviewStatus": "unresolved_source_text",
+      "reviewBatch": "second_half_source_image_review",
+      "independentSecondImageReview": true
+    },
+    {
+      "id": "ing-6d02a3cd94c0",
+      "recordId": "p074_t05_r00",
+      "sourceRef": {
+        "tableId": "p074_t05",
+        "rowId": "p074_t05_r00",
+        "pdfPage": 74,
+        "bookPage": 71
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/100-p074_t05_r00-hi.png",
+      "originalName": "着蓬菜",
+      "note": "已查看主行源图和8倍裁图：后两字为「蓬菜」，首字字形仍有歧义（看似著），无法可靠确定完整名称；继续待核。",
+      "appliesToAllRecords": false,
+      "reviewIndex": 100,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p074_t05.png",
+      "reviewStatus": "unresolved_source_text",
+      "reviewBatch": "second_half_source_image_review",
+      "independentSecondImageReview": true
+    },
+    {
+      "id": "ing-6feb00451cba",
+      "recordId": "p052_t02_r01",
+      "sourceRef": {
+        "tableId": "p052_t02",
+        "rowId": "p052_t02_r01",
+        "pdfPage": 52,
+        "bookPage": 49
+      },
+      "sourceImageViewed": true,
+      "sourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/name_review_crops/113-p052_t02_r01-hi.png",
+      "originalName": "著蓬菜",
+      "note": "已查看配料行源图和8倍裁图：后两字为「蓬菜」，首字字形仍有歧义（看似著），无法可靠确定完整名称；继续待核。",
+      "appliesToAllRecords": false,
+      "reviewIndex": 113,
+      "tableSourceCropPath": "/Users/linlin/Desktop/IACDTT/output/flavor/local_review/machine_crops/p052_t02.png",
+      "reviewStatus": "unresolved_source_text",
+      "reviewBatch": "second_half_source_image_review",
+      "independentSecondImageReview": true
+    }
+  ],
+  "meta": {
+    "requestedCandidateCount": 134,
+    "sourceRecordsVisuallyReviewed": 134,
+    "reviewedIndices": [
+      0,
+      133
+    ],
+    "pendingIndices": [],
+    "correctionCount": 121,
+    "confirmedUnchangedCount": 6,
+    "unresolvedCount": 7,
+    "identityPolicy": "Each correction applies only to recordId/sourceRef.rowId. Ingredient IDs and all raw records remain distinct; matching corrected display names do not authorize merging identities. Same-name source records outside these 134 canonical rows remain unreviewed.",
+    "sourcePdf": "/Users/linlin/Desktop/IACDTT/食物風味搭配科學 ( etc.) (Z-Library).pdf",
+    "batchStatus": "suspect_canonical_names_review_complete_unresolved_preserved",
+    "reviewScope": "All 134 suspect ingredient canonical sourceRef rows were visually inspected. This does not review every other same-name occurrence, all 1474 ingredient names, aroma vectors, or printed-page metadata.",
+    "reviewMethod": "Two source-image review batches; first half also checked selected full pages/tables, and seven unresolved source records are retained without guessing."
+  }
+}

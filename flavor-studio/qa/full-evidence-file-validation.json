@@ -1,0 +1,12 @@
+{
+  "sourceFieldsLossless": true,
+  "rawDotFieldsLossless": true,
+  "attributeEvidence": 253,
+  "descriptors": 70,
+  "numericRecords": 24,
+  "dotRows": 10439,
+  "dotTables": 949,
+  "ingredientAssets": 1474,
+  "archiveIntegrity": "passed",
+  "singleHtmlBytes": 58875218
+}

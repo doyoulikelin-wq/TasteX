@@ -1,0 +1,171 @@
+{
+  "id": "E0106",
+  "original": {
+    "ingredient": "牛排",
+    "state": "嫩煎相對爐烤",
+    "pdf_page": 186,
+    "book_page": 183,
+    "attribute_type": "processing_change",
+    "attributes": [
+      "嫩煎增加不飽和醛",
+      "爐烤較多烘烤堅果"
+    ],
+    "relation_or_value": "嫩煎與爐烤造成香氣分子數量和濃度不同。",
+    "evidence_mode": "text",
+    "note": "依書中敘述轉述；未附原始樣本測量或濃度數據。",
+    "evidence_id": "E0106",
+    "source": "食物風味搭配科學，2021 年繁體中文版",
+    "verification": "书中证据提取；代表页已目视核对；未独立验证科学结论"
+  },
+  "ingredientName": "牛排",
+  "state": "嫩煎相對爐烤",
+  "displayIngredient": "牛排",
+  "displayState": "嫩煎相对炉烤",
+  "searchText": "{\n  \"ingredient\": \"牛排\",\n  \"state\": \"嫩煎相對爐烤\",\n  \"pdf_page\": 186,\n  \"book_page\": 183,\n  \"attribute_type\": \"processing_change\",\n  \"attributes\": [\n    \"嫩煎增加不飽和醛\",\n    \"爐烤較多烘烤堅果\"\n  ],\n  \"relation_or_value\": \"嫩煎與爐烤造成香氣分子數量和濃度不同。\",\n  \"evidence_mode\": \"text\",\n  \"note\": \"依書中敘述轉述；未附原始樣本測量或濃度數據。\",\n  \"evidence_id\": \"E0106\",\n  \"source\": \"食物風味搭配科學，2021 年繁體中文版\",\n  \"verification\": \"书中证据提取；代表页已目视核对；未独立验证科学结论\"\n}\n{\n  \"ingredient\": \"牛排\",\n  \"state\": \"嫩煎相对炉烤\",\n  \"pdf_page\": 186,\n  \"book_page\": 183,\n  \"attribute_type\": \"processing_change\",\n  \"attributes\": [\n    \"嫩煎增加不饱和醛\",\n    \"炉烤较多烘烤坚果\"\n  ],\n  \"relation_or_value\": \"嫩煎与炉烤造成香气分子数量和浓度不同。\",\n  \"evidence_mode\": \"text\",\n  \"note\": \"依书中叙述转述；未附原始样本测量或浓度数据。\",\n  \"evidence_id\": \"E0106\",\n  \"source\": \"食物风味搭配科学，2021 年繁体中文版\",\n  \"verification\": \"书中证据提取；代表页已目视核对；未独立验证科学结论\"\n}",
+  "links": [
+    {
+      "ingredientId": "ing-00c4d1187873",
+      "kind": "related_context",
+      "reason": "名称存在子串或上下位文字关系，未认定为同一食材",
+      "nameMatchBasis": "substring_or_state_mention",
+      "matchedAliases": [
+        "四十二天熟成肋眼牛排"
+      ],
+      "contextScope": {
+        "status": "related_only",
+        "sourceState": "嫩煎相對爐烤",
+        "quantitativeTransferAllowed": false
+      },
+      "quantitativeTransferAllowed": false
+    },
+    {
+      "ingredientId": "ing-0e43381e9ebb",
+      "kind": "related_context",
+      "reason": "名称存在子串或上下位文字关系，未认定为同一食材",
+      "nameMatchBasis": "substring_or_state_mention",
+      "matchedAliases": [
+        "助眼牛排",
+        "肋眼牛排"
+      ],
+      "contextScope": {
+        "status": "related_only",
+        "sourceState": "嫩煎相對爐烤",
+        "quantitativeTransferAllowed": false
+      },
+      "quantitativeTransferAllowed": false
+    },
+    {
+      "ingredientId": "ing-18efc690af3c",
+      "kind": "related_context",
+      "reason": "名称存在子串或上下位文字关系，未认定为同一食材",
+      "nameMatchBasis": "substring_or_state_mention",
+      "matchedAliases": [
+        "熟牛排菌"
+      ],
+      "contextScope": {
+        "status": "related_only",
+        "sourceState": "嫩煎相對爐烤",
+        "quantitativeTransferAllowed": false
+      },
+      "quantitativeTransferAllowed": false
+    },
+    {
+      "ingredientId": "ing-3c70d7e7d305",
+      "kind": "related_context",
+      "reason": "名称存在子串或上下位文字关系，未认定为同一食材",
+      "nameMatchBasis": "substring_or_state_mention",
+      "matchedAliases": [
+        "網烤肋眼牛排",
+        "网烤肋眼牛排"
+      ],
+      "contextScope": {
+        "status": "related_only",
+        "sourceState": "嫩煎相對爐烤",
+        "quantitativeTransferAllowed": false
+      },
+      "quantitativeTransferAllowed": false
+    },
+    {
+      "ingredientId": "ing-52d5563e2d3a",
+      "kind": "related_context",
+      "reason": "名称存在子串或上下位文字关系，未认定为同一食材",
+      "nameMatchBasis": "substring_or_state_mention",
+      "matchedAliases": [
+        "爐烤牛排",
+        "炉烤牛排"
+      ],
+      "contextScope": {
+        "status": "related_only",
+        "sourceState": "嫩煎相對爐烤",
+        "quantitativeTransferAllowed": false
+      },
+      "quantitativeTransferAllowed": false
+    },
+    {
+      "ingredientId": "ing-8a141c2f71ac",
+      "kind": "related_context",
+      "reason": "名称存在子串或上下位文字关系，未认定为同一食材",
+      "nameMatchBasis": "substring_or_state_mention",
+      "matchedAliases": [
+        "牛腿肉後腿牛排",
+        "牛腿肉后腿牛排"
+      ],
+      "contextScope": {
+        "status": "related_only",
+        "sourceState": "嫩煎相對爐烤",
+        "quantitativeTransferAllowed": false
+      },
+      "quantitativeTransferAllowed": false
+    },
+    {
+      "ingredientId": "ing-bbf16ea070b1",
+      "kind": "related_context",
+      "reason": "名称存在子串或上下位文字关系，未认定为同一食材",
+      "nameMatchBasis": "substring_or_state_mention",
+      "matchedAliases": [
+        "肋眼牛排"
+      ],
+      "contextScope": {
+        "status": "related_only",
+        "sourceState": "嫩煎相對爐烤",
+        "quantitativeTransferAllowed": false
+      },
+      "quantitativeTransferAllowed": false
+    }
+  ],
+  "domains": [
+    "compound",
+    "process"
+  ],
+  "domainBasis": {
+    "basis": "attribute_type_and_text_mentions_for_navigation_only",
+    "sourceAttributeType": "processing_change",
+    "note": "主题标签只说明原文涉及该领域，不将否定、比较、例子或条件叙述转换为属性存在事实。"
+  },
+  "descriptorMentions": [
+    {
+      "descriptorId": "roasted_06",
+      "descriptor": "烘烤",
+      "category": "烘烤",
+      "fieldPaths": [
+        "attributes[1]"
+      ],
+      "interpretation": "text_mention_only"
+    },
+    {
+      "descriptorId": "nutty_02",
+      "descriptor": "堅果",
+      "category": "堅果",
+      "fieldPaths": [
+        "attributes[1]"
+      ],
+      "interpretation": "text_mention_only"
+    }
+  ],
+  "mentionPolicy": "检索命中只表示提及，包含否定、对比、例子和条件，不表示该属性存在。",
+  "sourceRef": {
+    "pdfPage": 186,
+    "bookPage": 183,
+    "evidenceId": "E0106"
+  }
+}

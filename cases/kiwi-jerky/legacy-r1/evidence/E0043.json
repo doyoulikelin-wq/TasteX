@@ -1,0 +1,107 @@
+{
+  "id": "E0043",
+  "original": {
+    "ingredient": "紅哈瓦那辣椒",
+    "state": "成熟；红色",
+    "pdf_page": 96,
+    "book_page": 93,
+    "attribute_type": "state_change",
+    "attributes": [
+      "花卉",
+      "蔬菜"
+    ],
+    "relation_or_value": {
+      "from": "青色未熟",
+      "to": "红色成熟",
+      "decreases": [
+        "青绿-脂肪"
+      ],
+      "increases": [
+        "花卉"
+      ],
+      "pungency_min": 150000,
+      "pungency_max": 325000,
+      "unit": "SHU"
+    },
+    "evidence_mode": "text",
+    "note": "数字已视图核实；成熟转变是书述机制，SHU不是此书实验测值。",
+    "evidence_id": "E0043",
+    "source": "食物風味搭配科學，2021 年繁體中文版",
+    "verification": "书中证据提取；代表页已目视核对；未独立验证科学结论"
+  },
+  "ingredientName": "紅哈瓦那辣椒",
+  "state": "成熟；红色",
+  "displayIngredient": "红哈瓦那辣椒",
+  "displayState": "成熟；红色",
+  "searchText": "{\n  \"ingredient\": \"紅哈瓦那辣椒\",\n  \"state\": \"成熟；红色\",\n  \"pdf_page\": 96,\n  \"book_page\": 93,\n  \"attribute_type\": \"state_change\",\n  \"attributes\": [\n    \"花卉\",\n    \"蔬菜\"\n  ],\n  \"relation_or_value\": {\n    \"from\": \"青色未熟\",\n    \"to\": \"红色成熟\",\n    \"decreases\": [\n      \"青绿-脂肪\"\n    ],\n    \"increases\": [\n      \"花卉\"\n    ],\n    \"pungency_min\": 150000,\n    \"pungency_max\": 325000,\n    \"unit\": \"SHU\"\n  },\n  \"evidence_mode\": \"text\",\n  \"note\": \"数字已视图核实；成熟转变是书述机制，SHU不是此书实验测值。\",\n  \"evidence_id\": \"E0043\",\n  \"source\": \"食物風味搭配科學，2021 年繁體中文版\",\n  \"verification\": \"书中证据提取；代表页已目视核对；未独立验证科学结论\"\n}\n{\n  \"ingredient\": \"红哈瓦那辣椒\",\n  \"state\": \"成熟；红色\",\n  \"pdf_page\": 96,\n  \"book_page\": 93,\n  \"attribute_type\": \"state_change\",\n  \"attributes\": [\n    \"花卉\",\n    \"蔬菜\"\n  ],\n  \"relation_or_value\": {\n    \"from\": \"青色未熟\",\n    \"to\": \"红色成熟\",\n    \"decreases\": [\n      \"青绿-脂肪\"\n    ],\n    \"increases\": [\n      \"花卉\"\n    ],\n    \"pungency_min\": 150000,\n    \"pungency_max\": 325000,\n    \"unit\": \"SHU\"\n  },\n  \"evidence_mode\": \"text\",\n  \"note\": \"数字已视图核实；成熟转变是书述机制，SHU不是此书实验测值。\",\n  \"evidence_id\": \"E0043\",\n  \"source\": \"食物风味搭配科学，2021 年繁体中文版\",\n  \"verification\": \"书中证据提取；代表页已目视核对；未独立验证科学结论\"\n}",
+  "links": [
+    {
+      "ingredientId": "ing-5cb3dddf1208",
+      "kind": "related_context",
+      "reason": "原始食材名称完全一致；目标名称未编码证据状态：成熟",
+      "nameMatchBasis": "exact_name",
+      "matchedAliases": [
+        "紅哈瓦那辣椒",
+        "红哈瓦那辣椒"
+      ],
+      "contextScope": {
+        "status": "requires_context_review",
+        "reasons": [
+          "目标名称未编码证据状态：成熟"
+        ],
+        "sourceState": "成熟；红色",
+        "sourceIngredient": "紅哈瓦那辣椒",
+        "targetDisplayName": "红哈瓦那辣椒",
+        "quantitativeTransferAllowed": false,
+        "note": "即使名称相同，也必须保留原文的品种、部位、加工、分母和测定语境；此索引不授权转移数值。"
+      },
+      "quantitativeTransferAllowed": false
+    }
+  ],
+  "domains": [
+    "chemesthesis",
+    "process",
+    "numeric"
+  ],
+  "domainBasis": {
+    "basis": "attribute_type_and_text_mentions_for_navigation_only",
+    "sourceAttributeType": "state_change",
+    "note": "主题标签只说明原文涉及该领域，不将否定、比较、例子或条件叙述转换为属性存在事实。"
+  },
+  "descriptorMentions": [
+    {
+      "descriptorId": "floral_01",
+      "descriptor": "花卉",
+      "category": "花卉",
+      "fieldPaths": [
+        "attributes[0]",
+        "relation_or_value.increases[0]"
+      ],
+      "interpretation": "text_mention_only"
+    },
+    {
+      "descriptorId": "green_02",
+      "descriptor": "脂肪",
+      "category": "青綠",
+      "fieldPaths": [
+        "relation_or_value.decreases[0]"
+      ],
+      "interpretation": "text_mention_only"
+    },
+    {
+      "descriptorId": "green_04",
+      "descriptor": "青綠",
+      "category": "青綠",
+      "fieldPaths": [
+        "relation_or_value.decreases[0]"
+      ],
+      "interpretation": "text_mention_only"
+    }
+  ],
+  "mentionPolicy": "检索命中只表示提及，包含否定、对比、例子和条件，不表示该属性存在。",
+  "sourceRef": {
+    "pdfPage": 96,
+    "bookPage": 93,
+    "evidenceId": "E0043"
+  }
+}

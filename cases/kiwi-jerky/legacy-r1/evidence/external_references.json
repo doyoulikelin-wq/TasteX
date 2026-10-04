@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-10-05",
+  "scope": "支持数据库驱动猕猴桃低甜微辣瘦牛肉干试配；不修改数据库",
+  "primary_research_count": 5,
+  "official_guidance_count": 3,
+  "records": [
+    {
+      "id": "EXT-01",
+      "type": "primary_research",
+      "title": "Effect of actinidin on the protein solubility, water holding capacity, texture, electrophoretic pattern of beef, and on the quality attributes of a sausage product",
+      "authors": "Aminlari et al.",
+      "year": 2009,
+      "journal": "Journal of Food Science",
+      "doi": "10.1111/j.1750-3841.2009.01087.x",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19397706/",
+      "access": "PubMed abstract",
+      "matrix": "牛肉片、部分纯化 actinidin；另测试香肠制品",
+      "conditions": [
+        {
+          "enzyme_activity": 0.9,
+          "unit": "enzyme unit/g beef",
+          "endpoint": "摘要中 NSI/WHC 最大增加的条件"
+        },
+        {
+          "temperature_C": 37,
+          "time_h": 2,
+          "endpoint": "肉片剪切力约降低10%；不是本肉干的推荐工艺"
+        }
+      ],
+      "finding": "处理改变牛肉蛋白溶解性、持水及剪切力，出现小分子蛋白条带。",
+      "supports": "猕猴桃酶属于实际加工变量，需控制而不能把果泥当惰性香料。",
+      "limitations": [
+        "纯化酶活性不能换算任意果泥克数",
+        "摘要不支持长腌时间上限或苦味发生阈值",
+        "37°C实验孵育条件不能直接用于家庭生肉处理"
+      ]
+    },
+    {
+      "id": "EXT-02",
+      "type": "primary_research",
+      "title": "Thermal inactivation of actinidin as affected by meat matrix",
+      "authors": "Zhu, Kaur and Boland",
+      "year": 2018,
+      "journal": "Meat Science",
+      "doi": "10.1016/j.meatsci.2018.06.027",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0309174017315115",
+      "access": "publisher abstract and introduction preview",
+      "matrix": "鲜绿猕猴桃酶提取物、商业提取物，单独体系及牛肉匀浆",
+      "conditions": [
+        {
+          "temperature_C": [
+            60,
+            65
+          ],
+          "time_min_operator": "<",
+          "time_min": 5,
+          "matrix": "酶提取物单独体系"
+        },
+        {
+          "temperature_C": [
+            60,
+            65
+          ],
+          "time_h_operator": "up_to",
+          "time_h": 24,
+          "matrix": "混合肉匀浆体系"
+        }
+      ],
+      "finding": "肉基质显著延长酶失活时间；论文指出不控制持续反应可能过度嫩化。",
+      "supports": "不默认低温烘干很快终止酶作用；先避免未经标定的长时间生果泥腌制。",
+      "limitations": [
+        "温度/时间不可当本配方验证参数",
+        "没有牛肉干苦味的直接量化结论",
+        "避免长腌是控制变量策略，不是所有果泥长腌必坏的判断"
+      ]
+    },
+    {
+      "id": "EXT-03",
+      "type": "primary_research",
+      "title": "Volatomics-assisted characterization of aroma and off-flavor contributors in fresh and thermally treated kiwifruit juice",
+      "authors": "Xu et al.",
+      "year": 2023,
+      "journal": "Food Research International",
+      "doi": "10.1016/j.foodres.2023.112656",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0963996923002016",
+      "access": "publisher abstract and selected section previews",
+      "matrix": "七个品种的鲜猕猴桃汁与热处理果汁",
+      "conditions": {
+        "exact_thermal_schedule": "本次可见摘要未完整给出，未补写"
+      },
+      "finding": "热处理后特征清鲜果香相关化合物下降，若干熟菜/土豆/硫样异味贡献物增加，品种敏感性不同。",
+      "supports": "保留一部分猕猴桃风味在食用前添加，可作为减少二次热暴露的试验假设。",
+      "limitations": [
+        "不是肉干实验",
+        "不能给出肉干中果香保留百分比",
+        "不能从果汁直接推算香气强度、最佳加粉量或苦味",
+        "未获得完整实验条件和原始数据"
+      ]
+    },
+    {
+      "id": "EXT-04",
+      "type": "primary_research",
+      "title": "Effects of Freeze Vacuum Drying Combined with Hot Air Drying on the Sensory Quality, Active Components, Moisture Mobility, Odors, and Microstructure of Kiwifruits",
+      "authors": "Zhang et al.",
+      "year": 2019,
+      "journal": "Journal of Food Quality",
+      "doi": "10.1155/2019/8709343",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1155/2019/8709343",
+      "access": "publisher full text",
+      "matrix": "Jinyan（金艳）黄肉猕猴桃，未去皮、5 mm果片",
+      "finding": "比较真空冻干、热风和组合干燥；电子鼻/PCA中组合干燥样品更接近鲜果。",
+      "supports": "采购果粉应实际比较加工方法与香气，不能仅凭冻干二字保证风味。",
+      "limitations": [
+        "电子鼻接近不是人的猕猴桃辨识率",
+        "不是绿肉果粉、牛肉干或后加对照实验",
+        "论文不是糖去除试验",
+        "方法与结果表的干燥时长存在不一致，本次不移植工艺时长、不据此计算保留率"
+      ]
+    },
+    {
+      "id": "EXT-05",
+      "type": "primary_research_composition_table_only",
+      "title": "Acute effects of fresh versus dried Hayward green kiwifruit on sleep quality, mood, and sleep-related urinary metabolites in healthy young men with good and poor sleep quality",
+      "authors": "Kanon et al.",
+      "year": 2023,
+      "journal": "Frontiers in Nutrition",
+      "doi": "10.3389/fnut.2023.1079609",
+      "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2023.1079609/full",
+      "pdf_url": "https://mro.massey.ac.nz/bitstreams/16331d31-fe9e-4076-bacc-58ea3b859a94/download",
+      "access": "publisher full text and institutional PDF table 1",
+      "matrix": "试验用含皮 Hayward 绿猕猴桃冻干全果粉",
+      "conditions": {
+        "powder_mass_g": 32,
+        "reported_total_sugars_g": 20.77,
+        "measurement": "Massey University Nutrition Laboratory，表1脚注b"
+      },
+      "finding": "该特定冻干粉仍含相当多天然糖。",
+      "supports": "冻干不是脱糖；按实际产品标签计算果粉带入糖。",
+      "limitations": [
+        "不外推这一个样品糖比例至所有供应商",
+        "鲜果列来自成分表且去皮，不能和含皮粉直接当成严谨加工前后质量平衡",
+        "不引用该论文睡眠或健康结论"
+      ]
+    },
+    {
+      "id": "SAFE-01",
+      "type": "official_guidance",
+      "title": "Jerky and Food Safety",
+      "institution": "USDA FSIS",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat-fish/jerky",
+      "access": "official full page",
+      "finding": "家庭牛肉干先湿热使肉内部实测160°F（71.1°C），再以130–140°F（54.4–60°C）持续脱水；冷藏腌制，腌制本身不保证杀菌。",
+      "limitations": [
+        "不是本新配方的工艺验证",
+        "烘箱设定温度不等于肉内部温度",
+        "未给本配方干燥小时数或常温保质期"
+      ]
+    },
+    {
+      "id": "SAFE-02",
+      "type": "official_extension_guidance",
+      "title": "Jerky",
+      "institution": "National Center for Home Food Preservation / University of Georgia",
+      "url": "https://nchfp.uga.edu/how/dry/recipes/jerky/",
+      "access": "official full page",
+      "finding": "适当干燥的肉干可冷藏或冷冻以延长保存并维持品质；家庭制作须冷藏腌制，不重复使用腌汁。",
+      "limitations": [
+        "其普通肉干储存描述不覆盖本次后加果粉的新配方",
+        "本次不据此赋予常温储存日期"
+      ]
+    },
+    {
+      "id": "SAFE-03",
+      "type": "official_extension_guidance",
+      "title": "Preserving food at home: Freeze-drying",
+      "institution": "University of Minnesota Extension",
+      "year_reviewed": 2025,
+      "url": "https://extension.umn.edu/food/preparing/cooking-at-home/food-preservation/freeze-drying",
+      "access": "official full page",
+      "finding": "冻干通过除水降低水活度，不杀灭原有致病微生物；遇水后风险可恢复。",
+      "supports": "后加应选择明确可即食且有相应食品安全控制的果粉/香辛料；冻干标签本身不是安全证明。",
+      "limitations": [
+        "不是某商业果粉的微生物检验",
+        "不据此认为所有商业果粉不可即食"
+      ]
+    }
+  ]
+}

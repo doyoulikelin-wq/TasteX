@@ -1,0 +1,18 @@
+{
+  "files": 1474,
+  "uniqueIds": 1474,
+  "matchesCatalogIds": true,
+  "matchesDisplayNames": true,
+  "XMLParseValid": true,
+  "manifestSha256Match": true,
+  "identityUnresolvedMatchesNameNeedsReview": true,
+  "independentPathAudit": "../qa/svg-path-audit.json",
+  "contactSheet": "ingredient-art-contact-sheet.png",
+  "contactSheetVisualInspected": true,
+  "renderEngine": "sharp/librsvg; inspected rendered 69-example montage",
+  "notes": [
+    "Original local procedural SVG illustrations, not 1474 independent ImageGen outputs.",
+    "Shared species/style drawing rules retain deterministic individual assets and source names.",
+    "Family illustration entries are intentionally coarser than verified cultivar portraits."
+  ]
+}

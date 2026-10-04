@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-04T22:28:13.289152",
+  "metrics": {
+    "records": 176,
+    "sourceRecords": 176,
+    "bookRecords": 163,
+    "researchRecords": 13,
+    "bookOriginalEvidenceUsed": 147,
+    "bookSupplementCount": 11,
+    "researchStudyCount": 7,
+    "originalAuditCount": 253,
+    "methodGroups": 55,
+    "effectGroups": 293,
+    "ingredientGroups": 154
+  },
+  "dataChecks": 12,
+  "unchangedEngineChecks": 15,
+  "csv": {
+    "加工索引_加工效果.csv": {
+      "rows": 608,
+      "columns": [
+        "索引项",
+        "维度",
+        "变化方向",
+        "记录ID",
+        "标题",
+        "食材",
+        "加工方式",
+        "加工前",
+        "加工后",
+        "适用条件",
+        "变化摘要",
+        "作用机制",
+        "限制",
+        "证据类型",
+        "来源类别",
+        "来源标题",
+        "PDF页",
+        "书页",
+        "DOI",
+        "来源网址",
+        "原始测量或书述数值JSON",
+        "完整记录JSON"
+      ]
+    },
+    "加工索引_加工方式.csv": {
+      "rows": 228,
+      "columns": [
+        "索引项",
+        "维度",
+        "变化方向",
+        "记录ID",
+        "标题",
+        "食材",
+        "加工方式",
+        "加工前",
+        "加工后",
+        "适用条件",
+        "变化摘要",
+        "作用机制",
+        "限制",
+        "证据类型",
+        "来源类别",
+        "来源标题",
+        "PDF页",
+        "书页",
+        "DOI",
+        "来源网址",
+        "原始测量或书述数值JSON",
+        "完整记录JSON"
+      ]
+    },
+    "加工索引_食材.csv": {
+      "rows": 264,
+      "columns": [
+        "索引项",
+        "维度",
+        "变化方向",
+        "记录ID",
+        "标题",
+        "食材",
+        "加工方式",
+        "加工前",
+        "加工后",
+        "适用条件",
+        "变化摘要",
+        "作用机制",
+        "限制",
+        "证据类型",
+        "来源类别",
+        "来源标题",
+        "PDF页",
+        "书页",
+        "DOI",
+        "来源网址",
+        "原始测量或书述数值JSON",
+        "完整记录JSON"
+      ]
+    }
+  },
+  "archiveEntries": 1519,
+  "browserChecks": {
+    "standaloneHTTP": "passed",
+    "threeIndexes": "passed",
+    "researchAndTextFiltering": "passed",
+    "directionSeparation": "passed",
+    "emptyStateAndReset": "passed",
+    "lastPage": "175–176 / 176",
+    "processingProposalExport": "full PR-004 record + conditions retained; temporary reference removed",
+    "mobile390": "body width390; 650px table scrolls in328px container",
+    "consoleErrors": []
+  },
+  "limitations": [
+    "研究收录方法与结果摘要，未建全篇原始测量矩阵",
+    "当前提取范围，不代表全书全部加工知识穷尽",
+    "完整HTML内联依赖已验证；浏览器核验使用本地HTTP服务"
+  ]
+}

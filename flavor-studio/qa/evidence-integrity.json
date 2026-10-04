@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "sourceSha256": "83d83f4d9ff47199c83a6b1cfaf2246b32642f5a6ee8f78d885a7e6e18adf245",
+  "sourceCanonicalSha256": "148a790a1bd83a73b9d4cf2f41fcbd4764a81b062507b8fad2b4a0045ee5e688",
+  "deliveredSourceCanonicalSha256": "148a790a1bd83a73b9d4cf2f41fcbd4764a81b062507b8fad2b4a0045ee5e688",
+  "dotSourceSha256": "fae71fdb234e1d7201bf1ecf9fb26e7dd6d0518a401299ec96c3268a675ee7ff",
+  "dotSourceCanonicalSha256": "94835e357f3b1e208b85a60901070664a15e5f70cf49f74074d96d1283726cfc",
+  "deliveredDotSourceCanonicalSha256": "94835e357f3b1e208b85a60901070664a15e5f70cf49f74074d96d1283726cfc",
+  "rawDotRowsFieldwiseEqual": 10439,
+  "rawDotTablesFieldwiseEqual": 949,
+  "allDotSourceFieldsPreserved": [
+    "source_pdf",
+    "categories",
+    "semantics",
+    "stats",
+    "tables",
+    "rows",
+    "machine_evidence_path",
+    "independent_source_inventory_path",
+    "independent_visual_files",
+    "manual_changes"
+  ],
+  "dotSourceLeafValuesPreserved": 549866,
+  "sourceLeafValuesPreserved": 5178,
+  "allTopLevelFieldsPreserved": [
+    "metadata",
+    "taxonomy",
+    "evidence",
+    "reported_numeric_values",
+    "verified_table",
+    "field_schema",
+    "notes",
+    "automatic_candidates_file"
+  ],
+  "evidenceRecordsFieldwiseEqual": 253,
+  "taxonomyRowsFieldwiseEqual": 70,
+  "numericRowsFieldwiseEqual": 24,
+  "noRecordsDroppedForMissingLinks": true,
+  "javascriptMatchesJson": true,
+  "sourceFileNotModified": true,
+  "dotSourceFileNotModified": true,
+  "derivedLinkCounts": {
+    "exact_name": 112,
+    "related_context": 1158,
+    "alias_name": 5
+  },
+  "scope": "无损性已自动核验；辅助名称/主题关联是可解释索引，不是新的实验或身份验证。"
+}

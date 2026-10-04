@@ -1,0 +1,418 @@
+{
+  "schema_version": "1.0",
+  "case_id": "KJ-001",
+  "revision": "R2",
+  "request_text": "猕猴桃风味但是没有那么甜的肉干，带一点辣味，不希望苦或者腻。用户已确认采用瘦牛肉。",
+  "product": {
+    "name": "猕猴桃微辣瘦牛肉干",
+    "matrix": "ready_to_eat_lean_beef_jerky",
+    "development_stage": "screening_plan_not_made_or_tasted",
+    "intended_use": "食用前调味、当餐小试；未验证保存性",
+    "storage_requirement": null
+  },
+  "targets": [
+    {
+      "dimension": "flavor_identity",
+      "intent": "先自由描述，再评价猕猴桃辨识度",
+      "reference": null,
+      "acceptance": null
+    },
+    {
+      "dimension": "sweetness",
+      "intent": "没有那么甜；参照产品与可接受范围待用户实际比较",
+      "reference": null,
+      "acceptance": null
+    },
+    {
+      "dimension": "pungency",
+      "intent": "一点辣，保留水果辨识度",
+      "reference": null,
+      "acceptance": null
+    },
+    {
+      "dimension": "bitterness",
+      "intent": "不希望有苦味",
+      "reference": null,
+      "acceptance": null
+    },
+    {
+      "dimension": "greasiness",
+      "intent": "不希望油腻或挂口",
+      "reference": null,
+      "acceptance": null
+    }
+  ],
+  "constraints": [
+    {
+      "id": "lean-beef",
+      "kind": "hard",
+      "text": "采用用户已确认的瘦牛肉",
+      "status": "confirmed"
+    },
+    {
+      "id": "kiwi",
+      "kind": "hard",
+      "text": "目标水果风味为猕猴桃，不以奇异莓替代其证据",
+      "status": "confirmed"
+    },
+    {
+      "id": "flavor-preference",
+      "kind": "preference",
+      "text": "低一些甜感、微辣、不苦、不腻；尚无数值接受线",
+      "status": "confirmed"
+    },
+    {
+      "id": "no-added-sugar-oil",
+      "kind": "preference",
+      "text": "本轮不额外添加糖、甜味剂或油，保留基底和果粉天然糖/脂肪未知；不作低糖声称",
+      "status": "assumed"
+    },
+    {
+      "id": "rte-inputs",
+      "kind": "hard",
+      "text": "本后加路线要求肉干和粉料均明确适合直接食用",
+      "status": "assumed"
+    },
+    {
+      "id": "storage",
+      "kind": "preference",
+      "text": "是否需要常温保存、保存时长及包装未指定；本轮仅当餐小试",
+      "status": "unresolved"
+    }
+  ],
+  "ingredients": [
+    {
+      "key": "base",
+      "label": "可即食原味瘦牛肉干",
+      "query": "牛肉",
+      "requested_state": "可即食原味瘦牛肉干",
+      "role": "base",
+      "reference_id": "ing-70099ea01925",
+      "identity_relation": "different_state"
+    },
+    {
+      "key": "kiwi",
+      "label": "可即食猕猴桃果肉冻干粉",
+      "query": "猕猴桃",
+      "requested_state": "可即食猕猴桃果肉冻干粉",
+      "role": "flavor_factor",
+      "reference_id": "ing-f9bfb14ffe98",
+      "identity_relation": "different_state"
+    },
+    {
+      "key": "chili",
+      "label": "可即食低辣非烟熏红辣椒粉",
+      "query": "红辣椒粉",
+      "requested_state": "低辣非烟熏红辣椒粉，实际即食处理规格待核实",
+      "role": "pungency_factor",
+      "reference_id": "ing-e4fa8473e829",
+      "identity_relation": "unresolved"
+    },
+    {
+      "key": "water",
+      "label": "饮用水",
+      "query": "饮用水",
+      "requested_state": "饮用水",
+      "role": "constant",
+      "reference_id": null,
+      "identity_relation": "unresolved"
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "sweet-reference",
+      "text": "没有指定比较肉干产品或甜感参照",
+      "status": "unresolved",
+      "consequence": "保留实际评分与用户选择，不宣称甜度降低百分比或达标。"
+    },
+    {
+      "id": "mouthfeel",
+      "text": "期望软硬、纤维感及干湿程度未指定",
+      "status": "unresolved",
+      "consequence": "记录咀嚼硬度、粉感与自由描述，不能自动优化质地。"
+    },
+    {
+      "id": "base-lot",
+      "text": "肉干供应商、批次、标签糖/脂肪、盐味与烟熏程度未知",
+      "status": "unresolved",
+      "consequence": "制样前记录并试吃基底；基底存在苦或腻时不能把缺陷归因给果粉。"
+    },
+    {
+      "id": "powder-spec",
+      "text": "果粉供应商、品种、含皮状态、糖酸数据、香气和残余酶活未知",
+      "status": "unresolved",
+      "consequence": "鲜果证据不能等同果粉；所有结论只限实际批次与该处理。"
+    },
+    {
+      "id": "chili-spec",
+      "text": "低辣粉实际辣度、处理方式、批次和秤的微量称量能力未知",
+      "status": "unresolved",
+      "consequence": "0.10 g/100 g 不保证微辣；记录实际称量，不从书中辣椒范围换算成品SHU。"
+    },
+    {
+      "id": "consumer-suitability",
+      "text": "参与者对猕猴桃等原料的适用性、忌口与接受范围未确认",
+      "status": "unresolved",
+      "consequence": "试吃前按参与者实际情况确认原料适用；不由数据库推断适合所有人。"
+    },
+    {
+      "id": "screening-time",
+      "text": "统一拌后10分钟观察",
+      "status": "assumed",
+      "consequence": "只是筛选观察窗口，不是酶作用、保香或保存的最佳时间。"
+    },
+    {
+      "id": "batches",
+      "text": "两批独立称量制备，先使用相同原料批次",
+      "status": "assumed",
+      "consequence": "可初查制备重复性；换原料批次的迁移性尚未检验。"
+    }
+  ],
+  "routes": [
+    {
+      "id": "rte-powder-postcoat",
+      "title": "路线 A：即食猕猴桃果肉粉食前附着",
+      "status": "selected_for_screening",
+      "rationale": "优先把水果加量与辣椒加量独立控制，使用现有原味肉干做小试；不让鲜果长时间腌制与赋香同时变化。选择依据是可检验性，并无更好吃的实测证明。",
+      "advantages": [
+        "同一肉干基底可独立试果粉/辣椒水平，容易保留对照。",
+        "可避免让后加果粉再次经历肉的热加工；保香是否更好仍需试吃。",
+        "原料配料表和质量可记录，便于复做。"
+      ],
+      "limitations": [
+        "果粉不是鲜果，可能只有酸感而缺乏猕猴桃辨识度。",
+        "果粉增量同时改变天然糖、酸与固形物，不能视为只加香气。",
+        "附粉、掉粉、结团、挂口及10分钟后的变化未知；不能沿用基底货架期。"
+      ],
+      "evidence_refs": [
+        "E0001",
+        "E0002",
+        "E0003",
+        "E0004",
+        "book_pages:43",
+        "E0105",
+        "E0106",
+        "p044_t01_r04",
+        "legacy-r1/evidence/external_references.json:EXT-03"
+      ],
+      "parameters": [
+        {
+          "name": "kiwi_screening_levels",
+          "value": "0, 3, 5",
+          "unit": "g/100 g finished base",
+          "origin": "hypothesis",
+          "basis": "0为控制，3与5延续R1起始和较高剂量并补齐所有辣椒组合；没有来源最佳配比。"
+        },
+        {
+          "name": "chili_screening_levels",
+          "value": "0, 0.10",
+          "unit": "g/100 g finished base",
+          "origin": "hypothesis",
+          "basis": "延续R1起始量并加辣椒独立对照；不保证对该批次为微辣。"
+        },
+        {
+          "name": "water",
+          "value": 1,
+          "unit": "g/100 g finished base",
+          "origin": "hypothesis",
+          "basis": "统一少量润湿处理，另设原样无水对照检验处理差异。"
+        },
+        {
+          "name": "wait",
+          "value": 10,
+          "unit": "min",
+          "origin": "hypothesis",
+          "basis": "统一观察时间，不是已验证最优或保存时间。"
+        }
+      ]
+    },
+    {
+      "id": "controlled-juice-before-drying",
+      "title": "路线 B：受控果汁接触后再制成肉干",
+      "status": "deferred",
+      "rationale": "作为风味进入肉内部的候选路线，需另行研究肉干加工、酶作用和香气保持，不纳入此次食前附粉的同一因子试验。",
+      "advantages": [
+        "可能改变肉内调味分布与质地，值得在专门加工试验中比较。",
+        "液体材料可记录加入量与接触条件。"
+      ],
+      "limitations": [
+        "果汁接触时间、温度和酶活与肉质耦合，过度嫩化风险不能从本库换算出通用操作量。",
+        "后续热加工会改变风味；不能把鲜果轮廓当成肉干成品。",
+        "需单独验证加工、含水终点与保存，不提供未验证的生肉制备参数。"
+      ],
+      "evidence_refs": [
+        "book_pages:43",
+        "legacy-r1/evidence/external_references.json:EXT-02",
+        "legacy-r1/evidence/external_references.json:EXT-03"
+      ],
+      "parameters": [
+        {
+          "name": "juice_dose_and_contact",
+          "value": null,
+          "unit": "g, min, °C",
+          "origin": "hypothesis",
+          "basis": "待实际原料规格与独立加工设计；不使用书中经验量直接换算。"
+        }
+      ]
+    },
+    {
+      "id": "specified-flavor-ingredient",
+      "title": "路线 C：规格明确的猕猴桃风味配料后加",
+      "status": "alternative",
+      "rationale": "若实际果粉只有酸甜或粉感，另行筛查供应商风味配料；本路线目前没有确定产品和匹配实测数据。",
+      "advantages": [
+        "若配料规格合适，可能使供香量与果粉固形物量更容易分别调节。",
+        "供应商若提供完整规格，可记录载体、推荐范围与批次。"
+      ],
+      "limitations": [
+        "尚未选品，载体中的糖、油、溶剂及实际果香未知，不能假定无甜感或无油腻。",
+        "是否接受这种配料、名称标示、价格和采购可行性待确认。",
+        "数据库鲜果/配对证据不验证该商业材料，不能沿用果粉3/5 g剂量。"
+      ],
+      "evidence_refs": [],
+      "parameters": [
+        {
+          "name": "candidate_product_and_dose",
+          "value": null,
+          "unit": "supplier-specific",
+          "origin": "hypothesis",
+          "basis": "路线假设；获得实际食品用途规格后另建配料身份与剂量试验。"
+        }
+      ]
+    }
+  ],
+  "design": {
+    "basis_g": 100,
+    "base_key": "base",
+    "sample_base_g": 50,
+    "factors": [
+      {
+        "key": "kiwi",
+        "levels_g": [
+          0,
+          3,
+          5
+        ],
+        "origin": "hypothesis",
+        "rationale": "覆盖无果粉、R1起始量与较高量；不是来源测量的最佳范围。"
+      },
+      {
+        "key": "chili",
+        "levels_g": [
+          0,
+          0.1
+        ],
+        "origin": "hypothesis",
+        "rationale": "补上只加辣椒和每个果粉水平下的无辣/有辣对照。"
+      }
+    ],
+    "constants": [
+      {
+        "key": "water",
+        "grams_per_basis": 1
+      }
+    ],
+    "native_control": true,
+    "planned_batches": 2,
+    "seed": 20261005,
+    "wait_minutes": 10,
+    "dimensions": [
+      "flavor_identity",
+      "sweetness",
+      "sourness",
+      "pungency",
+      "bitterness",
+      "astringency",
+      "greasiness",
+      "powderiness",
+      "chew_hardness",
+      "overall_fit"
+    ],
+    "preparation_notes": [
+      "每样50 g基底：沿用R1规模，降低相对称量误差并留出多人分样；不表示每人必须吃完50 g。每批7样350 g基底，两批共700 g。",
+      "使用相同肉干及粉料批次完成第一轮两次独立制备；每份按计划称量并记录实际读数、原料lot、操作者和时间，不能从计划自动填实际。",
+      "辣椒最小计划0.05 g/样，需核实秤在该量级的可用性。显示0.01 g分度不等于准确；若称量不可靠则整样等比例放大并记录，不能用猕猴桃预混粉制作无果粉的独立辣椒组。",
+      "原样对照不加水或粉；六个因子样均加0.50 g水；容器、肉干块尺寸和试吃温度尽量一致并记录。",
+      "只使用明确适合即食的材料，先检查基底与单料状态；后加不加热。现拌当餐试吃，不能沿用原肉干常温保存期。",
+      "统一拌后10分钟观察并记录实际经过时间、附粉损耗、结团和掉粉；本轮不改变这些条件作为新的因子。",
+      "制样者保管design中的盲码映射，试吃者仅看盲评表；按每批随机顺序呈样，先自由描述再告知风味目标。",
+      "样间饮水清口并等待前一样辣感消退；可分两次会话，记录参与者/会话与实际顺序。两批随机顺序并不等于完全顺序平衡。",
+      "0–10为记录尺度：强度项0无10极强；flavor_identity为0不能辨认10非常清楚；chew_hardness为0很软10很硬；overall_fit为0完全不合目标10完全符合。无数据留null，不设置虚构及格线。",
+      "甜感参照、实际原料标签与保存目标未定时，继续小试设计但不宣布产品达标或可商品化。"
+    ]
+  },
+  "external_evidence": {
+    "legacy-r1/evidence/external_references.json:EXT-02": {
+      "origin": "previous_research_not_refetched",
+      "source_record": {
+        "id": "EXT-02",
+        "type": "primary_research",
+        "title": "Thermal inactivation of actinidin as affected by meat matrix",
+        "authors": "Zhu, Kaur and Boland",
+        "year": 2018,
+        "journal": "Meat Science",
+        "doi": "10.1016/j.meatsci.2018.06.027",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0309174017315115",
+        "access": "publisher abstract and introduction preview",
+        "matrix": "鲜绿猕猴桃酶提取物、商业提取物，单独体系及牛肉匀浆",
+        "conditions": [
+          {
+            "temperature_C": [
+              60,
+              65
+            ],
+            "time_min_operator": "<",
+            "time_min": 5,
+            "matrix": "酶提取物单独体系"
+          },
+          {
+            "temperature_C": [
+              60,
+              65
+            ],
+            "time_h_operator": "up_to",
+            "time_h": 24,
+            "matrix": "混合肉匀浆体系"
+          }
+        ],
+        "finding": "肉基质显著延长酶失活时间；论文指出不控制持续反应可能过度嫩化。",
+        "supports": "不默认低温烘干很快终止酶作用；先避免未经标定的长时间生果泥腌制。",
+        "limitations": [
+          "温度/时间不可当本配方验证参数",
+          "没有牛肉干苦味的直接量化结论",
+          "避免长腌是控制变量策略，不是所有果泥长腌必坏的判断"
+        ]
+      },
+      "previous_review_date": "2026-10-05",
+      "source_file": "cases/kiwi-jerky/legacy-r1/evidence/external_references.json"
+    },
+    "legacy-r1/evidence/external_references.json:EXT-03": {
+      "origin": "previous_research_not_refetched",
+      "source_record": {
+        "id": "EXT-03",
+        "type": "primary_research",
+        "title": "Volatomics-assisted characterization of aroma and off-flavor contributors in fresh and thermally treated kiwifruit juice",
+        "authors": "Xu et al.",
+        "year": 2023,
+        "journal": "Food Research International",
+        "doi": "10.1016/j.foodres.2023.112656",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0963996923002016",
+        "access": "publisher abstract and selected section previews",
+        "matrix": "七个品种的鲜猕猴桃汁与热处理果汁",
+        "conditions": {
+          "exact_thermal_schedule": "本次可见摘要未完整给出，未补写"
+        },
+        "finding": "热处理后特征清鲜果香相关化合物下降，若干熟菜/土豆/硫样异味贡献物增加，品种敏感性不同。",
+        "supports": "保留一部分猕猴桃风味在食用前添加，可作为减少二次热暴露的试验假设。",
+        "limitations": [
+          "不是肉干实验",
+          "不能给出肉干中果香保留百分比",
+          "不能从果汁直接推算香气强度、最佳加粉量或苦味",
+          "未获得完整实验条件和原始数据"
+        ]
+      },
+      "previous_review_date": "2026-10-05",
+      "source_file": "cases/kiwi-jerky/legacy-r1/evidence/external_references.json"
+    }
+  }
+}

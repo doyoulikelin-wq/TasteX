@@ -1,0 +1,11 @@
+flavor-database/flavor.sqlite filter=lfs diff=lfs merge=lfs -text
+flavor-studio/风味创作室.html filter=lfs diff=lfs merge=lfs -text
+# Preserve exact source snapshot bytes across operating systems.
+flavor-studio/data/** -text
+flavor-studio/assets/** -text
+flavor-studio/data/*.csv whitespace=cr-at-eol
+flavor-studio/assets/*.csv whitespace=cr-at-eol
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+flavor-studio/data/*.tsv whitespace=cr-at-eol

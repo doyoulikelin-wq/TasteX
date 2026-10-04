@@ -1,0 +1,623 @@
+{
+  "analysis_limits": [
+    "仅在同一批次、同一试吃者、相同维度且所需样品评分齐全时计算对比；未评分保持 null。",
+    "将每个制备批次的对比单独报告，再查看重复方向；不把多人评分或多口试吃当成独立制备批次。",
+    "原料批次或状态改变时需记录适用范围；剂量改变会同时改变糖、酸、固形物等，不能归因为纯香气效应。",
+    "两批小试不足以确认人群偏好、统计显著性、分子机制、货架期或商品化稳定性。",
+    "未指定目标参照或接受线时只能报告观察和用户选择，不能自动宣布符合全部用户目标。"
+  ],
+  "base_key": "base",
+  "basis_g": 100,
+  "batches": [
+    {
+      "actual_operator_id": null,
+      "actual_prepared_at": null,
+      "cell_ids": [
+        "cell-9f7defee81e7",
+        "cell-ff2ea3e57334",
+        "cell-a83702147ad1",
+        "cell-e4062d7b651b",
+        "cell-94f7655ea828",
+        "cell-e783d28796d6",
+        "cell-09f61f10fded"
+      ],
+      "id": "batch-01",
+      "material_lots": {
+        "base": null,
+        "chili": null,
+        "kiwi": null,
+        "water": null
+      },
+      "presentation": [
+        {
+          "blind_code": "539",
+          "cell_id": "cell-9f7defee81e7",
+          "position": 1
+        },
+        {
+          "blind_code": "944",
+          "cell_id": "cell-ff2ea3e57334",
+          "position": 2
+        },
+        {
+          "blind_code": "785",
+          "cell_id": "cell-a83702147ad1",
+          "position": 3
+        },
+        {
+          "blind_code": "657",
+          "cell_id": "cell-e4062d7b651b",
+          "position": 4
+        },
+        {
+          "blind_code": "966",
+          "cell_id": "cell-94f7655ea828",
+          "position": 5
+        },
+        {
+          "blind_code": "499",
+          "cell_id": "cell-e783d28796d6",
+          "position": 6
+        },
+        {
+          "blind_code": "571",
+          "cell_id": "cell-09f61f10fded",
+          "position": 7
+        }
+      ],
+      "status": "planned_not_prepared"
+    },
+    {
+      "actual_operator_id": null,
+      "actual_prepared_at": null,
+      "cell_ids": [
+        "cell-9f7defee81e7",
+        "cell-a83702147ad1",
+        "cell-e4062d7b651b",
+        "cell-09f61f10fded",
+        "cell-94f7655ea828",
+        "cell-e783d28796d6",
+        "cell-ff2ea3e57334"
+      ],
+      "id": "batch-02",
+      "material_lots": {
+        "base": null,
+        "chili": null,
+        "kiwi": null,
+        "water": null
+      },
+      "presentation": [
+        {
+          "blind_code": "947",
+          "cell_id": "cell-9f7defee81e7",
+          "position": 1
+        },
+        {
+          "blind_code": "200",
+          "cell_id": "cell-a83702147ad1",
+          "position": 2
+        },
+        {
+          "blind_code": "741",
+          "cell_id": "cell-e4062d7b651b",
+          "position": 3
+        },
+        {
+          "blind_code": "515",
+          "cell_id": "cell-09f61f10fded",
+          "position": 4
+        },
+        {
+          "blind_code": "595",
+          "cell_id": "cell-94f7655ea828",
+          "position": 5
+        },
+        {
+          "blind_code": "951",
+          "cell_id": "cell-e783d28796d6",
+          "position": 6
+        },
+        {
+          "blind_code": "420",
+          "cell_id": "cell-ff2ea3e57334",
+          "position": 7
+        }
+      ],
+      "status": "planned_not_prepared"
+    }
+  ],
+  "blinding_algorithm": "sha256_rank_v1",
+  "cells": [
+    {
+      "factor_levels_g": {
+        "chili": 0,
+        "kiwi": 0
+      },
+      "id": "cell-09f61f10fded",
+      "kind": "factorial",
+      "masses_per_basis_g": {
+        "base": 100,
+        "chili": 0,
+        "kiwi": 0,
+        "water": 1
+      },
+      "outcomes": null,
+      "planned_sample_masses_g": {
+        "base": 50.0,
+        "chili": 0.0,
+        "kiwi": 0.0,
+        "water": 0.5
+      },
+      "quantity_status": "planned_not_weighed",
+      "total_mass_g_per_basis": 101.0,
+      "total_sample_mass_g": 50.5
+    },
+    {
+      "factor_levels_g": {
+        "chili": 0.1,
+        "kiwi": 0
+      },
+      "id": "cell-a83702147ad1",
+      "kind": "factorial",
+      "masses_per_basis_g": {
+        "base": 100,
+        "chili": 0.1,
+        "kiwi": 0,
+        "water": 1
+      },
+      "outcomes": null,
+      "planned_sample_masses_g": {
+        "base": 50.0,
+        "chili": 0.05,
+        "kiwi": 0.0,
+        "water": 0.5
+      },
+      "quantity_status": "planned_not_weighed",
+      "total_mass_g_per_basis": 101.1,
+      "total_sample_mass_g": 50.55
+    },
+    {
+      "factor_levels_g": {
+        "chili": 0,
+        "kiwi": 3
+      },
+      "id": "cell-9f7defee81e7",
+      "kind": "factorial",
+      "masses_per_basis_g": {
+        "base": 100,
+        "chili": 0,
+        "kiwi": 3,
+        "water": 1
+      },
+      "outcomes": null,
+      "planned_sample_masses_g": {
+        "base": 50.0,
+        "chili": 0.0,
+        "kiwi": 1.5,
+        "water": 0.5
+      },
+      "quantity_status": "planned_not_weighed",
+      "total_mass_g_per_basis": 104.0,
+      "total_sample_mass_g": 52.0
+    },
+    {
+      "factor_levels_g": {
+        "chili": 0.1,
+        "kiwi": 3
+      },
+      "id": "cell-e783d28796d6",
+      "kind": "factorial",
+      "masses_per_basis_g": {
+        "base": 100,
+        "chili": 0.1,
+        "kiwi": 3,
+        "water": 1
+      },
+      "outcomes": null,
+      "planned_sample_masses_g": {
+        "base": 50.0,
+        "chili": 0.05,
+        "kiwi": 1.5,
+        "water": 0.5
+      },
+      "quantity_status": "planned_not_weighed",
+      "total_mass_g_per_basis": 104.1,
+      "total_sample_mass_g": 52.05
+    },
+    {
+      "factor_levels_g": {
+        "chili": 0,
+        "kiwi": 5
+      },
+      "id": "cell-ff2ea3e57334",
+      "kind": "factorial",
+      "masses_per_basis_g": {
+        "base": 100,
+        "chili": 0,
+        "kiwi": 5,
+        "water": 1
+      },
+      "outcomes": null,
+      "planned_sample_masses_g": {
+        "base": 50.0,
+        "chili": 0.0,
+        "kiwi": 2.5,
+        "water": 0.5
+      },
+      "quantity_status": "planned_not_weighed",
+      "total_mass_g_per_basis": 106.0,
+      "total_sample_mass_g": 53.0
+    },
+    {
+      "factor_levels_g": {
+        "chili": 0.1,
+        "kiwi": 5
+      },
+      "id": "cell-e4062d7b651b",
+      "kind": "factorial",
+      "masses_per_basis_g": {
+        "base": 100,
+        "chili": 0.1,
+        "kiwi": 5,
+        "water": 1
+      },
+      "outcomes": null,
+      "planned_sample_masses_g": {
+        "base": 50.0,
+        "chili": 0.05,
+        "kiwi": 2.5,
+        "water": 0.5
+      },
+      "quantity_status": "planned_not_weighed",
+      "total_mass_g_per_basis": 106.1,
+      "total_sample_mass_g": 53.05
+    },
+    {
+      "factor_levels_g": {
+        "chili": 0,
+        "kiwi": 0
+      },
+      "id": "cell-94f7655ea828",
+      "kind": "native_control",
+      "masses_per_basis_g": {
+        "base": 100,
+        "chili": 0,
+        "kiwi": 0,
+        "water": 0
+      },
+      "outcomes": null,
+      "planned_sample_masses_g": {
+        "base": 50.0,
+        "chili": 0.0,
+        "kiwi": 0.0,
+        "water": 0.0
+      },
+      "quantity_status": "planned_not_weighed",
+      "total_mass_g_per_basis": 100.0,
+      "total_sample_mass_g": 50.0
+    }
+  ],
+  "contrasts": [
+    {
+      "estimated_value": null,
+      "factor": "kiwi",
+      "from_g_per_basis": 0,
+      "held_factors_g_per_basis": {
+        "chili": 0
+      },
+      "id": "contrast-001",
+      "kind": "simple_factor_effect",
+      "question": "在其他配料水平相同时，kiwi 从 0 g 增至 3 g / 基准份，对各评分的差异是什么？",
+      "terms": [
+        {
+          "cell_id": "cell-9f7defee81e7",
+          "weight": 1
+        },
+        {
+          "cell_id": "cell-09f61f10fded",
+          "weight": -1
+        }
+      ],
+      "to_g_per_basis": 3
+    },
+    {
+      "estimated_value": null,
+      "factor": "kiwi",
+      "from_g_per_basis": 0,
+      "held_factors_g_per_basis": {
+        "chili": 0
+      },
+      "id": "contrast-002",
+      "kind": "simple_factor_effect",
+      "question": "在其他配料水平相同时，kiwi 从 0 g 增至 5 g / 基准份，对各评分的差异是什么？",
+      "terms": [
+        {
+          "cell_id": "cell-ff2ea3e57334",
+          "weight": 1
+        },
+        {
+          "cell_id": "cell-09f61f10fded",
+          "weight": -1
+        }
+      ],
+      "to_g_per_basis": 5
+    },
+    {
+      "estimated_value": null,
+      "factor": "kiwi",
+      "from_g_per_basis": 0,
+      "held_factors_g_per_basis": {
+        "chili": 0.1
+      },
+      "id": "contrast-003",
+      "kind": "simple_factor_effect",
+      "question": "在其他配料水平相同时，kiwi 从 0 g 增至 3 g / 基准份，对各评分的差异是什么？",
+      "terms": [
+        {
+          "cell_id": "cell-e783d28796d6",
+          "weight": 1
+        },
+        {
+          "cell_id": "cell-a83702147ad1",
+          "weight": -1
+        }
+      ],
+      "to_g_per_basis": 3
+    },
+    {
+      "estimated_value": null,
+      "factor": "kiwi",
+      "from_g_per_basis": 0,
+      "held_factors_g_per_basis": {
+        "chili": 0.1
+      },
+      "id": "contrast-004",
+      "kind": "simple_factor_effect",
+      "question": "在其他配料水平相同时，kiwi 从 0 g 增至 5 g / 基准份，对各评分的差异是什么？",
+      "terms": [
+        {
+          "cell_id": "cell-e4062d7b651b",
+          "weight": 1
+        },
+        {
+          "cell_id": "cell-a83702147ad1",
+          "weight": -1
+        }
+      ],
+      "to_g_per_basis": 5
+    },
+    {
+      "estimated_value": null,
+      "factor": "chili",
+      "from_g_per_basis": 0,
+      "held_factors_g_per_basis": {
+        "kiwi": 0
+      },
+      "id": "contrast-005",
+      "kind": "simple_factor_effect",
+      "question": "在其他配料水平相同时，chili 从 0 g 增至 0.1 g / 基准份，对各评分的差异是什么？",
+      "terms": [
+        {
+          "cell_id": "cell-a83702147ad1",
+          "weight": 1
+        },
+        {
+          "cell_id": "cell-09f61f10fded",
+          "weight": -1
+        }
+      ],
+      "to_g_per_basis": 0.1
+    },
+    {
+      "estimated_value": null,
+      "factor": "chili",
+      "from_g_per_basis": 0,
+      "held_factors_g_per_basis": {
+        "kiwi": 3
+      },
+      "id": "contrast-006",
+      "kind": "simple_factor_effect",
+      "question": "在其他配料水平相同时，chili 从 0 g 增至 0.1 g / 基准份，对各评分的差异是什么？",
+      "terms": [
+        {
+          "cell_id": "cell-e783d28796d6",
+          "weight": 1
+        },
+        {
+          "cell_id": "cell-9f7defee81e7",
+          "weight": -1
+        }
+      ],
+      "to_g_per_basis": 0.1
+    },
+    {
+      "estimated_value": null,
+      "factor": "chili",
+      "from_g_per_basis": 0,
+      "held_factors_g_per_basis": {
+        "kiwi": 5
+      },
+      "id": "contrast-007",
+      "kind": "simple_factor_effect",
+      "question": "在其他配料水平相同时，chili 从 0 g 增至 0.1 g / 基准份，对各评分的差异是什么？",
+      "terms": [
+        {
+          "cell_id": "cell-e4062d7b651b",
+          "weight": 1
+        },
+        {
+          "cell_id": "cell-ff2ea3e57334",
+          "weight": -1
+        }
+      ],
+      "to_g_per_basis": 0.1
+    },
+    {
+      "estimated_value": null,
+      "factors": [
+        "kiwi",
+        "chili"
+      ],
+      "held_factors_g_per_basis": {},
+      "id": "contrast-008",
+      "interpretation": "同一评分尺度的差中之差；待有配对观察才估计，不是已证实的协同/掩盖机制。",
+      "kind": "factorial_difference_in_differences",
+      "question": "kiwi 的高低水平差异是否随 chili 的水平改变？",
+      "terms": [
+        {
+          "cell_id": "cell-e783d28796d6",
+          "weight": 1
+        },
+        {
+          "cell_id": "cell-a83702147ad1",
+          "weight": -1
+        },
+        {
+          "cell_id": "cell-9f7defee81e7",
+          "weight": -1
+        },
+        {
+          "cell_id": "cell-09f61f10fded",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "estimated_value": null,
+      "factors": [
+        "kiwi",
+        "chili"
+      ],
+      "held_factors_g_per_basis": {},
+      "id": "contrast-009",
+      "interpretation": "同一评分尺度的差中之差；待有配对观察才估计，不是已证实的协同/掩盖机制。",
+      "kind": "factorial_difference_in_differences",
+      "question": "kiwi 的高低水平差异是否随 chili 的水平改变？",
+      "terms": [
+        {
+          "cell_id": "cell-e4062d7b651b",
+          "weight": 1
+        },
+        {
+          "cell_id": "cell-a83702147ad1",
+          "weight": -1
+        },
+        {
+          "cell_id": "cell-ff2ea3e57334",
+          "weight": -1
+        },
+        {
+          "cell_id": "cell-09f61f10fded",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "changed_constant_masses_g_per_basis": {
+        "water": 1
+      },
+      "estimated_value": null,
+      "id": "contrast-010",
+      "interpretation": "若固定配料只有水，可估计此润湿处理的整体差异；不推广为独立水活度、保存期或分子机制。",
+      "kind": "native_vs_constants_control",
+      "question": "仅添加固定配料并执行相应处理，相比原样基底有何差异？",
+      "terms": [
+        {
+          "cell_id": "cell-09f61f10fded",
+          "weight": 1
+        },
+        {
+          "cell_id": "cell-94f7655ea828",
+          "weight": -1
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "actual_participants": null,
+    "actual_samples": null,
+    "cells_per_batch": 7,
+    "factorial_cells": 6,
+    "native_control_cells": 1,
+    "planned_base_total_g": 700.0,
+    "planned_batches": 2,
+    "planned_material_totals_g": {
+      "base": 700.0,
+      "chili": 0.3,
+      "kiwi": 16.0,
+      "water": 6.0
+    },
+    "planned_samples": 14,
+    "sensory_results": null
+  },
+  "sample_base_g": 50,
+  "schema_version": "1.0",
+  "scope": {
+    "ingredient_state": "base=可即食原味瘦牛肉干; kiwi=可即食猕猴桃果肉冻干粉; chili=低辣非烟熏红辣椒粉，实际即食处理规格待核实; water=饮用水",
+    "matrix": "ready_to_eat_lean_beef_jerky",
+    "process": "{\"preparation_notes_sha256\":\"b2dd4662eed80bbe193f5a05bc1a528e0060788f6453558ad2752cc0870a2201\",\"route_id\":\"rte-powder-postcoat\",\"wait_minutes\":10}",
+    "serving_context": "食用前调味、当餐小试；未验证保存性"
+  },
+  "seed": 20261005,
+  "selected_route_id": "rte-powder-postcoat",
+  "status": "design_only_not_tasted",
+  "template": {
+    "actual_masses_g": {
+      "base": null,
+      "chili": null,
+      "kiwi": null,
+      "water": null
+    },
+    "batch_id": null,
+    "case_id": "KJ-001",
+    "cell_id": null,
+    "disposition": "not_evaluated",
+    "free_description": null,
+    "material_lots": {
+      "base": null,
+      "chili": null,
+      "kiwi": null,
+      "water": null
+    },
+    "notes": null,
+    "observation_id": null,
+    "observed_at": null,
+    "origin": "human_observed",
+    "participant_id": null,
+    "ratings": {
+      "astringency": null,
+      "bitterness": null,
+      "chew_hardness": null,
+      "flavor_identity": null,
+      "greasiness": null,
+      "overall_fit": null,
+      "powderiness": null,
+      "pungency": null,
+      "sourness": null,
+      "sweetness": null
+    },
+    "revision": "R2",
+    "run_id": "run-33a8e8e2396889dc9fc101a0",
+    "scale": {
+      "max": 10,
+      "min": 0
+    },
+    "schema_version": "1.0",
+    "scope": {
+      "ingredient_state": "base=可即食原味瘦牛肉干; kiwi=可即食猕猴桃果肉冻干粉; chili=低辣非烟熏红辣椒粉，实际即食处理规格待核实; water=饮用水",
+      "matrix": "ready_to_eat_lean_beef_jerky",
+      "process": "{\"preparation_notes_sha256\":\"b2dd4662eed80bbe193f5a05bc1a528e0060788f6453558ad2752cc0870a2201\",\"route_id\":\"rte-powder-postcoat\",\"wait_minutes\":10}",
+      "serving_context": "食用前调味、当餐小试；未验证保存性"
+    },
+    "supersedes": null
+  },
+  "wait_minutes": 10,
+  "warnings": [
+    "所有配料克数是筛选设计，不是实称值、最佳比例或感官预测。",
+    "随机呈样降低固定顺序偏差，但没有实现完整顺序平衡，也不能消除前样味觉残留和提示效应。",
+    "盲码映射含配方身份，应由制样者保管；自行制样者不能视为完全盲评。",
+    "不同批次应独立称量制备；同一锅分装或同一样重复评分不构成独立制备批次。",
+    "静置 10 分钟是统一待观察条件，未证明为最优处理时间。",
+    "包含小于 0.1 g 的配料：显示分度不等于称量准确度；记录校验和实际读数，设备不能可靠称量时等比例放大整样。"
+  ]
+}

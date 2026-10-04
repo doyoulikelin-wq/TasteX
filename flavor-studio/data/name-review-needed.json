@@ -1,0 +1,260 @@
+[
+  {
+    "id": "ing-b2369392a8ff",
+    "name": "乾革澄茄",
+    "displayName": "干革澄茄",
+    "reasons": [
+      "第二字在扫描字形中不够清楚，不能可靠逐字确认；未用常见食材名补写。"
+    ],
+    "nameVisuallyReviewed": false,
+    "sourceRef": {
+      "tableId": "p102_t03",
+      "rowId": "p102_t03_r01",
+      "pdfPage": 102,
+      "bookPage": 99
+    },
+    "recordCount": 1,
+    "records": [
+      {
+        "id": "p102_t03_r01",
+        "role": "pairing",
+        "sourceRef": {
+          "tableId": "p102_t03",
+          "rowId": "p102_t03_r01",
+          "pdfPage": 102,
+          "bookPage": 99
+        },
+        "nameReviewStatus": "unresolved_source_text"
+      }
+    ]
+  },
+  {
+    "id": "ing-dcd0602cc812",
+    "name": "清燉椁",
+    "displayName": "清炖椁",
+    "reasons": [
+      "已查看完整表及放大行名；原图为「清燉　桲」，中间字缺印或图像缺失，未从其他表补字。"
+    ],
+    "nameVisuallyReviewed": false,
+    "sourceRef": {
+      "tableId": "p051_t03",
+      "rowId": "p051_t03_r08",
+      "pdfPage": 51,
+      "bookPage": 48
+    },
+    "recordCount": 1,
+    "records": [
+      {
+        "id": "p051_t03_r08",
+        "role": "pairing",
+        "sourceRef": {
+          "tableId": "p051_t03",
+          "rowId": "p051_t03_r08",
+          "pdfPage": 51,
+          "bookPage": 48
+        },
+        "nameReviewStatus": "unresolved_source_text"
+      }
+    ]
+  },
+  {
+    "id": "ing-d6aa4986adc5",
+    "name": "烘烤菱",
+    "displayName": "烘烤菱",
+    "reasons": [
+      "已查看整表和8倍源图：主行只显示「烘烤菱」，右侧为空白；无法从该记录源图补出完整食材名，禁止按其他相似记录补字。"
+    ],
+    "nameVisuallyReviewed": false,
+    "sourceRef": {
+      "tableId": "p108_t06",
+      "rowId": "p108_t06_r00",
+      "pdfPage": 108,
+      "bookPage": 105
+    },
+    "recordCount": 1,
+    "records": [
+      {
+        "id": "p108_t06_r00",
+        "role": "main",
+        "sourceRef": {
+          "tableId": "p108_t06",
+          "rowId": "p108_t06_r00",
+          "pdfPage": 108,
+          "bookPage": 105
+        },
+        "nameReviewStatus": "unresolved_source_text"
+      }
+    ]
+  },
+  {
+    "id": "ing-c5921e8441bc",
+    "name": "生",
+    "displayName": "生",
+    "reasons": [
+      "已查看对应源图和8倍裁图：首字为「生」，第二字扫描笔画糊成深色块，疑似薑但无法逐字确定；继续待核，不用猜测作修正。"
+    ],
+    "nameVisuallyReviewed": false,
+    "sourceRef": {
+      "tableId": "p146_t03",
+      "rowId": "p146_t03_r07",
+      "pdfPage": 146,
+      "bookPage": 143
+    },
+    "recordCount": 1,
+    "records": [
+      {
+        "id": "p146_t03_r07",
+        "role": "pairing",
+        "sourceRef": {
+          "tableId": "p146_t03",
+          "rowId": "p146_t03_r07",
+          "pdfPage": 146,
+          "bookPage": 143
+        },
+        "nameReviewStatus": "unresolved_source_text"
+      }
+    ]
+  },
+  {
+    "id": "ing-0df1d5be062f",
+    "name": "生墓",
+    "displayName": "生墓",
+    "reasons": [
+      "已查看对应源图：首字为「生」，第二字扫描笔画糊成深色块，疑似薑但无法逐字确定；继续待核，不用猜测作修正。"
+    ],
+    "nameVisuallyReviewed": false,
+    "sourceRef": {
+      "tableId": "p184_t01",
+      "rowId": "p184_t01_r03",
+      "pdfPage": 184,
+      "bookPage": 181
+    },
+    "recordCount": 1,
+    "records": [
+      {
+        "id": "p184_t01_r03",
+        "role": "pairing",
+        "sourceRef": {
+          "tableId": "p184_t01",
+          "rowId": "p184_t01_r03",
+          "pdfPage": 184,
+          "bookPage": 181
+        },
+        "nameReviewStatus": "unresolved_source_text"
+      }
+    ]
+  },
+  {
+    "id": "ing-6d02a3cd94c0",
+    "name": "着蓬菜",
+    "displayName": "着蓬菜",
+    "reasons": [
+      "已查看主行源图和8倍裁图：后两字为「蓬菜」，首字字形仍有歧义（看似著），无法可靠确定完整名称；继续待核。"
+    ],
+    "nameVisuallyReviewed": false,
+    "sourceRef": {
+      "tableId": "p074_t05",
+      "rowId": "p074_t05_r00",
+      "pdfPage": 74,
+      "bookPage": 71
+    },
+    "recordCount": 5,
+    "records": [
+      {
+        "id": "p050_t03_r10",
+        "role": "pairing",
+        "sourceRef": {
+          "tableId": "p050_t03",
+          "rowId": "p050_t03_r10",
+          "pdfPage": 50,
+          "bookPage": 47
+        },
+        "nameReviewStatus": "source_OCR_not_letter_by_letter_reviewed"
+      },
+      {
+        "id": "p074_t05_r00",
+        "role": "main",
+        "sourceRef": {
+          "tableId": "p074_t05",
+          "rowId": "p074_t05_r00",
+          "pdfPage": 74,
+          "bookPage": 71
+        },
+        "nameReviewStatus": "unresolved_source_text"
+      },
+      {
+        "id": "p122_t01_r06",
+        "role": "pairing",
+        "sourceRef": {
+          "tableId": "p122_t01",
+          "rowId": "p122_t01_r06",
+          "pdfPage": 122,
+          "bookPage": 119
+        },
+        "nameReviewStatus": "source_OCR_not_letter_by_letter_reviewed"
+      },
+      {
+        "id": "p178_t01_r03",
+        "role": "pairing",
+        "sourceRef": {
+          "tableId": "p178_t01",
+          "rowId": "p178_t01_r03",
+          "pdfPage": 178,
+          "bookPage": 175
+        },
+        "nameReviewStatus": "source_OCR_not_letter_by_letter_reviewed"
+      },
+      {
+        "id": "p180_t06_r02",
+        "role": "pairing",
+        "sourceRef": {
+          "tableId": "p180_t06",
+          "rowId": "p180_t06_r02",
+          "pdfPage": 180,
+          "bookPage": 177
+        },
+        "nameReviewStatus": "source_OCR_not_letter_by_letter_reviewed"
+      }
+    ]
+  },
+  {
+    "id": "ing-6feb00451cba",
+    "name": "著蓬菜",
+    "displayName": "著蓬菜",
+    "reasons": [
+      "已查看配料行源图和8倍裁图：后两字为「蓬菜」，首字字形仍有歧义（看似著），无法可靠确定完整名称；继续待核。"
+    ],
+    "nameVisuallyReviewed": false,
+    "sourceRef": {
+      "tableId": "p052_t02",
+      "rowId": "p052_t02_r01",
+      "pdfPage": 52,
+      "bookPage": 49
+    },
+    "recordCount": 2,
+    "records": [
+      {
+        "id": "p052_t02_r01",
+        "role": "pairing",
+        "sourceRef": {
+          "tableId": "p052_t02",
+          "rowId": "p052_t02_r01",
+          "pdfPage": 52,
+          "bookPage": 49
+        },
+        "nameReviewStatus": "unresolved_source_text"
+      },
+      {
+        "id": "p311_t03_r05",
+        "role": "pairing",
+        "sourceRef": {
+          "tableId": "p311_t03",
+          "rowId": "p311_t03_r05",
+          "pdfPage": 311,
+          "bookPage": 308
+        },
+        "nameReviewStatus": "source_OCR_not_letter_by_letter_reviewed"
+      }
+    ]
+  }
+]

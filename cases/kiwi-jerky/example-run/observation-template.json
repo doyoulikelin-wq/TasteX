@@ -1,0 +1,50 @@
+{
+  "actual_masses_g": {
+    "base": null,
+    "chili": null,
+    "kiwi": null,
+    "water": null
+  },
+  "batch_id": null,
+  "case_id": "KJ-001",
+  "cell_id": null,
+  "disposition": "not_evaluated",
+  "free_description": null,
+  "material_lots": {
+    "base": null,
+    "chili": null,
+    "kiwi": null,
+    "water": null
+  },
+  "notes": null,
+  "observation_id": null,
+  "observed_at": null,
+  "origin": "human_observed",
+  "participant_id": null,
+  "ratings": {
+    "astringency": null,
+    "bitterness": null,
+    "chew_hardness": null,
+    "flavor_identity": null,
+    "greasiness": null,
+    "overall_fit": null,
+    "powderiness": null,
+    "pungency": null,
+    "sourness": null,
+    "sweetness": null
+  },
+  "revision": "R2",
+  "run_id": "run-33a8e8e2396889dc9fc101a0",
+  "scale": {
+    "max": 10,
+    "min": 0
+  },
+  "schema_version": "1.0",
+  "scope": {
+    "ingredient_state": "base=可即食原味瘦牛肉干; kiwi=可即食猕猴桃果肉冻干粉; chili=低辣非烟熏红辣椒粉，实际即食处理规格待核实; water=饮用水",
+    "matrix": "ready_to_eat_lean_beef_jerky",
+    "process": "{\"preparation_notes_sha256\":\"b2dd4662eed80bbe193f5a05bc1a528e0060788f6453558ad2752cc0870a2201\",\"route_id\":\"rte-powder-postcoat\",\"wait_minutes\":10}",
+    "serving_context": "食用前调味、当餐小试；未验证保存性"
+  },
+  "supersedes": null
+}

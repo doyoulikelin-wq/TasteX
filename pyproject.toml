@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tastex-harness"
+version = "0.1.0"
+description = "Evidence-preserving, replayable flavor experiment harness"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+tastex = "tastex.__main__:main"
+
+[tool.setuptools]
+packages = ["tastex"]
